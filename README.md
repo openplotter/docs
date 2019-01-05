@@ -1,0 +1,2 @@
+# docs
+OpenPlotter project documentation
