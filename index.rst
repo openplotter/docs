@@ -30,6 +30,16 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
+   :caption: OpenCPN
+   :name: sec-opencpn
+
+   opencpn/what_is_opencpn
+   opencpn/connections
+   opencpn/charts
+   opencpn/opengl
+   
+.. toctree::
+   :maxdepth: 1
    :caption: Actions
    :name: sec-actions
 
