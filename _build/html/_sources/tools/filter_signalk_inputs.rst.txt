@@ -1,2 +1,0 @@
-Filter Signal K inputs
-######################

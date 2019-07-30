@@ -1,2 +1,0 @@
-Moitessier HAT
-##############

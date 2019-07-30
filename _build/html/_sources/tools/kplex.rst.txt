@@ -1,2 +1,0 @@
-Kplex Graphical User Interface
-##############################

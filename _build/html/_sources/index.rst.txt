@@ -23,38 +23,16 @@ Welcome to OpenPlotter's documentation!
    getting_started/downloading
    getting_started/installing
    getting_started/first_boot
-   getting_started/settings
    getting_started/updating
    getting_started/backup
    getting_started/recovery_system
 
 .. toctree::
    :maxdepth: 1
-   :caption: Connecting with the boat
-   :name: sec-connecting_with_the_boat
+   :caption: Settings App
+   :name: sec-settings
 
-   connecting/connection_types
-   connecting/network
-   connecting/serial
-   connecting/can
-   connecting/pypilot
-   connecting/i2c
-   connecting/1w
-   connecting/spi
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Tools
-   :name: sec-tools
-
-   tools/what_are_tools
-   tools/sdr_receiver
-   tools/kplex
-   tools/filter_signalk_inputs
-   tools/moitessier_hat
-   tools/deviation_table
-   tools/ads1115
-   tools/firmata
+   settings/settings_app
 
 .. toctree::
    :maxdepth: 1
