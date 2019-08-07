@@ -36,6 +36,27 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
+   :caption: OpenCPN Installer App
+   :name: sec-opencpn
+
+   opencpn/opencpn_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Signal K Installer App
+   :name: sec-signalk
+
+   signalk/signalk_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Network App
+   :name: sec-network
+
+   network/network_app
+
+.. toctree::
+   :maxdepth: 1
    :caption: Actions
    :name: sec-actions
 
@@ -55,16 +76,6 @@ Welcome to OpenPlotter's documentation!
    credentials/twitter
    credentials/telegram
    credentials/encrypt
-
-.. toctree::
-   :maxdepth: 1
-   :caption: OpenCPN
-   :name: sec-opencpn
-
-   opencpn/what_is_opencpn
-   opencpn/connections
-   opencpn/charts
-   opencpn/opengl
 
 .. toctree::
    :maxdepth: 1
