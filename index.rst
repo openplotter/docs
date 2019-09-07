@@ -57,6 +57,27 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
+   :caption: I2C App
+   :name: sec-i2c
+
+   i2c/i2c_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Pypilot App
+   :name: sec-pypilot
+
+   pypilot/pypilot_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Moitessier HAT
+   :name: sec-moitessier
+
+   moitessier/moitessier_app
+
+.. toctree::
+   :maxdepth: 1
    :caption: Actions
    :name: sec-actions
 
@@ -87,3 +108,10 @@ Welcome to OpenPlotter's documentation!
    dashboards/kip
    dashboards/nodered_dashboard
    dashboards/influxdb_grafana
+
+.. toctree::
+   :maxdepth: 1
+   :caption: My App
+   :name: sec-myapp
+
+   template/myapp_app
