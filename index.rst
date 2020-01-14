@@ -75,6 +75,7 @@ Welcome to OpenPlotter's documentation!
    :name: sec-moitessier
 
    moitessier/moitessier_app
+   moitessier/configuration
 
 .. toctree::
    :maxdepth: 1
