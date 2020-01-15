@@ -1,2 +1,4 @@
+.. _pypilot:
+
 Pypilot App
 ###########
