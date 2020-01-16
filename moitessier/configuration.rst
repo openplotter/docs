@@ -85,6 +85,35 @@ Configuring compass, heel and trim reception
 
 .. image:: img/compass1.png
 
+.. image:: img/compass2.png
+
+.. image:: img/compass3.png
+
+.. image:: img/compass4.png
+
+.. image:: img/compass5.png
+
+.. image:: img/compass6.png
+
 Configuring pressure reception
 ******************************
 
+.. image:: img/pressure1.png
+
+.. image:: img/pressure2.png
+
+.. image:: img/pressure3.png
+
+.. image:: img/pressure4.png
+
+.. image:: img/pressure5.png
+
+.. image:: img/pressure6.png
+
+.. image:: img/pressure7.png
+
+.. image:: img/pressure8.png
+
+.. image:: img/pressure9.png
+
+.. image:: img/pressure10.png
