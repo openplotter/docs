@@ -33,6 +33,10 @@ This is the easiest and fastest way of having OpenPlotter working. Our OpenPlott
 
 *OpenPlotter Starting*: All required apps to fulfill most OpenPlotter marine features.
 
++-------------------+----------------------------------------------------------------------------------------------------------+
+| Installed apps    | Settings, OpenCPN installer, Signal K installer, Xygrib, Network, Dashboards, Serial, CAN, Pypilot, Docs |
++-------------------+----------------------------------------------------------------------------------------------------------+
+
 *OpenPlotter Headless*: *Starting* edition apps ready to be used remotely without monitor.
 
 *OpenPlotter Moitessier HAT*: *Starting* edition apps plus required apps to use the Moitessier HAT out of the box.
