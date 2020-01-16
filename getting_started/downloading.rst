@@ -20,35 +20,54 @@ Downloading
 +----------+------------------------------------+--------------------------------------------------------------------------------------------+
 **\* Recommended**
 
-What to choose?
-***************
+.. What to choose?::
+    Some OpenPlotter features are exclusive for Raspberry Pi but if you do not need them you can install OpenPlotter in any computer running a Linux Debian derivative like Ubuntu, Mint or even Raspbian. That is the first question you should ask yourself.
 
-Some OpenPlotter features are exclusive for Raspberry Pi but if you do not need them you can install OpenPlotter in any computer running a Linux Debian derivative like Ubuntu, Mint or even Raspbian. That is the first question you should ask yourself.
+    We try to provide solutions for everyone, from newbies to experts. The second question would be, *what do I know about Linux?* or even, *I am a Linux expert but I feel lazy, should I choose a ready-to-use option?* The text below will help you answer these questions.
 
-We try to provide solutions for everyone, from newbies to experts. The second question would be, *what do I know about Linux?* or even, *I am a Linux expert but I feel lazy, should I choose a ready-to-use option?* The text below will help you answer these questions.
-
-**Basic**
+Basic
+*****
 
 This is the easiest and fastest way of having OpenPlotter working. Our OpenPlotter distributions are based on Rasbian. We publish different editions according to the most demanded uses containing all the required apps installed and preconfigured. Just plug and sail!
 
-*OpenPlotter Starting*: All required apps to fulfill most OpenPlotter marine features.
+**OpenPlotter Starting**
 
-+-------------------+----------------------------------------------------------------------------------------------------------+
-| Installed apps    | Settings, OpenCPN installer, Signal K installer, Xygrib, Network, Dashboards, Serial, CAN, Pypilot, Docs |
-+-------------------+----------------------------------------------------------------------------------------------------------+
+All required apps to fulfill most OpenPlotter marine features.
 
-*OpenPlotter Headless*: *Starting* edition apps ready to be used remotely without monitor.
+Installed apps: Settings, OpenCPN installer, Signal K installer, Xygrib, Network, Dashboards, Serial, CAN, Pypilot, Docs 
 
-*OpenPlotter Moitessier HAT*: *Starting* edition apps plus required apps to use the Moitessier HAT out of the box.
+**OpenPlotter Headless**
 
-*OpenPlotter IoT*: *Starting* edition apps plus required apps to interact with your boat through multiple sensors and manage  data from them.
+*Starting* edition apps ready to be used remotely without monitor.
 
-*OpenPlotter À la Carte* (under construction): You will be able to choose what apps you want to have preinstalled and customize some settings.
+Installed apps:
+
+**OpenPlotter Moitessier HAT**
+
+*Starting* edition apps plus required apps to use the Moitessier HAT out of the box.
+
+Installed apps:
+
+**OpenPlotter IoT**
+
+*Starting* edition apps plus required apps to interact with your boat through multiple sensors and manage  data from them.
+
+Installed apps:
+
+**OpenPlotter À la Carte** (under construction)
+
+*Starting* edition apps plus any app of your election. You will be able to customize some settings too.
+
+Installed apps:
+custumizable settings:
     
 You will find each OpenPlotter edition in two formats, *img* and *NOOBS*. Contents of NOOBS and img files are identical. The only difference is the way to install OpenPlotter in your SD-card. When using NOOBS files, a recovering partition will be created in the SD and you will be able to re-install OpenPlotter from it. When using img files, this partition is not created and you can use all the SD space for the system. Since SD cards corruption occurs more frequently than desired, we recommend NOOBS because the recovery partition is never mounted and will never be corrupted so it will always be available for recovery.
 
 You do not need previous knowledge of Linux to install and use these OpenPlotter distributions, follow the :ref:`manual to install<getting_started_installing>` them on your SD card.
 
-**Advanced**
+Advanced
+********
 
-**Expert**
+Expert
+******
+
