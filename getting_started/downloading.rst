@@ -20,7 +20,8 @@ Downloading
 +----------+------------------------------------+--------------------------------------------------------------------------------------------+
 **\* Recommended**
 
-.. What to choose?::
+.. topic:: What to choose?
+
     Some OpenPlotter features are exclusive for Raspberry Pi but if you do not need them you can install OpenPlotter in any computer running a Linux Debian derivative like Ubuntu, Mint or even Raspbian. That is the first question you should ask yourself.
 
     We try to provide solutions for everyone, from newbies to experts. The second question would be, *what do I know about Linux?* or even, *I am a Linux expert but I feel lazy, should I choose a ready-to-use option?* The text below will help you answer these questions.
@@ -30,33 +31,23 @@ Basic
 
 This is the easiest and fastest way of having OpenPlotter working. Our OpenPlotter distributions are based on Rasbian. We publish different editions according to the most demanded uses containing all the required apps installed and preconfigured. Just plug and sail!
 
-**OpenPlotter Starting**
-
-All required apps to fulfill most OpenPlotter marine features.
+**OpenPlotter Starting** - All required apps to fulfill most OpenPlotter marine features.
 
 Installed apps: Settings, OpenCPN installer, Signal K installer, Xygrib, Network, Dashboards, Serial, CAN, Pypilot, Docs 
 
-**OpenPlotter Headless**
-
-*Starting* edition apps ready to be used remotely without monitor.
+**OpenPlotter Headless** - *Starting* edition apps ready to be used remotely without monitor.
 
 Installed apps:
 
-**OpenPlotter Moitessier HAT**
-
-*Starting* edition apps plus required apps to use the Moitessier HAT out of the box.
+**OpenPlotter Moitessier HAT** - *Starting* edition apps plus required apps to use the Moitessier HAT out of the box.
 
 Installed apps:
 
-**OpenPlotter IoT**
-
-*Starting* edition apps plus required apps to interact with your boat through multiple sensors and manage  data from them.
+**OpenPlotter IoT** - *Starting* edition apps plus required apps to interact with your boat through multiple sensors and manage  data from them.
 
 Installed apps:
 
-**OpenPlotter À la Carte** (under construction)
-
-*Starting* edition apps plus any app of your election. You will be able to customize some settings too.
+**OpenPlotter À la Carte** (under construction) - *Starting* edition apps plus any app of your election. You will be able to customize some settings too.
 
 Installed apps:
 custumizable settings:
