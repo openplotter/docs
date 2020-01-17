@@ -1,13 +1,13 @@
 How to collaborate
 ##################
 
-	Everything takes **time**, **money**, and **monkeys**. You need a lot from any two groups, and a little from the third. An increase in any one reduces the requirement for the other two. Change occurs when one of those three change.
+	Everything takes **time**, **money** and **monkeys**. You need a lot from any two groups and a little from the third. An increase in any one reduces the requirement for the other two. Change occurs when one of those three change.
 
 	-- Moe's Law (Navigatrix project)​
 
 **Time**
 
-Get a Raspberry Pi and required elements, download OpenPlotter and test and test and test ...
+Download and install OpenPlotter and test and test and test ...
 
 Report bugs and request new features in `OpenMarine forums <http://forum.openmarine.net/>`_.
 
@@ -44,7 +44,7 @@ If you are not familiar with GitHub, do not worry, send us your contributions to
 
 **Guidelines**
 
-- We will no longer maintain translations, just the source in English. We tried but we failed. This project is too much dynamic and even maintaining this docs is a hard job. Translators coordination is not an option either. We are going to do what OpenCPN does, schematic and concise documentation just for reference. We do not want manuals, tutorials or detailed "How-to's". That makes people free to generate their detailed manuals, tutorials or videos for newbies in their language. That works for OpenCPN so let's try.
+- We will no longer maintain translations, just the source in English. We tried but we failed. This project is too much dynamic and even maintaining this documentation is a hard job. Translators coordination is not an option either. We are going to do what OpenCPN does, schematic and concise documentation just for reference. We do not want manuals, tutorials or detailed "How-to's". That makes people free to generate their detailed manuals, tutorials or videos for newbies in their language. That works for OpenCPN so let's try.
 
 - Remember, this is a reference book, not a tutorial. Be brief and concise.
 
