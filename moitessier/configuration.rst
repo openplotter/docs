@@ -1,15 +1,21 @@
 Configuration
 #############
 
+.. important::
+	This manual is under construction.
+
 .. sidebar:: OpenPlotter Moitessier HAT edition
 
-   `Download <https://nx8035.your-storageshare.de/s/mgakCZ5BSJYsysa>`_ the img or NOOBS file and follow the :ref:`manual to install<getting_started_installing>` it on your SD card.
+   `Download <https://nx8035.your-storageshare.de/s/mgakCZ5BSJYsysa>`_ the img or NOOBS file and follow the :ref:`basic manual<getting_started_installing>` to install it on your SD card.
 
 The easiest way to make Moitessier HAT work on Raspberry Pi is to download and install a special OpenPlotter edition. Everything is preinstalled and preconfigured in *OpenPlotter Moitessier HAT* edition and it will work out of the box, just plug and sail!
 
-However, you should read the rest of this section to learn how to configure the HAT on your own and be able to play with its settings.
+It is recommended to read the rest of the chapter to learn how to configure the HAT on your own and be able to play with its settings.
 
-If you are not using the *OpenPlotter Moitessier HAT* edition you should install these OpenPlotter apps from ``OpenPlotter Settings`` app in your system in order to configure and use your Moitessier HAT:
+.. important::
+	If you are using the *OpenPlotter Moitessier HAT* edition, the only thing you should do is calibrate the compass following steps 1, 2 and 3 of the :ref:`Pypilot calibration chapter<calibration>`.
+
+If you are not using the *OpenPlotter Moitessier HAT* edition, you have to be sure the list of apps below are installed. These apps have to be installed from ``OpenPlotter Settings`` interface.
 
 - ``OpenCPN Installer``
 - ``Signal K Installer``
@@ -65,6 +71,8 @@ Go to ``Connections`` tab, select the HAT from the list, click on ``Add to Signa
 
 .. image:: img/gps4.png
 
+.. image:: img/gps4bis.png
+
 .. note::
 	If you are going to use an autopilot you should select ``Add to Pypilot`` and finally connect pypilot to ``Signal K``. See :ref:`pypilot chapter<pypilot>` for details.
 
@@ -94,6 +102,9 @@ Configuring compass, heel and trim reception
 .. image:: img/compass5.png
 
 .. image:: img/compass6.png
+
+.. important::
+	To get reliable heading readings you have to calibrate the compass following steps 1, 2 and 3 of the :ref:`Pypilot calibration chapter<calibration>`.
 
 Configuring pressure reception
 ******************************

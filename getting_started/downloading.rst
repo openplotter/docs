@@ -1,23 +1,23 @@
 Downloading
 ###########
 
-+----------+------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Level    | Platform                           | Download                                                                                            |
-+==========+====================================+=====================================================================================================+
-| Basic    | - Raspberry Pi 3                   | - :download:`OpenPlotter Starting <https://nx8035.your-storageshare.de/s/sL9doDML7P4CQDo>`          |
-|          | - Raspberry Pi 4 **\***            | - :download:`OpenPlotter Headless <https://nx8035.your-storageshare.de/s/Yapesa2XPJptgaz>`          |
-|          |                                    | - :download:`OpenPlotter Moitessier HAT <https://nx8035.your-storageshare.de/s/mgakCZ5BSJYsysa>`    |
-|          |                                    | - OpenPlotter IoT                                                                                   |
-|          |                                    | - OpenPlotter À la Carte                                                                            |
-+----------+------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Advanced | - Raspberry Pi 3                   | :download:`OpenPlotter Settings deb <https://github.com/openplotter/openplotter-settings/releases>` |
-|          | - Raspberry Pi 4 **\***            |                                                                                                     |
-|          | - Debian derivative 32-bit         |                                                                                                     |
-|          | - Debian derivative 64-bit **\***  |                                                                                                     |
-+----------+------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Expert   | - Raspberry Pi 3                   | :download:`OpenPlotter pi-gen <https://github.com/openplotter/pi-gen/tree/openplotter>`             |
-|          | - Raspberry Pi 4 **\***            |                                                                                                     |
-+----------+------------------------------------+-----------------------------------------------------------------------------------------------------+
++--------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
+| Level        | Platform                           | Download                                                                                            |
++==============+====================================+=====================================================================================================+
+| **Basic**    | - Raspberry Pi 3                   | - :download:`OpenPlotter Starting <https://nx8035.your-storageshare.de/s/sL9doDML7P4CQDo>`          |
+|              | - Raspberry Pi 4 **\***            | - :download:`OpenPlotter Headless <https://nx8035.your-storageshare.de/s/Yapesa2XPJptgaz>`          |
+|              |                                    | - :download:`OpenPlotter Moitessier HAT <https://nx8035.your-storageshare.de/s/mgakCZ5BSJYsysa>`    |
+|              |                                    | - OpenPlotter IoT                                                                                   |
+|              |                                    | - OpenPlotter À la Carte                                                                            |
++--------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
+| **Advanced** | - Raspberry Pi 3                   | :download:`OpenPlotter Settings deb <https://github.com/openplotter/openplotter-settings/releases>` |
+|              | - Raspberry Pi 4 **\***            |                                                                                                     |
+|              | - Debian derivative 32-bit         |                                                                                                     |
+|              | - Debian derivative 64-bit **\***  |                                                                                                     |
++--------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
+| **Expert**   | - Raspberry Pi 3                   | :download:`OpenPlotter pi-gen <https://github.com/openplotter/pi-gen/tree/openplotter>`             |
+|              | - Raspberry Pi 4 **\***            |                                                                                                     |
++--------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
 
 **\*** Recommended
 
@@ -58,7 +58,7 @@ This is the easiest and fastest way of having OpenPlotter working. Our OpenPlott
     
 You will find each OpenPlotter edition in two formats, *img* and *NOOBS*. Contents of NOOBS and img files are identical. The only difference is the way to install OpenPlotter in your SD-card. When using NOOBS files, a recovering partition will be created in the SD and you will be able to re-install OpenPlotter from it. When using img files, this partition is not created and you can use all the SD space for the system. Since SD cards corruption occurs more frequently than desired, we recommend NOOBS because the recovery partition is never mounted and will never be corrupted so it will always be available for recovery.
 
-You do not need previous knowledge of Linux to install and use these OpenPlotter distributions, follow the :ref:`manual to install<getting_started_installing>` them on your SD card.
+You do not need previous knowledge of Linux to install and use these OpenPlotter distributions, follow the :ref:`basic manual<getting_started_installing>` to install them on your SD card.
 
 Advanced
 ********
@@ -68,7 +68,7 @@ You can install OpenPlotter from scratch in any computer running your favourite 
 :Common apps: Settings, OpenCPN installer, Signal K installer, Signal K filter, Dashboards, Serial, CAN, Kplex, SDR, Apps template, Docs 
 :Raspberry apps: Xygrib, Network, Pypilot, Moitessier HAT, I2C sensors, 1W sensors, Analog sensors, IoT
 
-Follow the :ref:`manual to install<getting_started_installing>` OpenPlotter from scratch.
+Follow the :ref:`advanced manual<getting_started_installing>` to install OpenPlotter from scratch.
 
 Expert
 ******

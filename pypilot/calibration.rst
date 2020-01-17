@@ -1,0 +1,58 @@
+.. _calibration:
+
+Calibration
+###########
+
+.. warning::
+	There is an error in the pypilot calibration at this time and you may receive erroneous readings. We are working to solve this problem ASAP.
+
+To calibrate pypilot follow these steps in order:
+
+1. Accelerometer bias
+*********************
+
+Most IMU require accelerometer bias calibration. Without it, there will be significant pitch and roll errors. The mpu9250 and mpu9255 usually are factory calibrated meaning you could skip this step. However, some of these do not have this calibration, these usually have an orange rather than yellow capacitor. The IMU on the Moitessier HAT should be ok. In any case, it is recommended to calibrate the accelerometer bias, even if factory calibrated as it will improve the factory calibration slightly.
+
+To calibrate the accelerometer bias, you must be on a “mostly” stable platform. It may be impossible to do at anchor if the boat is moving too much, so either in flat water, or land for this step.
+
+It is best to view the accelerometer calibration age (not compass calibration age) to determine that a new calibration has been applied. You can see this along with the 3d plot in the pypilot calibration window.
+
+Make sure the accelerometer calibration is not locked.
+
+Carefully place the sensors on each of the 6 sides of a box (+- 10 degrees will do) the actual orientation is not critical, so long as enough measurements can be taken to fit a sphere. Leave the sensors in each position for a few seconds.
+
+Once a calibration is applied the accelerometer calibration age should reset. If it does not, repeat the process putting the sensors in different orientations until a calibration fix is found.
+
+If you use the cheapest sensors, sometimes they have bad accelerometers. Either one axis will always read zero, or they will saturate because the bias is greater than 1g. This is easy to determine from the accelerometer calibration plot in the pypilot calibration window.
+
+2. Alignment
+************
+
+Once the accelerometers are calibrated, the sensors should be fixed securely to the boat. This is required for correct operation, and if they are moved or remounted, both alignment, and compass calibration must be performed again (but not accelerometer calibration).
+
+To perform alignment, ensure the boat is level (not heeling or pitching) and in relatively calm water (but small waves motion of a few degrees is ok) and click or select the “boat is level” or level option in any of the control interfaces under calibration.
+
+Correct alignment must be performed before the compass calibration can begin.
+
+3. Compass
+**********
+
+Be sure to locate the sensors away from:
+
+- magnets - speakers and especially moving magnets like a floating compasses
+- current carrying wires - very simple rule is 2 cm (1 inch) for every amp
+- iron and steel - less critical, so if you are in a steel boat, just don't fix the sensors to a steel wall, but try to locate them several inches at least offset from it.
+
+The compass calibration is mostly automatic. If the accelerometer and alignment are calibrated, you just need to sail turning more than 180 degrees to calibrate the compass.
+
+Make sure the calibration is not locked or updates will not occur.
+
+There are both 2D and 3D compass calibration fixes. A 2D fix will occur from turning without pitching or heeling. When heeling there may be some error without a 3D fix. To obtain a 3D fix, you should make a circle with sufficient heeling, such as tacking against the wind, or rolling in waves.
+
+Subsequent 2D fixes will use the previous undetermined value for 3D fix, combining the new 2D fix with the past information from a 3D fix. Performing accelerometer calibration will give a rough 3D fix in most cases making a subsequent 2D fix sufficient for most use.
+
+Compass calibration is continuous and always updates unless locked. You may wish to lock it to prevent future calibration updates.
+
+If the sensors are remounted, they must be re-aligned and the compass recalibrated.
+
+If metal objects are moved around the sensors, the compass must recalibrate. 

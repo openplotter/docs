@@ -68,6 +68,7 @@ Welcome to OpenPlotter's documentation!
    :name: sec-pypilot
 
    pypilot/pypilot_app
+   pypilot/calibration
 
 .. toctree::
    :maxdepth: 1

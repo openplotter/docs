@@ -2,7 +2,7 @@ Moitessier HAT 2
 ################
 
 .. important::
-	Moitessier HAT 2 manual is under construction. Manual for `Moitessier HAT 1 <https://docs.sailoog.com/openplotter-v1-x-x/tools/moitessier-hat>`_.
+	This manual is under construction.
 
 .. image:: img/docs1.png
 
