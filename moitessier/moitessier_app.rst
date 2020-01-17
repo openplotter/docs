@@ -28,12 +28,12 @@ Features
 Mounting the HAT
 ****************
 
-.. image:: img/mounting.jpg
+.. image:: img/mounting1.jpg
 
 Removing the HAT
 ****************
 
-.. image:: img/removing.jpg
+.. image:: img/mounting2.jpg
 
 .. danger::
 	You can damage your Raspberry or your HAT if you do not remove it carefully, please watch this video before removing:
