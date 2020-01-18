@@ -22,7 +22,6 @@ Welcome to OpenPlotter's documentation!
 
    getting_started/downloading
    getting_started/installing
-   getting_started/first_boot
    getting_started/updating
    getting_started/backup
    getting_started/recovery_system
@@ -50,55 +49,24 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
+   :caption: CAN App
+   :name: sec-can
+
+   can/can_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Serial App
+   :name: sec-serial
+
+   serial/serial_app
+
+.. toctree::
+   :maxdepth: 1
    :caption: Network App
    :name: sec-network
 
    network/network_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: I2C App
-   :name: sec-i2c
-
-   i2c/i2c_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Pypilot App
-   :name: sec-pypilot
-
-   pypilot/pypilot_app
-   pypilot/calibration
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Moitessier HAT
-   :name: sec-moitessier
-
-   moitessier/moitessier_app
-   moitessier/configuration
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Actions
-   :name: sec-actions
-
-   actions/what_are_actions
-   actions/triggers
-   actions/conditions
-   actions/actions
-   actions/examples
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Credentials
-   :name: sec-credentials
-
-   credentials/what_are_credentials
-   credentials/mqtt
-   credentials/twitter
-   credentials/telegram
-   credentials/encrypt
 
 .. toctree::
    :maxdepth: 1
@@ -110,6 +78,31 @@ Welcome to OpenPlotter's documentation!
    dashboards/kip
    dashboards/nodered_dashboard
    dashboards/influxdb_grafana
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Pypilot App
+   :name: sec-pypilot
+
+   pypilot/pypilot_app
+   pypilot/calibration
+
+.. toctree::
+   :maxdepth: 1
+   :caption: I2C App
+   :name: sec-i2c
+
+   i2c/i2c_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Moitessier HAT
+   :name: sec-moitessier
+
+   moitessier/moitessier_app
+   moitessier/antennas
+   moitessier/leds
+   moitessier/configuration
 
 .. toctree::
    :maxdepth: 1

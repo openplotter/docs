@@ -52,3 +52,6 @@ Mounting the HAT into the case
 
 .. note::
 	You can buy this item in the `store <https://shop.sailoog.com/>`_.
+
+Pinout
+******
