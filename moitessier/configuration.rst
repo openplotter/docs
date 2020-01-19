@@ -13,7 +13,7 @@ The easiest way to make Moitessier HAT work on Raspberry Pi is to download and i
 It is recommended to read the rest of the chapter to learn how to configure the HAT on your own and be able to play with its settings.
 
 .. important::
-	If you are using the *OpenPlotter Moitessier HAT* edition, the only thing you should do is calibrate the compass following steps 1, 2 and 3 of the :ref:`Pypilot calibration chapter<calibration>`.
+	If you are using the *OpenPlotter Moitessier HAT* edition, the only thing you should do is calibrate the compass following the steps of the :ref:`Pypilot compass calibration<calibration>` chapter.
 
 If you are not using the *OpenPlotter Moitessier HAT* edition, you have to be sure the list of apps below are installed. These apps have to be installed from ``OpenPlotter Settings`` interface.
 

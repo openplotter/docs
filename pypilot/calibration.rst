@@ -1,12 +1,12 @@
 .. _calibration:
 
-Calibration
-###########
+Compass calibration
+###################
 
 .. warning::
-	There is an error in the pypilot calibration at this time and you may receive erroneous readings. We are working to solve this problem ASAP.
+	There is an error in the pypilot calibration at this time and you may get errors. We are working to solve this problem ASAP.
 
-To calibrate pypilot follow these steps in order:
+Follow these steps in order:
 
 1. Accelerometer bias
 *********************
@@ -15,24 +15,24 @@ Most IMU require accelerometer bias calibration. Without it, there will be signi
 
 To calibrate the accelerometer bias, you must be on a “mostly” stable platform. It may be impossible to do at anchor if the boat is moving too much, so either in flat water, or land for this step.
 
-It is best to view the accelerometer calibration age (not compass calibration age) to determine that a new calibration has been applied. You can see this along with the 3d plot in the pypilot calibration window.
+Go to ``Pypilot app`` and click on ``Calibration``. In Calibration window click on ``accel`` tab.
 
-Make sure the accelerometer calibration is not locked.
+You can determine that a new calibration has been applied by ``Calibration Age`` value. Make sure ``calibration locked`` is not enabled.
 
-Carefully place the sensors on each of the 6 sides of a box (+- 10 degrees will do) the actual orientation is not critical, so long as enough measurements can be taken to fit a sphere. Leave the sensors in each position for a few seconds.
+Carefully place the sensor on each of the 6 sides of a box (+- 10 degrees will do) the actual orientation is not critical, so long as enough measurements can be taken to fit a sphere. Leave the sensors in each position for a few seconds.
 
 Once a calibration is applied the accelerometer calibration age should reset. If it does not, repeat the process putting the sensors in different orientations until a calibration fix is found.
 
-If you use the cheapest sensors, sometimes they have bad accelerometers. Either one axis will always read zero, or they will saturate because the bias is greater than 1g. This is easy to determine from the accelerometer calibration plot in the pypilot calibration window.
+If you use the cheapest sensors, sometimes they have bad accelerometers. Either one axis will always read zero, or they will saturate because the bias is greater than 1g. This is easy to determine from the accelerometer calibration plot in calibration window. 
 
 2. Alignment
 ************
 
-Once the accelerometers are calibrated, the sensors should be fixed securely to the boat. This is required for correct operation, and if they are moved or remounted, both alignment, and compass calibration must be performed again (but not accelerometer calibration).
+Once the accelerometers are calibrated, the sensor should be fixed securely to the boat. This is required for correct operation and if they are moved or remounted, both alignment and compass calibration must be performed again (but not accelerometer calibration).
 
-To perform alignment, ensure the boat is level (not heeling or pitching) and in relatively calm water (but small waves motion of a few degrees is ok) and click or select the “boat is level” or level option in any of the control interfaces under calibration.
+To perform alignment, ensure the boat is level (not heeling or pitching) and in relatively calm water (but small waves motion of a few degrees is ok). Go to ``alignment`` tab and click  ``Boat is level`` button.
 
-Correct alignment must be performed before the compass calibration can begin.
+Correct alignment must be performed before the compass calibration can begin. 
 
 3. Compass
 **********
@@ -45,7 +45,7 @@ Be sure to locate the sensors away from:
 
 The compass calibration is mostly automatic. If the accelerometer and alignment are calibrated, you just need to sail turning more than 180 degrees to calibrate the compass.
 
-Make sure the calibration is not locked or updates will not occur.
+Go to ``compass`` tab and make sure ``calibration locked`` is not enabled or updates will not occur.
 
 There are both 2D and 3D compass calibration fixes. A 2D fix will occur from turning without pitching or heeling. When heeling there may be some error without a 3D fix. To obtain a 3D fix, you should make a circle with sufficient heeling, such as tacking against the wind, or rolling in waves.
 
