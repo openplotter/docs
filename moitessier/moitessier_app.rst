@@ -1,9 +1,6 @@
 Moitessier HAT 2
 ################
 
-.. important::
-	This manual is under construction.
-
 .. image:: img/docs1.png
 
 .. note::
