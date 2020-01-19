@@ -55,3 +55,7 @@ Mounting the HAT into the case
 
 Pinout
 ******
+
+The HAT is controlled by the Raspberry Pi using several GPIOs. Green marked signals are not shareable with other hardware. Pins marked blue are not used by the HAT itself, but are accessible for extension purpose on optional headers on the HAT. I2C and SPI bus can be shared with other hardware. Keep in mind that this is not applicable for the chip select used with the SPI bus, which is exclusively used by the HAT.
+
+.. image:: img/pinout.png

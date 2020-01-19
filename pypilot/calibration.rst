@@ -25,6 +25,8 @@ Once a calibration is applied the accelerometer calibration age should reset. If
 
 If you use the cheapest sensors, sometimes they have bad accelerometers. Either one axis will always read zero, or they will saturate because the bias is greater than 1g. This is easy to determine from the accelerometer calibration plot in calibration window. 
 
+.. image:: img/calibration0.png
+
 2. Alignment
 ************
 
@@ -33,6 +35,10 @@ Once the accelerometers are calibrated, the sensor should be fixed securely to t
 To perform alignment, ensure the boat is level (not heeling or pitching) and in relatively calm water (but small waves motion of a few degrees is ok). Go to ``alignment`` tab and click  ``Boat is level`` button.
 
 Correct alignment must be performed before the compass calibration can begin. 
+
+.. image:: img/calibration1.png
+
+.. image:: img/calibration2.png
 
 3. Compass
 **********

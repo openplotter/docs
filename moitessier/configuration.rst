@@ -1,9 +1,6 @@
 Configuration
 #############
 
-.. important::
-	This manual is under construction.
-
 .. sidebar:: OpenPlotter Moitessier HAT edition
 
    `Download <https://nx8035.your-storageshare.de/s/mgakCZ5BSJYsysa>`_ the img or NOOBS file and follow the :ref:`basic manual<getting_started_installing>` to install it on your SD card.
@@ -74,7 +71,7 @@ Go to ``Connections`` tab, select the HAT from the list, click on ``Add to Signa
 .. image:: img/gps4bis.png
 
 .. note::
-	If you are going to use an autopilot you should select ``Add to Pypilot`` and finally connect pypilot to ``Signal K``. See :ref:`pypilot chapter<pypilot>` for details.
+	If you are going to use an autopilot you should select ``Add to Pypilot`` and finally connect pypilot to ``Signal K``. See :ref:`pypilot<pypilot>` chapter for details.
 
 When the serial connection with our HAT has been created, ``Signal K`` will send the received NMEA 0183 data to any program connected to the network connection below.
 
@@ -93,38 +90,85 @@ Configuring compass, heel and trim reception
 
 .. image:: img/compass1.png
 
+Go to ``Pypilot`` app an select ``Only compass``.
+
+.. note::
+	If you are going to use an autopilot you should select ``Autopilot``. See :ref:`pypilot <pypilot>` chapter for details.
+
 .. image:: img/compass2.png
+
+Then go to ``connections``, select the available connection and click on ``Add connection``. This way we are creating a network connection in ``Signal K`` to receive heading, pitch and heel data.
 
 .. image:: img/compass3.png
 
+If you select ``Only compass`` pypilot generates heading, pitch and heel data in Signal K format. If we want to send these data to OpenCPN we need to convert it into NMEA 0183. Go to ``Signal K server`` and ``login`` (upper right). Go to ``Server`` > ``Plugin Config`` in the left menu. Click on ``Convert Singnal K to NMEA 0183`` and check ``active`` and ``HDM - Heading Magnetic``.
+
 .. image:: img/compass4.png
 
+Scroll down, check ``XDR - (PTCH-ROLL) - Pitch and Roll`` and click on ``Submit``.
+
 .. image:: img/compass5.png
+
+Signal K server will start sending the NMEA 0183 data to any program connected to the network connection below.
+
++------------+------------+-----------+
+|  Protocol  |   Address  |   Port    |
++============+============+===========+
+|    TCP     |  localhost |   10110   |
++------------+------------+-----------+
+
+Be sure this connection exists in OpenCPN and you are done.
 
 .. image:: img/compass6.png
 
 .. important::
-	To get reliable heading readings you have to calibrate the compass following steps 1, 2 and 3 of the :ref:`Pypilot calibration chapter<calibration>`.
+	To get reliable heading readings you have to calibrate the compass following the steps of the :ref:`Pypilot compass calibration<calibration>` chapter.
 
 Configuring pressure reception
 ******************************
 
 .. image:: img/pressure1.png
 
+Go to ``Sensors`` tab in ``I2C`` app an click ``Add``.
+
 .. image:: img/pressure2.png
+
+Select ``MS5607-02BA03`` in the list of detected sensors and click ``OK``.
 
 .. image:: img/pressure3.png
 
+A Signal K key will be created for pressure by default. You can assign another one for temperature. The temperature sensor is affected by the heat produced by the Raspberry and the HAT itself, so we can not assign this value to environment.inside.temperature key, we should use something like environment.openplotter.temperature. Select ``temperature`` and click in ``Edit``.
+
 .. image:: img/pressure4.png
+
+To choose a Signal K key click ``Edit``.
 
 .. image:: img/pressure5.png
 
+Select ``environment`` in the first column and ``inside.*.temperature`` in the second column. Write *openplotter* in the ``Replace`` field, press ``Replace`` button and the wildcard will be replaced by *openplotter*. Press ``OK``.
+
 .. image:: img/pressure6.png
+
+We do not need pressure or temperature data every second so we will select another ``Rate``. Click ``OK``. Edit the ``pressure`` value to select another ``Rate`` too.
 
 .. image:: img/pressure7.png
 
+Go to ``Connections`` tab, select ``MS5607-02BA03`` sensor and click in either ``Add Connection`` to create a new network connection in ``Signal K`` or ``Edit port`` if you want to send these data to any existing network connection in ``Signal K``.
+
 .. image:: img/pressure8.png
 
+``I2C`` app generates data in Signal K format. If we want to send pressure data to OpenCPN we need to convert it into NMEA 0183. Go to ``Signal K server`` and ``login`` (upper right). Go to ``Server`` > ``Plugin Config`` in the left menu. Click on ``Convert Singnal K to NMEA 0183``, check ``XDR (Barometer) - Atmospheric Pressure`` and press ``Submit``.
+
 .. image:: img/pressure9.png
+
+Signal K server will start sending the NMEA 0183 data to any program connected to the network connection below.
+
++------------+------------+-----------+
+|  Protocol  |   Address  |   Port    |
++============+============+===========+
+|    TCP     |  localhost |   10110   |
++------------+------------+-----------+
+
+Be sure this connection exists in OpenCPN and you are done.
 
 .. image:: img/pressure10.png

@@ -8,6 +8,7 @@ Antennas
 	It is recommended to use pigtail adapters to reduce mechanical force on the antenna connectors.
 
 	.. image:: img/antennas1.png
+			:align: center
 
 AIS Antenna
 ***********
