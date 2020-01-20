@@ -3,9 +3,6 @@
 Compass calibration
 ###################
 
-.. warning::
-	There is an error in the pypilot calibration at this time and you may get errors. We are working to solve this problem ASAP.
-
 Follow these steps in order:
 
 1. Accelerometer bias
