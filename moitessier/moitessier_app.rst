@@ -22,6 +22,13 @@ Features
 * Firmware upgradeable via Raspberry Pi
 * Full OpenPlotter compatible. Plug and play.
 
+.. admonition:: Shutdown button
+
+	You may now safely shutdown your OpenPlotter / Raspbian OS via this the Moitessier HAT 2 shutdown switch. This will prevent your SD card image from crashing when turning off your Pi with power-off only.
+
+	.. image:: img/shutdown.png
+		:align: center
+
 Mounting the HAT
 ****************
 

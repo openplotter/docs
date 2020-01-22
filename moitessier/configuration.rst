@@ -33,9 +33,6 @@ SPI and I2C must be enabled before installing the drivers. Go to applications me
 
 .. image:: img/system3.png
 
-.. warning::
-	If you disable SPI after installing the driver or you manage to install it before enabling SPI, your system could hang when you try to enable SPI again. If this happens, uninstall the package, reboot and try again.
-
 Installing drivers
 ******************
 
