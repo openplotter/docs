@@ -21,6 +21,8 @@ If you are not using the *OpenPlotter Moitessier HAT* edition, you have to be su
 - ``Moitessier HAT``
 - ``I2C``
 
+.. image:: img/system0.png
+
 After installing these apps go to ``Moitessier HAT`` app and click on ``Check System``:
 
 .. image:: img/system1.png
