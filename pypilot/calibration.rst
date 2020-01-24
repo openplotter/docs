@@ -12,42 +12,41 @@ Most IMU require accelerometer bias calibration. Without it, there will be signi
 
 To calibrate the accelerometer bias, you must be on a “mostly” stable platform. It may be impossible to do at anchor if the boat is moving too much, so either in flat water, or land for this step.
 
-Go to ``Pypilot app`` and click on ``Calibration``. In Calibration window click on ``accel`` tab.
-
-You can determine that a new calibration has been applied by ``Calibration Age`` value. Make sure ``calibration locked`` is not enabled.
+Go to ``Pypilot app`` and click on ``Calibration``. In Calibration window click on ``accel`` tab. Make sure ``calibration locked`` is not enabled.
 
 Carefully place the sensor on each of the 6 sides of a box (+- 10 degrees will do) the actual orientation is not critical, so long as enough measurements can be taken to fit a sphere. Leave the sensors in each position for a few seconds.
 
-Once a calibration is applied the accelerometer calibration age should reset. If it does not, repeat the process putting the sensors in different orientations until a calibration fix is found.
+Once a calibration is applied the accelerometer ``Calibration Age`` should reset and fit points become yellow. If it does not, repeat the process putting the sensors in different orientations until a calibration fix is found.
+
+.. image:: img/calibration0.png
 
 If you use the cheapest sensors, sometimes they have bad accelerometers. Either one axis will always read zero, or they will saturate because the bias is greater than 1g. This is easy to determine from the accelerometer calibration plot in calibration window. 
 
-.. image:: img/calibration0.png
 
 2. Alignment
 ************
 
-Once the accelerometers are calibrated, the sensor should be fixed securely to the boat. This is required for correct operation and if they are moved or remounted, both alignment and compass calibration must be performed again (but not accelerometer calibration).
+Once the accelerometers are calibrated, the sensor should be fixed securely to the boat. Alignment and compass calibration are required for correct operation. If sensors are moved or remounted, this must be performed again (but not accelerometer calibration).
 
-To perform alignment, ensure the boat is level (not heeling or pitching) and in relatively calm water (but small waves motion of a few degrees is ok). Go to ``alignment`` tab and click  ``Boat is level`` button.
-
-Correct alignment must be performed before the compass calibration can begin. 
+To perform alignment, ensure the boat is level (not heeling or pitching) and in relatively calm water (small waves motion of a few degrees is ok). Go to ``alignment`` tab and click  ``Boat is level`` button.
 
 .. image:: img/calibration1.png
+
+Correct alignment must be performed before the compass calibration can begin. 
 
 .. image:: img/calibration2.png
 
 .. Attention::
-	IF you are using a Raspberry Pi 4 you will not be able to see the boat rendered. There is an error with OpenGL and this is enabled by default in Rapsberry  Pi 4. If you disable OpenGL or you are using a Raspberry 3 you should see the boat. this error does not affect calibration or alignment. We will try to fix this ASAP.
+	IF you are using a Raspberry Pi 4 you will not be able to see the boat rendered. There is an error with OpenGL and this is enabled by default in Rapsberry  Pi 4. If you disable OpenGL or you are using a Raspberry 3 you should see the boat. This error does not affect calibration or alignment. We will try to fix this ASAP.
 
 3. Compass
 **********
 
 Be sure to locate the sensors away from:
 
-- magnets - speakers and especially moving magnets like a floating compasses
+- magnets - speakers and especially moving magnets like floating compasses
 - current carrying wires - very simple rule is 2 cm (1 inch) for every amp
-- iron and steel - less critical, so if you are in a steel boat, just don't fix the sensors to a steel wall, but try to locate them several inches at least offset from it.
+- iron and steel - less critical. If you are in a steel boat, just do not fix the sensors to a steel wall and try to locate them several inches at least offset from it.
 
 The compass calibration is mostly automatic. If the accelerometer and alignment are calibrated, you just need to sail turning more than 180 degrees to calibrate the compass.
 
