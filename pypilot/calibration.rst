@@ -58,10 +58,12 @@ Subsequent 2D fixes will use the previous undetermined value for 3D fix, combini
 
 Compass calibration is continuous and always updates unless locked. You may wish to lock it to prevent future calibration updates.
 
+.. image:: img/calibration3.png
+
+Once a new calibration is applied, the accelerometer ``Calibration Age`` should reset and fit points become yellow.
+
+.. image:: img/calibration4.png
+
 If the sensors are remounted, they must be re-aligned and the compass recalibrated.
 
 If metal objects are moved around the sensors, the compass must recalibrate. 
-
-.. image:: img/calibration3.png
-
-.. image:: img/calibration4.png
