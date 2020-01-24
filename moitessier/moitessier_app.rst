@@ -24,7 +24,7 @@ Features
 
 .. admonition:: Shutdown button
 
-	You may now safely shutdown your OpenPlotter / Raspbian OS via this the Moitessier HAT 2 shutdown switch. This will prevent your SD card image from crashing when turning off your Pi with power-off only.
+	You may now safely shutdown your OpenPlotter / Raspbian OS via the Moitessier HAT 2 shutdown switch. This will prevent your SD card image from crashing when turning off your Pi with power-off only.
 
 	.. image:: img/shutdown.png
 		:align: center
@@ -49,10 +49,8 @@ Removing the HAT
 Mounting the HAT into the case
 ******************************
 
-.. image:: img/case1.jpg
-.. image:: img/case2.jpg
-.. image:: img/case3.jpg
-.. image:: img/case4.jpg
+.. note::
+	Coming soon
 
 .. note::
 	You can buy this item in the `store <https://shop.sailoog.com/>`_.
