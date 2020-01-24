@@ -1,2 +1,4 @@
-Recovery system
-###############
+.. _recovery:
+
+Recovery
+########

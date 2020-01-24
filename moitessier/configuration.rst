@@ -31,7 +31,7 @@ You could see some error messages because SPI and I2C interfaces are disabled or
 
 .. image:: img/system2.png
 
-SPI and I2C must be enabled before installing the drivers. Go to applications menu and enable both of them in ``Preferences -> Raspberry Pi configuration -> Interfaces``:
+SPI and I2C must be enabled before installing the drivers. Go to applications menu and enable both of them in :menuselection:`Preferences --> Raspberry Pi configuration --> Interfaces`:
 
 .. image:: img/system3.png
 

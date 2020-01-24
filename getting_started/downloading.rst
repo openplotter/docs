@@ -1,3 +1,5 @@
+.. _downloading:
+
 Downloading
 ###########
 
@@ -55,10 +57,8 @@ This is the easiest and fastest way of having OpenPlotter working. Our OpenPlott
 
 :Installed apps:
 :Customizable settings:
-    
-You will find each OpenPlotter edition in two formats, *img* and *NOOBS*. Contents of NOOBS and img files are identical. The only difference is the way to install OpenPlotter in your SD-card. When using NOOBS files, a recovering partition will be created in the SD and you will be able to re-install OpenPlotter from it. When using img files, this partition is not created and you can use all the SD space for the system. Since SD cards corruption occurs more frequently than desired, we recommend NOOBS because the recovery partition is never mounted and will never be corrupted so it will always be available for recovery.
 
-You do not need previous knowledge of Linux to install and use these OpenPlotter distributions, follow the :ref:`basic manual<getting_started_installing>` to install them on your SD card.
+You do not need previous knowledge of Linux to install and use these OpenPlotter distributions. Follow the :ref:`basic manual<getting_started_installing>` to install them on your SD card.
 
 Advanced
 ********
@@ -68,11 +68,11 @@ You can install OpenPlotter from scratch in any computer running your favourite 
 :Common apps: Settings, OpenCPN installer, Signal K installer, Signal K filter, Dashboards, Serial, CAN, Kplex, SDR, Apps template, Docs 
 :Raspberry apps: Xygrib, Network, Pypilot, Moitessier HAT, I2C sensors, 1W sensors, Analog sensors, IoT
 
-Follow the :ref:`advanced manual<getting_started_installing>` to install OpenPlotter from scratch.
+You need basic knowledge of Linux to install OpenPlotter from scratch. Follow the :ref:`advanced manual<getting_started_installing>` to install OpenPlotter from scratch.
 
 Expert
 ******
 
 Pi-gen is the tool used to create the raspberrypi.org Raspbian images. We use a fork of pi-gen to create OpenPlotter images. Use the *openplotter* branch of our repository to create your own OpenPlotter flavor.
 
-Follow instructions in `README file <https://github.com/openplotter/pi-gen/blob/openplotter/README.md>`_.
+You need good knowledge of Linux to create your own OpenPlotter distributions. Follow instructions in `README file <https://github.com/openplotter/pi-gen/blob/openplotter/README.md>`_.
