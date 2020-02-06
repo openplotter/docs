@@ -12,6 +12,8 @@ It is recommended to read the rest of the chapter to learn how to configure the 
 .. important::
 	If you are using the *OpenPlotter Moitessier HAT* edition, the only thing you should do is calibrate the compass following the steps of the :ref:`Pypilot compass calibration<calibration>` chapter.
 
+	You should reinstall the driver at least once even if everything works fine to make sure that your HAT firmware is up to date, especially Moitessier HAT 1 users.
+
 If you are not using the *OpenPlotter Moitessier HAT* edition, you have to be sure the list of apps below are installed. These apps have to be installed from ``OpenPlotter Settings`` interface.
 
 - ``OpenCPN Installer``

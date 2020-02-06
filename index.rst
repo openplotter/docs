@@ -101,8 +101,8 @@ Welcome to OpenPlotter's documentation!
 
    moitessier/moitessier_app
    moitessier/antennas
-   moitessier/leds
    moitessier/configuration
+   moitessier/leds
 
 .. toctree::
    :maxdepth: 1

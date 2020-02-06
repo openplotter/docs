@@ -27,7 +27,7 @@ After the first boot you can customize and localize your system changing some im
 .. danger::
 	You must change the default password for the user *pi*. Otherwise, any user will be able to access your system easily.
 
-Most of these settings an more can be configured before building the system if you use the **OpenPlotter À la Carte** edition.
+Most of these settings an more can be configured before building the img or NOOBS files if you use the **OpenPlotter À la Carte** edition.
 
 If you are using the img option of the **OpenPlotter Headless** edition, you should see the SSID of the access point after a few seconds of inserting the SD into the Raspberry and turning it on.
 
