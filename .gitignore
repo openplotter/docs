@@ -2,3 +2,7 @@
 /_build/doctrees/
 *.deb
 *.changes
+/_build/debian/*/
+/_build/debian/*debhelper*
+/_build/debian/files
+/_build/debian/*.substvars
