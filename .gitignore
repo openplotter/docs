@@ -1,3 +1,4 @@
-/_build/*
-debian/*/
-
+/_build/html/
+/_build/doctrees/
+*.deb
+*.changes
