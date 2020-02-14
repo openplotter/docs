@@ -36,8 +36,6 @@ Correct alignment must be performed before the compass calibration can begin.
 
 .. image:: img/calibration2.png
 
-.. Attention::
-	IF you are using a Raspberry Pi 4 you will not be able to see the boat rendered. There is an error with OpenGL and this is enabled by default in Rapsberry  Pi 4. If you disable OpenGL or you are using a Raspberry 3 you should see the boat. This error does not affect calibration or alignment. We will try to fix this ASAP.
 
 3. Compass
 **********
