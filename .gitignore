@@ -2,6 +2,9 @@
 /_build/doctrees/
 *.deb
 *.changes
+*.dsc
+*.tar.gz
+*.ppa.upload
 /_build/debian/*/
 /_build/debian/*debhelper*
 /_build/debian/files
