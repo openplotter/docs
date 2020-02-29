@@ -24,9 +24,9 @@ copyright = u'2019, Sailoog'
 author = u'Sailoog'
 
 # The short X.Y version
-version = u'2.x.x'
+version = u'2'
 # The full version, including alpha/beta/rc tags
-release = u'2.x.x'
+release = u'2'
 
 
 # -- General configuration ---------------------------------------------------

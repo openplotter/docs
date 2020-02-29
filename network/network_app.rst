@@ -1,5 +1,5 @@
-OpenPlotter Network App
-#######################
+Network
+#######
 
 .. image:: img/network-main.png
 

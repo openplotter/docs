@@ -1,2 +1,2 @@
-Signal K Installer App
-######################
+Signal K Installer
+##################

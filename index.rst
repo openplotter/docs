@@ -28,52 +28,31 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Settings App
+   :caption: Settings - 2.1.0
    :name: sec-settings
 
    settings/settings_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: OpenCPN Installer App
+   :caption: OpenCPN Installer - 2.1.0
    :name: sec-opencpn
 
    opencpn/opencpn_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: Signal K Installer App
+   :caption: Signal K Installer - 2.1.0
    :name: sec-signalk
 
    signalk/signalk_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: CAN App
-   :name: sec-can
-
-   can/can_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Serial App
-   :name: sec-serial
-
-   serial/serial_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Network App
-   :name: sec-network
-
-   network/network_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Dashboards
+   :caption: Dashboards - 2.1.0
    :name: sec-dashboards
 
-   dashboards/what_are_dashboards
+   dashboards/dashboards_app
    dashboards/instrumentpanel
    dashboards/kip
    dashboards/nodered_dashboard
@@ -81,7 +60,28 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Pypilot App
+   :caption: Network - 2.1.1
+   :name: sec-network
+
+   network/network_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Serial - 2.1.0
+   :name: sec-serial
+
+   serial/serial_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: CAN - 2.1.0
+   :name: sec-can
+
+   can/can_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Pypilot - 2.0.7
    :name: sec-pypilot
 
    pypilot/pypilot_app
@@ -89,14 +89,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: I2C App
-   :name: sec-i2c
-
-   i2c/i2c_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Moitessier HAT
+   :caption: Moitessier HAT - 2.1.0
    :name: sec-moitessier
 
    moitessier/moitessier_app
@@ -106,7 +99,21 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: My App
-   :name: sec-myapp
+   :caption: I2C - 2.1.0
+   :name: sec-i2c
 
-   template/myapp_app
+   i2c/i2c_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: signal K Filter - 2.0.1
+   :name: sec-skfilter
+
+   skfilter/SKfilter_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Kplex - 2.0.0
+   :name: sec-kplex
+
+   kplex/kplex_app

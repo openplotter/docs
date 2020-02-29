@@ -1,2 +1,2 @@
-Serial app
-##########
+Serial
+######
