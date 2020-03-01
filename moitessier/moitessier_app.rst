@@ -49,8 +49,10 @@ Removing the HAT
 Mounting the HAT into the case
 ******************************
 
-.. note::
-	Coming soon
+.. image:: img/Case-2-Quick-Installation-Web-P1.png
+.. image:: img/Case-2-Quick-Installation-Web-P2.png
+.. image:: img/Case-2-Quick-Installation-Web-P3.png
+.. image:: img/Case-2-Quick-Installation-Web-P4.png
 
 .. note::
 	You can buy this item in the `store <https://shop.sailoog.com/>`_.

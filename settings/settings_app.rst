@@ -1,2 +1,2 @@
-OpenPlotter Settings App
-########################
+OpenPlotter Settings
+####################

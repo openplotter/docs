@@ -1,4 +1,4 @@
 .. _pypilot:
 
-Pypilot App
-###########
+Pypilot
+#######

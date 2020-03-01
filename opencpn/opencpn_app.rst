@@ -1,2 +1,2 @@
-OpenCPN Installer App
-#####################
+OpenCPN Installer
+#################
