@@ -117,3 +117,10 @@ Welcome to OpenPlotter's documentation!
    :name: sec-kplex
 
    kplex/kplex_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: External Apps
+   :name: sec-external
+
+   external/myapp_app
