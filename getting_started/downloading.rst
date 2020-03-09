@@ -9,7 +9,6 @@ Downloading
 | **Basic**    | - Raspberry Pi 3                   | - :download:`OpenPlotter Starting <https://nx8035.your-storageshare.de/s/sL9doDML7P4CQDo>`          |
 |              | - Raspberry Pi 4 **\***            | - :download:`OpenPlotter Headless <https://nx8035.your-storageshare.de/s/Yapesa2XPJptgaz>`          |
 |              |                                    | - :download:`OpenPlotter Moitessier HAT <https://nx8035.your-storageshare.de/s/mgakCZ5BSJYsysa>`    |
-|              |                                    | - OpenPlotter IoT                                                                                   |
 |              |                                    | - OpenPlotter À la Carte                                                                            |
 +--------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
 | **Advanced** | - Raspberry Pi 3                   | :download:`OpenPlotter Settings deb <https://github.com/openplotter/openplotter-settings/releases>` |
@@ -36,7 +35,7 @@ This is the easiest and fastest way of having OpenPlotter working. Our OpenPlott
 
 **OpenPlotter Starting** - All required apps to fulfill most OpenPlotter marine features.
 
-:Installed apps: Settings, OpenCPN installer, Signal K installer, Xygrib, Network, Dashboards, Serial, CAN, Pypilot, Docs 
+:Installed apps: Settings, OpenCPN installer, Signal K installer, Xygrib, Network, Dashboards, Serial, CAN, Docs 
 
 **OpenPlotter Headless** - *Starting* edition apps ready to be used remotely without monitor.
 
@@ -45,13 +44,8 @@ This is the easiest and fastest way of having OpenPlotter working. Our OpenPlott
 
 **OpenPlotter Moitessier HAT** - *Starting* edition apps plus required apps to use the Moitessier HAT out of the box.
 
-:Installed apps: *Starting* edition, I2C.
+:Installed apps: *Starting* edition, I2C, Pypilot.
 :Settings: GNSS reception, AIS reception, compass, hell, pitch, pressure.
-
-**OpenPlotter IoT** (under construction) - *Starting* edition apps plus required apps to interact with your boat through multiple sensors and manage  data from them.
-
-:Installed apps:
-:Settings:
 
 **OpenPlotter À la Carte** (under construction) - *Starting* edition apps plus any app of your election. You will be able to customize some settings too.
 
@@ -65,7 +59,7 @@ Advanced
 
 You can install OpenPlotter from scratch in any computer running your favourite Debian derivative distribution, and of course in Raspbian. Hovewer, if your distribution is not Raspbian and your computer is not a Raspberry Pi, you will not be able to install some apps. 
 
-:Common apps: Settings, OpenCPN installer, Signal K installer, Signal K filter, Dashboards, Serial, CAN, Kplex, SDR, Apps template, Docs 
+:Common apps: Settings, OpenCPN installer, Signal K installer, Signal K filter, Dashboards, Serial, CAN, Kplex, SDR, Docs 
 :Raspberry apps: Xygrib, Network, Pypilot, Moitessier HAT, I2C sensors, 1W sensors, Analog sensors, IoT
 
 You need basic knowledge of Linux to install OpenPlotter from scratch. Follow the :ref:`advanced manual<getting_started_installing>` to install OpenPlotter from scratch.
