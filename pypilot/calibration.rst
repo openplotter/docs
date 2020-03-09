@@ -19,6 +19,7 @@ Carefully place the sensor on each of the 6 sides of a box (+- 10 degrees will d
 Once a calibration is applied the accelerometer ``Calibration Age`` should reset and fit points become yellow. If it does not, repeat the process putting the sensors in different orientations until a calibration fix is found.
 
 .. image:: img/calibration0.png
+.. image:: img/calibration1.png
 
 If you use the cheapest sensors, sometimes they have bad accelerometers. Either one axis will always read zero, or they will saturate because the bias is greater than 1g. This is easy to determine from the accelerometer calibration plot in calibration window. 
 
@@ -30,11 +31,11 @@ Once the accelerometers are calibrated, the sensor should be fixed securely to t
 
 To perform alignment, ensure the boat is level (not heeling or pitching) and in relatively calm water (small waves motion of a few degrees is ok). Go to ``alignment`` tab and click  ``Boat is level`` button.
 
-.. image:: img/calibration1.png
+.. image:: img/calibration2.png
 
 Correct alignment must be performed before the compass calibration can begin. 
 
-.. image:: img/calibration2.png
+.. image:: img/calibration3.png
 
 
 3. Compass
@@ -56,11 +57,11 @@ Subsequent 2D fixes will use the previous undetermined value for 3D fix, combini
 
 Compass calibration is continuous and always updates unless locked. You may wish to lock it to prevent future calibration updates.
 
-.. image:: img/calibration3.png
+.. image:: img/calibration4.png
 
 Once a new calibration is applied, the accelerometer ``Calibration Age`` should reset and fit points become yellow.
 
-.. image:: img/calibration4.png
+.. image:: img/calibration5.png
 
 If the sensors are remounted, they must be re-aligned and the compass recalibrated.
 

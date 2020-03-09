@@ -31,7 +31,7 @@ After finishing the post installation tasks, try to open the app again.
 Creating your app from *My App* template
 ****************************************
 
-OpenPlotter apps must be written in python 3 and must be distributed as Debian packages.
+OpenPlotter apps should be written in python 3 and must be distributed as Debian packages.
 
 First of all you need a repository to upload and distribute your app. You can use any Debian repository but we recommend https://cloudsmith.io because it is really easy for newbyes.
 
