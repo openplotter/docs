@@ -28,7 +28,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Settings - 2.1.0
+   :caption: Settings - 2.2.3
    :name: sec-settings
 
    settings/settings_app
@@ -81,7 +81,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Pypilot - 2.0.7
+   :caption: Pypilot - 2.0.8
    :name: sec-pypilot
 
    pypilot/pypilot_app
@@ -89,7 +89,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Moitessier HAT - 2.1.0
+   :caption: Moitessier HAT - 2.1.2
    :name: sec-moitessier
 
    moitessier/moitessier_app
