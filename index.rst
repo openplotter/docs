@@ -46,6 +46,7 @@ Welcome to OpenPlotter's documentation!
    :name: sec-signalk
 
    signalk/signalk_app
+   signalk/signalk_nmea0183_multiplexing
 
 .. toctree::
    :maxdepth: 1
