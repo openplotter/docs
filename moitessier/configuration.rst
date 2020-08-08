@@ -56,10 +56,10 @@ Now you are ready to configure your system. Go to ``Info`` tab and click on ``Ch
 
 .. image:: img/gps1.png
 
+.. image:: img/gps2.png
+
 Configuring AIS and GNSS reception
 **********************************
-
-.. image:: img/gps2.png
 
 Go to ``Serial`` app and select the HAT from the the list of detected devices in ``Devices`` tab. Provide a short ``alias`` and select NMEA 0183 as the format of the expected ``data``. Finally click ``Apply``:
 
@@ -74,22 +74,12 @@ Go to ``Connections`` tab, select the HAT from the list, click on ``Add to Signa
 .. note::
 	If you are going to use an autopilot you should select ``Add to Pypilot`` and finally connect pypilot to ``Signal K``. See :ref:`pypilot<pypilot>` chapter for details.
 
-When the serial connection with our HAT has been created, ``Signal K`` will send the received NMEA 0183 data to any program connected to the network connection below.
+Go to ``Info`` tab and click on ``Check configuration`` again to see the changes:
 
-+------------+------------+-----------+
-|  Protocol  |   Address  |   Port    |
-+============+============+===========+
-|    TCP     |  localhost |   10110   |
-+------------+------------+-----------+
-
-Be sure this connection exists in OpenCPN and you are done. You should get position and AIS targets:
-
-.. image:: img/gps5.jpg
+.. image:: img/gps4bis2.png
 
 Configuring compass, heel and trim reception
 ********************************************
-
-.. image:: img/compass1.png
 
 Go to ``Pypilot`` app an select ``Only compass``.
 
@@ -102,33 +92,15 @@ Then go to ``connections``, select the available connection and click on ``Add c
 
 .. image:: img/compass3.png
 
-If you select ``Only compass`` pypilot generates heading, pitch and heel data in Signal K format. If we want to send these data to OpenCPN we need to convert it into NMEA 0183. Go to ``Signal K server`` and ``login`` (upper right). Go to ``Server`` > ``Plugin Config`` in the left menu. Click on ``Convert Singnal K to NMEA 0183`` and check ``active`` and ``HDM - Heading Magnetic``.
-
-.. image:: img/compass4.png
-
-Scroll down, check ``XDR - (PTCH-ROLL) - Pitch and Roll`` and click on ``Submit``.
-
-.. image:: img/compass5.png
-
-Signal K server will start sending the NMEA 0183 data to any program connected to the network connection below.
-
-+------------+------------+-----------+
-|  Protocol  |   Address  |   Port    |
-+============+============+===========+
-|    TCP     |  localhost |   10110   |
-+------------+------------+-----------+
-
-Be sure this connection exists in OpenCPN and you are done.
-
-.. image:: img/compass6.png
-
 .. important::
 	To get reliable heading readings you have to calibrate the compass following the steps of the :ref:`Pypilot compass calibration<calibration>` chapter.
 
+Go to ``Info`` tab and click on ``Check configuration`` again to see the changes:
+
+.. image:: img/compass4.png
+
 Configuring pressure reception
 ******************************
-
-.. image:: img/pressure1.png
 
 Go to ``Sensors`` tab in ``I2C`` app an click ``Add``.
 
@@ -158,18 +130,31 @@ Go to ``Connections`` tab, select ``MS5607-02BA03`` sensor and click in either `
 
 .. image:: img/pressure8.png
 
-``I2C`` app generates data in Signal K format. If we want to send pressure data to OpenCPN we need to convert it into NMEA 0183. Go to ``Signal K server`` and ``login`` (upper right). Go to ``Server`` > ``Plugin Config`` in the left menu. Click on ``Convert Singnal K to NMEA 0183``, check ``XDR (Barometer) - Atmospheric Pressure`` and press ``Submit``.
+Go to ``Info`` tab and click on ``Check configuration`` again to see the changes:
 
 .. image:: img/pressure9.png
 
-Signal K server will start sending the NMEA 0183 data to any program connected to the network connection below.
+Configuring OpenCPN
+*******************
 
-+------------+------------+-----------+
-|  Protocol  |   Address  |   Port    |
-+============+============+===========+
-|    TCP     |  localhost |   10110   |
-+------------+------------+-----------+
+As of version 5.2, OpenCPN can manage Signal K data, so we no longer need to convert Signal K data to NMEA 0183. You just need to create this connection in OpenCPN:
 
-Be sure this connection exists in OpenCPN and you are done.
+.. image:: img/opencpn1.png
 
-.. image:: img/pressure10.png
+The default port of the Signal K server is 3000, but you can change it. If you are not sure which port you have configured, go to the ``Signal K Installer`` app to check.
+
+.. figure:: img/compass6.png
+
+	Magnetic Heading (circle), Course Over Ground (square)
+
+.. figure:: img/pressure10.png
+
+	Heel, Pitch and Pressure
+
+.. figure:: img/gps5.jpg
+
+	AIS
+
+Go to ``Info`` tab and click on ``Check configuration`` again to see the changes:
+
+.. image:: img/opencpn2.png

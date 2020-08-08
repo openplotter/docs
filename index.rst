@@ -90,7 +90,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Moitessier HAT - 2.1.2
+   :caption: Moitessier HAT - 2.2.0
    :name: sec-moitessier
 
    moitessier/moitessier_app
