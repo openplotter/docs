@@ -15,7 +15,7 @@ Spread the word among your friends in ports and forums.
 
 **Money**
 
-This project is financed by `selling related products <https://shop.sailoog.com/>`_ or by `voluntary contributions <https://paypal.me/sailoog>`_.
+This project is financed by `selling related products <https://shop.openmarine.net/>`_ or by `voluntary contributions <https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3J8V5AT6M74L4&source=url>`_.
 
 **Monkeys**
 

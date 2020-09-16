@@ -4,7 +4,7 @@ Moitessier HAT 2
 .. image:: img/docs1.png
 
 .. note::
-	You can buy this item in the `store <https://shop.sailoog.com/>`_.
+	You can buy this item in the `store <https://shop.openmarine.net>`_.
 
 Features
 ********
@@ -55,7 +55,7 @@ Mounting the HAT into the case
 .. image:: img/Case-2-Quick-Installation-Web-P4.png
 
 .. note::
-	You can buy this item in the `store <https://shop.sailoog.com/>`_.
+	You can buy this item in the `store <https://shop.openmarine.net/>`_.
 
 Pinout
 ******
