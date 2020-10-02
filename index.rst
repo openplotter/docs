@@ -46,7 +46,6 @@ Welcome to OpenPlotter's documentation!
    :name: sec-signalk
 
    signalk/signalk_app
-   signalk/signalk_nmea0183_multiplexing
 
 .. toctree::
    :maxdepth: 1
@@ -68,10 +67,12 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Serial - 2.1.0
+   :caption: Serial - 2.2.1
    :name: sec-serial
 
    serial/serial_app
+   serial/connecting
+   serial/examples
 
 .. toctree::
    :maxdepth: 1

@@ -1,86 +1,44 @@
-Serial app
-##########
+Setting devices
+###############
 
-.. danger::
-	Many devices use a serial protocol. They are named as:
+When you connect a USB device or any serial device to Linux, it is named as: /dev/ttyUSB0, /dev/ttyACM0, /dev/ttyS1... If any program needs to get data from this device, you have to provide this name in the settings of the program. But there is a problem, this name is not tied to your physical device, so it could be that the system gives it a different name on the next reboot and your program points to a wrong name.
 
-	/dev/ttyUSB0 ...
-	
-	/dev/ttyACM0 ...
-	
-	/dev/ttyS1 ...
+This ``Serial`` app allows you to define an alias for your device that will always be tied to it and will facilitate the configuration of some programs to obtain data from it.
 
-	Don't use these Linux names! They are not tied to a physical device!
+This app will detect any serial device connected to the system. Press ``Refresh`` when connecting or disconnecting a device to update the list of detected devices.
 
+In the image below you can see some devices in different colors:
 
-The automatic port naming in Linux isn't good enough for marine apps.
+.. image:: img/serial1.png
 
-In Signal K web admin you have 5 chances to select a serial port.
+:white: not set
+:green: set as NMEA 0183
+:blue: set as NMEA 2000
+:yellow: set as Signal K
+:red: the device is missing
 
-* Enter manually
-* Openplotter managed
-* by-id
-* by-path
-* Listed
+To see how this works we are going to configure a USB GPS receiver. Select the device and enter a name for it in the ``alias`` field. Select the type of data that flows through the device (NMEA 0183 in this case) and finally select whether the system should remember the device or the position of the USB port where the device is connected.
 
-.. image:: img/SK_Connection_Serial.png
+You should use ``Remember port`` only if 2 or more of your devices have the same vendor, product and serial or if they do not have any of these identifiers at all. For Raspberry Pi, the first column in the list will show you which USB port your device is connected to and if you are using a HUB.
 
-You don't need this app if you feel fine with selecting a serial port by-id or by-path.
+.. image:: img/serial2.png
 
-With this app you can give your serial port a name. And if it is usb related the app does show you on what usb port you connected the device.
+Press ``Apply`` when done and the device will be marked green:
 
-Page "Devices"
-**************
+.. image:: img/serial3.png
 
-.. image:: img/Serial1.png
+Unplug the device and press ``Refresh`` to check if the system detects the lost device:
 
-In this picture you see the different colors:
+.. image:: img/serial4.png
 
-* green  -> NMEA 0183
-* blue   -> NMEA 2000
-* yellow -> Signal K
-* red    -> the device is missing
-
-You also see that if a port has same vendor number, same product number and same serial number (or no serial number) that you have to choose "Remember port").
-
-.. warning::
-	When you have to choose "Remember port" usb plug & play is disabled for these ports! You shouldn't change usb ports anymore.
-
-Visual usb port icons
-*********************
-
-For raspberry pi the icon shows you the port where your device or hub is connected to.
+Plug the device back in, press ``Refresh`` and you are ready to configure any program using your device's alias and be sure it will always work. The next chapter will teach you how to configure the devices in some programs automatically.
 
 
-Edit
-****
+**UART**
 
-When you doubble click on a line you can edit the name, the data type and the remember setting.
+In Raspberry Pi 3 and 4 the Bluetooth interface and the UART interface share GPIO pins (GPIO14 for TXD0 and GPIO15 for RXD0). Bluetooth is enabled and UART is dissabled by default. If you want to connect a serial device to UART you need to disable Bluetooth and enable UART. Press ``UART`` and after reboot, UART interface will be enabled, Bluetooth will be disabled and you will see a new ``ttyAMA0`` device:
 
-Page "Connections"
-******************
+.. image:: img/serial11.png
 
-Only "Add to GPSD" is really needed. Signal K, Pypilot and Kplex can be configured in their own OpenPlotter apps / Signal K web app. The task of this page is more to provide an overview.
-
-.. image:: img/Serial_Page_Connections.png
-
-Here you can select a device. The allowed connect icons will be active.
-
-Add to Signal K
-
-You are asked to setup the connection in Signal K MANUAL (recommended) or AUTO.
-
-On MANUAL you will be forwarded to Signal K web admin.
-On AUTO you only have to select the Baud Rate.
-
-The edit button will bring you in the Signal K web admin (We recommend using the good Signal K web admin interface.)
-
-
-
-"UART" button
-*************
-
-If you really know what you are doing with gpio ttl (GPIO14 TXD0 and GPIO15 RXD0) you can use: 
-
-* enable UART  This disables the raspberry pi bluetooth serial port and enables the serial gpio ttl
-* disable UART  This enables the raspberry pi bluetooth serial port (default)
+.. note::
+	If you want to connect a Pypilot motor controller, you do not need to set an alias for ``ttyAMA0`` because Pypilot will detect the controller automatically. See :ref:`Pypilot<pypilot>` for more info.
