@@ -59,8 +59,8 @@ Advanced
 
 You can install OpenPlotter from scratch in any computer running your favourite Debian derivative distribution, and of course in Raspbian. Hovewer, if your distribution is not Raspbian and your computer is not a Raspberry Pi, you will not be able to install some apps. 
 
-:Common apps: Settings, OpenCPN installer, Signal K installer, Signal K filter, Dashboards, Serial, CAN, Kplex, SDR, Docs 
-:Raspberry apps: Xygrib, Network, Pypilot, Moitessier HAT, I2C sensors, 1W sensors, Analog sensors, IoT
+:Common apps: Settings, Docs, OpenCPN installer, Xygrib, Signal K installer, Dashboards, Network, Serial, CAN, IoT, Signal K filter, Kplex, SDR VHF
+:Raspberry apps: Pypilot, Moitessier HAT, I2C sensors, GPIO
 
 You need basic knowledge of Linux to install OpenPlotter from scratch. Follow the :ref:`advanced manual<getting_started_installing>` to install OpenPlotter from scratch.
 
