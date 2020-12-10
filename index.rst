@@ -56,7 +56,8 @@ Welcome to OpenPlotter's documentation!
    dashboards/instrumentpanel
    dashboards/kip
    dashboards/nodered_dashboard
-   dashboards/influxdb_grafana
+   dashboards/influxdb1
+   dashboards/grafana
 
 .. toctree::
    :maxdepth: 1
