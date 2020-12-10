@@ -1,4 +1,0 @@
-.. _recovery:
-
-Recovery
-########

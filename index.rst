@@ -24,7 +24,6 @@ Welcome to OpenPlotter's documentation!
    getting_started/installing
    getting_started/updating
    getting_started/backup
-   getting_started/recovery_system
 
 .. toctree::
    :maxdepth: 1

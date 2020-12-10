@@ -6,10 +6,10 @@ Downloading
 +--------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Level        | Platform                           | Download                                                                                            |
 +==============+====================================+=====================================================================================================+
-| **Basic**    | - Raspberry Pi 3                   | - :download:`OpenPlotter Starting <https://nx8035.your-storageshare.de/s/sL9doDML7P4CQDo>`          |
-|              | - Raspberry Pi 4 **\***            | - :download:`OpenPlotter Headless <https://nx8035.your-storageshare.de/s/Yapesa2XPJptgaz>`          |
-|              |                                    | - :download:`OpenPlotter Moitessier HAT <https://nx8035.your-storageshare.de/s/mgakCZ5BSJYsysa>`    |
-|              |                                    | - OpenPlotter À la Carte                                                                            |
+| **Basic**    | - Raspberry Pi 3                   | - :download:`OpenPlotter Starting <https://cloud.openmarine.net/s/sL9doDML7P4CQDo>`                 |
+|              | - Raspberry Pi 4 **\***            | - :download:`OpenPlotter Headless <https://cloud.openmarine.net/s/Yapesa2XPJptgaz>`                 |
+|              |                                    | - :download:`OpenPlotter Moitessier HAT <https://cloud.openmarine.net/s/mgakCZ5BSJYsysa>`           |
+|              |                                    | - OpenPlotter À la Carte (under construction)                                                       |
 +--------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
 | **Advanced** | - Raspberry Pi 3                   | :download:`OpenPlotter Settings deb <https://github.com/openplotter/openplotter-settings/releases>` |
 |              | - Raspberry Pi 4 **\***            |                                                                                                     |
@@ -24,7 +24,7 @@ Downloading
 
 .. admonition:: What to choose?
 
-    Some OpenPlotter features are exclusive for Raspberry Pi but if you do not need them you can install OpenPlotter in any computer running a Linux Debian derivative like Ubuntu, Mint or even Raspbian. That is the first question you should ask yourself.
+    Some OpenPlotter features are exclusive for Raspberry Pi but if you do not need them you can install OpenPlotter in any computer running a Linux Debian derivative like *Ubuntu*, *Linux Mint* or even *Raspberry PI OS*. That is the first question you should ask yourself.
 
     We try to provide solutions for everyone, from newbies to experts. The second question would be, *what do I know about Linux?* or even, *I am a Linux expert but I feel lazy, should I choose a ready-to-use option?* The text below will help you answer these questions.
 
@@ -57,7 +57,7 @@ You do not need previous knowledge of Linux to install and use these OpenPlotter
 Advanced
 ********
 
-You can install OpenPlotter from scratch in any computer running your favourite Debian derivative distribution, and of course in Raspbian. Hovewer, if your distribution is not Raspbian and your computer is not a Raspberry Pi, you will not be able to install some apps. 
+You can install OpenPlotter from scratch in any computer running your favourite Debian derivative distribution, and of course in *Raspberry PI OS*. Hovewer, if your distribution is not *Raspberry PI OS* and your computer is not a Raspberry Pi, you will not be able to install some apps. 
 
 :Common apps: Settings, Docs, OpenCPN installer, Xygrib, Signal K installer, Dashboards, Network, Serial, CAN, IoT, Signal K filter, Kplex, SDR VHF
 :Raspberry apps: Pypilot, Moitessier HAT, I2C sensors, GPIO
@@ -67,6 +67,6 @@ You need basic knowledge of Linux to install OpenPlotter from scratch. Follow th
 Expert
 ******
 
-Pi-gen is the tool used to create the raspberrypi.org Raspbian images. We use a fork of pi-gen to create OpenPlotter images. Use the *openplotter* branch of our repository to create your own OpenPlotter flavor.
+Pi-gen is the tool used to create the official *Raspberry PI OS* images. We use a fork of pi-gen to create OpenPlotter images. Use the *openplotter* branch of our repository to create your own OpenPlotter flavor.
 
 You need good knowledge of Linux to create your own OpenPlotter distributions. Follow instructions in `README file <https://github.com/openplotter/pi-gen/blob/openplotter/README.md>`_.
