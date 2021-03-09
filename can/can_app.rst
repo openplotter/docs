@@ -6,12 +6,15 @@ CAN Bus
 Go into settings (--> openplotter -->) and ensure that the CAN Bus App is installed and the latest
 
 .. image:: img/can1.png
+
 CAN_USB
 *******
 To be added
+
 Slcand
 ******
 To be added
+
 MCP2515
 *******
 There are some boards available with the MCP2515 chip on board that can be added into openplotter below is a list of the ones that work:
