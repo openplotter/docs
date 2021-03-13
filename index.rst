@@ -41,6 +41,13 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
+   :caption: AvNav Installer - 2.1.3
+   :name: sec-avnav
+
+   avnav/avnav_app
+
+.. toctree::
+   :maxdepth: 1
    :caption: Signal K Installer - 2.1.0
    :name: sec-signalk
 
