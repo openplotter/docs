@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'OpenPlotter'
-copyright = u'2020, Sailoog'
+copyright = u'2021, Sailoog'
 author = u'Sailoog'
 
 # The short X.Y version

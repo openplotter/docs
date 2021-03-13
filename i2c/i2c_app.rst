@@ -20,4 +20,5 @@ On the connection Tab, add connection to Signal K for each of the sensors:
 
 .. image:: img/i2c2.png
 
-*the Pypilot entry will not show up until you have done the Pypilot configs
+.. note::
+	The Pypilot entry will not show up until you have done the Pypilot configs
