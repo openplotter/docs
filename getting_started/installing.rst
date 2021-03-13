@@ -64,7 +64,7 @@ Open a terminal and type:
 .. parsed-literal::
 
 	sudo apt update
-	sudo apt install python-configparser python3-wxgtk4.0 python3-ujson python3-pyudev whois vlc
+	sudo apt install python3-wxgtk4.0 python3-ujson python3-pyudev whois vlc
 
 Now you have to install the main app ``openplotter-setting`` from the .deb file you can download from the *Advanced* section in :ref:`downloading<downloading>` chapter.
 
