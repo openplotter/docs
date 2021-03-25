@@ -41,3 +41,17 @@ Installer
 * set up connectivity between SignalK and AvNav
 * NMEA traffic is configured to run from SignalK to AvNav
 
+Processes and Ports
+____________________
+
+AvNav has a main process ("avnav") that handles all the NMEA data and server functions.
+It has one port for the web access (default: 8080).
+To handle o-charts there is an additional process (controlled and started by avnav)
+that has an own port for the access to those charts (default 8082).
+To run updates from the AvNav web app there is an additionaly avnavupdater 
+process that is running independently from avnav and again has an own port for the web access
+(default: 8085).
+You can modify the ports at the settings tab if they interfere with others
+applications you have installed. OpenPlotter will check this and warn you accordingly.
+
+
