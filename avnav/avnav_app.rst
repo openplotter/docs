@@ -36,8 +36,8 @@ Installer
 .. image:: img/installer1.png
 
 * will download and install the AvNav software and the necessary plugins
-* show the status of the server part and allow to start and stop it
-* allow for some basic settings (others directly within the AvNav app itself)
+* shows the status of the server part and allows to start and stop it
+* allows for some basic port settings (others directly within the AvNav app itself)
 * set up connectivity between SignalK and AvNav
 * NMEA traffic is configured to run from SignalK to AvNav
 
@@ -53,5 +53,5 @@ process that is running independently from avnav and again has an own port for t
 (default: 8085).
 You can modify the ports at the settings tab if they interfere with others
 applications you have installed. OpenPlotter will check this and warn you accordingly.
-
+aha
 
