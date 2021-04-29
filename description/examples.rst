@@ -3,6 +3,15 @@ Examples
 
 Please send us your projects involving OpenPlotter and we will add them to this Hall of Fame.
 
+Sigma 33 Build
+**************
+
+.. image:: img/sigma33.png
+
+:Description: I wanted to build a system that took data from as many instruments on the boat as possible. I started by researching off the shelf systems and I found myself both underwhelmed by their features and appalled by their cost. I figured I must be able to DIY something of at least equal performance for a fraction of the cost. My search for a DIY solution lead me to OpenCPN, the opensource chart plotter software, I was immediately drawn to it's versatility and how it mimicked the user interfaces I was used to on ship ECDIS systems. It didn't take much longer to find and settle on OpenPlotter, a complete linux build incorporating OpenCPN and all the software required to ingest, process, and distribute NMEA data around the boat...
+
+:More info: https://www.reis-day.com/sailing/openplotter-build
+
 Yacht server on board
 *********************
 
