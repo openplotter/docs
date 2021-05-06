@@ -32,9 +32,11 @@ Connect the Seatalk NG Can H and Can L or the NMEA2000 (N2K) Can H and Can L to 
 
 .. image:: img/can2.png
 
-Important note:  the Seatalk NG bus needs to be powered - this would normally already be so if you have other devices on the bus but some Multi-function Displays need the bus powering, as well as the device - the power does not connect to the HAT in any way.
+.. note::
+	The Seatalk NG bus needs to be powered - this would normally already be so if you have other devices on the bus but some Multi-function Displays need the bus powering, as well as the device - the power does not connect to the HAT in any way.
 
-Another important note: make sure the CAN network is appropriately terminated.  CAN network termination is required to reduce reflection and consists of 60 Ohm resistors at the end points of the CAN networks - some devices have these built in and the Raymarine network has these already  if you are just plugging in to an existing network
+.. note::
+	Make sure the CAN network is appropriately terminated.  CAN network termination is required to reduce reflection and consists of 60 Ohm resistors at the end points of the CAN networks - some devices have these built in and the Raymarine network has these already  if you are just plugging in to an existing network
 
 Reboot the Pi and open the CAN Bus app.  In the app go to the MCP2515 tab and press the 'Add MCP2515 device' button. 
 
