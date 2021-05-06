@@ -6,6 +6,18 @@ Connecting a USB-RS422 converter
 
 You probably still have some devices onboard that use the old NMEA 0183 protocol. Most commercial plotters collect data from all onboard devices and send it through an RS422 output. To connect these devices to OpenPlotter, you need any inexpensive USB-RS422 converter. 
 
+Some notes about wiring
+***********************
+
+typical RS422 device looks like the one below:
+.. image:: img/serial_rs422A.png
+
+there are normally 4 or 5 connections. TX+, TX-, RX+, RX-, GND
+
+Normally you don't need ground and you would connect TX of the chart plotter/VHF etc to the RX of the RS422 to USB device and vice versa.  However, there is little consistency between different devices as to what is possitve and what is negative - so if the TX+ connected to the RX+ does not work, try connecting to the RX-
+
+Consult your device manual to find the baud rate, if you can't find the baud rate then usually, if the device is older and pre-AIS the baud rate may be 4800, leter devices that may have or accept AIS will be 38400.  use an absolute value if Auto does not work
+
 Input data
 ==========
 
