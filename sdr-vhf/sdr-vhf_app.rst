@@ -1,3 +1,5 @@
+.. _sdrVhf:
+
 SDR VHF
 #######
 
