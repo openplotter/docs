@@ -90,6 +90,17 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
+   :caption: GPIO - 2.3.2
+   :name: sec-gpio
+
+   gpio/gpio_app
+   gpio/digital
+   gpio/pulses
+   gpio/1w
+   gpio/seatalk1
+
+.. toctree::
+   :maxdepth: 1
    :caption: Pypilot - 2.0.8
    :name: sec-pypilot
 
