@@ -55,6 +55,13 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
+   :caption: MAIANA AIS Transponder - 2.1.1
+   :name: sec-maiana
+
+   maiana/maiana_app
+
+.. toctree::
+   :maxdepth: 1
    :caption: Dashboards - 2.1.0
    :name: sec-dashboards
 
