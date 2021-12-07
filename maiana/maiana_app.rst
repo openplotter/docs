@@ -3,12 +3,12 @@ MAIANA AIS Transponder
 
 .. image:: img/maiana1.png
 
-The main difference between MAIANA™ and all commercial AIS devices is that it is a self-contained unit, all AIS and GNSS circuits are located in the antenna housing. MAIANA™ receives GNSS and AIS data on both channels and can be enabled as a class B transponder. The transponder outputs just over 2 Watts (+33dBm).
+The main difference between MAIANA and all commercial AIS devices is that it is a self-contained unit, all AIS and GNSS circuits are located in the antenna housing. MAIANA receives GNSS and AIS data on both channels and can be enabled as a class B transponder. The transponder outputs just over 2 Watts (+33dBm).
 
 .. note::
-	This product is available in the `OpenMarine Shop <http://shop.openmarine.net/>`_. Buying at OpenMarine Shop helps us keep the project alive.
+	This product is available in the `OpenMarine Shop <http://shop.openmarine.net/>`_ for European users.
 
-	On the `original product page <https://github.com/peterantypas/maiana>`_ you will find the full specification and a better choice for US/Canada buyers.
+	On the `official page <https://github.com/peterantypas/maiana>`_ you will find the full specification and a better choice for US/Canada users.
 
 **Disclaimer**
 
