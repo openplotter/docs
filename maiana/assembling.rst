@@ -7,9 +7,9 @@ Assembling
 
 	This is a summary of the `official assembly manuals <https://github.com/peterantypas/maiana/tree/master/latest/Manuals>`_.
 
-1. The main PCBA (in ESD envelope).
+1. The main PCBA.
 
-2. The UART adapter (in ESD envelope).
+2. The UART adapter.
 
 3. The antenna tube.
 
