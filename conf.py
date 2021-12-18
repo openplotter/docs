@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = u'OpenPlotter'
-copyright = u'2021, Sailoog'
+copyright = u'2022, Sailoog, Països Catalans'
 author = u'Sailoog'
 
 # The short X.Y version
-version = u'2'
+version = u'3'
 # The full version, including alpha/beta/rc tags
-release = u'2'
+release = u'3'
 
 
 # -- General configuration ---------------------------------------------------

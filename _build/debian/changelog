@@ -1,3 +1,9 @@
+openplotter-doc (3.0.0-alpha) bullseye; urgency=medium
+
+  * First commit v3
+
+ -- Sailoog <info@sailoog.com>  Sat, 18 Dec 2021 14:50:25 +0100
+
 openplotter-doc (2.1.0-dev) bionic; urgency=medium
 
   * Multiple changes
