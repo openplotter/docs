@@ -1,2 +1,4 @@
+.. _settings:
+
 OpenPlotter Settings
 ####################

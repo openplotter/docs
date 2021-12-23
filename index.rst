@@ -10,9 +10,8 @@ Welcome to OpenPlotter's documentation!
 
    description/what_is_openplotter
    description/features
-   description/examples
-   description/what_do_you_need
    description/how_does_it_work
+   description/examples
    description/how_to_collaborate
 
 .. toctree::
@@ -20,10 +19,9 @@ Welcome to OpenPlotter's documentation!
    :caption: Getting started
    :name: sec-getting_started
 
+   getting_started/what_do_you_need
    getting_started/downloading
    getting_started/installing
-   getting_started/updating
-   getting_started/backup
 
 .. toctree::
    :maxdepth: 1
@@ -31,6 +29,7 @@ Welcome to OpenPlotter's documentation!
    :name: sec-settings
 
    settings/settings_app
+   settings/updating
 
 .. toctree::
    :maxdepth: 1

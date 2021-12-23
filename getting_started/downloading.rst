@@ -3,70 +3,118 @@
 Downloading
 ###########
 
-+--------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Level        | Platform                           | Download                                                                                            |
-+==============+====================================+=====================================================================================================+
-| **Basic**    | - Raspberry Pi 3                   | - :download:`OpenPlotter Starting <https://cloud.openmarine.net/s/sL9doDML7P4CQDo>`                 |
-|              | - Raspberry Pi 4 **\***            | - :download:`OpenPlotter Headless <https://cloud.openmarine.net/s/Yapesa2XPJptgaz>`                 |
-|              |                                    | - :download:`OpenPlotter Moitessier HAT <https://cloud.openmarine.net/s/mgakCZ5BSJYsysa>`           |
-|              |                                    | - OpenPlotter À la Carte (under construction)                                                       |
-+--------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
-| **Advanced** | - Raspberry Pi 3                   | :download:`OpenPlotter Settings deb <https://github.com/openplotter/openplotter-settings/releases>` |
-|              | - Raspberry Pi 4 **\***            |                                                                                                     |
-|              | - Debian derivative 32-bit         |                                                                                                     |
-|              | - Debian derivative 64-bit **\***  |                                                                                                     |
-+--------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
-| **Expert**   | - Raspberry Pi 3                   | :download:`OpenPlotter pi-gen <https://github.com/openplotter/pi-gen/tree/openplotter>`             |
-|              | - Raspberry Pi 4 **\***            |                                                                                                     |
-+--------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
+.. admonition:: Raspberry Pi or desktop/laptop computer?
 
-**\*** Recommended
+	OpenPlotter is optimized to be used on `Raspberry Pi <https://www.raspberrypi.com>`_ computers, but you can also install OpenPlotter on any desktop or laptop computer running Linux Debian or any derivative like Ubuntu, Mint ... Some OpenPlotter apps that are used to manage some sensors connected via GPIO will not be available when installed on desktop and laptop computers. See a list :ref:`here<downloading_desktop>`.
 
-.. admonition:: What to choose?
+Raspberry Pi images
+*******************
 
-    Some OpenPlotter features are exclusive for Raspberry Pi but if you do not need them you can install OpenPlotter in any computer running a Linux Debian derivative like *Ubuntu*, *Linux Mint* or even *Raspberry PI OS*. That is the first question you should ask yourself.
+This is the easiest and fastest way to get started with OpenPlotter. We publish different editions according to the most demanded uses that contain all the required apps installed and preconfigured. We try to provide solutions for everyone from beginners to experts. We even have a fully customizable option that will save you a lot of time. Just plug and sail!
 
-    We try to provide solutions for everyone, from newbies to experts. The second question would be, *what do I know about Linux?* or even, *I am a Linux expert but I feel lazy, should I choose a ready-to-use option?* The text below will help you answer these questions.
+Our OpenPlotter editions are based on Raspberry Pi OS. You do not need any prior knowledge of Linux to install and use them. Follow the :ref:`Installing<getting_started_installing>` chapter to learn how to install them.
 
-Basic
-*****
+.. important::
 
-This is the easiest and fastest way of having OpenPlotter working. Our OpenPlotter distributions are based on Rasbian. We publish different editions according to the most demanded uses containing all the required apps installed and preconfigured. Just plug and sail!
+	Currently, all OpenPlotter editions are 32-bit because Raspberry OS 64-bit is still in beta. 64-bit does not offer any significant speed advantage in most typical use cases, but if you still prefer to run a 64-bit system, you should use `Ubuntu Desktop for Raspberry Pi <https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#1-overview>`_ and install OpenPlotter for :ref:`desktop and laptop<downloading_desktop>`.
 
-**OpenPlotter Starting** - All required apps to fulfill most OpenPlotter marine features.
+OpenPlotter Starting
+====================
 
-:Installed apps: Settings, OpenCPN installer, Signal K installer, Xygrib, Network, Dashboards, Serial, CAN, Docs 
+All required apps to fulfill most OpenPlotter marine features.
 
-**OpenPlotter Headless** - *Starting* edition apps ready to be used remotely without monitor.
+:Download: :download:`OpenPlotter Starting <https://cloud.openmarine.net/s/sL9doDML7P4CQDo>`
+:Image name: OpenPlotter Starting
+:Hostname: openplotter
+:User: pi
+:Password: raspberry
+:Language: en_GB.UTF-8
+:Keymap: gb
+:Layout: English (UK)
+:TimeZone: Europe/London
+:Wifi client: SSID: none, Password: none, Country: none
+:Wifi AP: SSID: none, Password: none, IP: none
+:SSH: Disabled
+:Remote desktop: Disabled
+:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - AvNav installer - Xygrib - Serial - CAN - Network - Notifications - Dashboards 
 
-:Installed apps: *Starting* edition.
-:Settings: WiFi access point enabled, ssh enabled, remote desktop enabled.
+OpenPlotter Headless
+====================
 
-**OpenPlotter Moitessier HAT** - *Starting* edition apps plus required apps to use the Moitessier HAT out of the box.
+Same as *OpenPlotter Starting* but ready to be used remotely without monitor.
 
-:Installed apps: *Starting* edition, I2C, Pypilot.
-:Settings: GNSS reception, AIS reception, compass, hell, pitch, pressure.
+:Download: :download:`OpenPlotter Headless <https://cloud.openmarine.net/s/Yapesa2XPJptgaz>`
+:Image name: OpenPlotter Headless
+:Hostname: openplotter
+:User: pi
+:Password: raspberry
+:Language: en_GB.UTF-8
+:Keymap: gb
+:Layout: English (UK)
+:TimeZone: Europe/London
+:Wifi client: SSID: none, Password: none, Country: none
+:Wifi AP: SSID: openplotter, Password: 12345678, IP: 10.10.10.1
+:SSH: Enabled
+:Remote desktop: Enabled
+:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - AvNav installer - Xygrib - Serial - CAN - Network - Notifications - Dashboards 
 
-**OpenPlotter À la Carte** (under construction) - *Starting* edition apps plus any app of your election. You will be able to customize some settings too.
+OpenPlotter Moitessier HAT
+==========================
 
-:Installed apps:
-:Customizable settings:
+Same as *OpenPlotter Starting* plus required apps configured to use the Moitessier HAT out of the box.
 
-You do not need previous knowledge of Linux to install and use these OpenPlotter distributions. Follow the :ref:`basic manual<getting_started_installing>` to install them on your SD card.
+:Download: :download:`OpenPlotter Moitessier HAT <https://cloud.openmarine.net/s/mgakCZ5BSJYsysa>`
+:Image name: OpenPlotter Moitessier HAT
+:Hostname: openplotter
+:User: pi
+:Password: raspberry
+:Language: en_GB.UTF-8
+:Keymap: gb
+:Layout: English (UK)
+:TimeZone: Europe/London
+:Wifi client: SSID: none, Password: none, Country: none
+:Wifi AP: SSID: none, Password: none, IP: none
+:SSH: Disabled
+:Remote desktop: Disabled
+:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - AvNav installer - Xygrib - Serial - CAN - Network - Notifications - Dashboards - Moitessier HAT - I2C - Pypilot
 
-Advanced
-********
+OpenPlotter À la Carte
+======================
 
-You can install OpenPlotter from scratch in any computer running your favourite Debian derivative distribution, and of course in *Raspberry PI OS*. Hovewer, if your distribution is not *Raspberry PI OS* and your computer is not a Raspberry Pi, you will not be able to install some apps. 
+Fill in a form with all the available customization options and in a few hours you will receive an image built by a robot from scratch and to your liking that will save you a lot of time. Another advantage over the other editions is that all packages that make up the OS, including Openplotter apps, will be updated to the latest versions.
 
-:Common apps: Settings, Docs, OpenCPN installer, Xygrib, Signal K installer, Dashboards, Network, Serial, CAN, IoT, Signal K filter, Kplex, SDR VHF
-:Raspberry apps: Pypilot, Moitessier HAT, I2C sensors, GPIO
+:Download: Under construction
+:Image name: Customizable
+:Hostname: Customizable
+:User: Customizable
+:Password: Customizable
+:Language: Customizable
+:Keymap: Customizable
+:Layout: Customizable
+:TimeZone: Customizable
+:Wifi client: SSID: Customizable, Password: Customizable, Country: Customizable
+:Wifi AP: SSID: Customizable, Password: Customizable, IP: Customizable
+:SSH: Customizable
+:Remote desktop: Customizable
+:Installed apps: Customizable
 
-You need basic knowledge of Linux to install OpenPlotter from scratch. Follow the :ref:`advanced manual<getting_started_installing>` to install OpenPlotter from scratch.
+.. _downloading_desktop:
 
-Expert
-******
+Desktop and laptop
+******************
 
-Pi-gen is the tool used to create the official *Raspberry PI OS* images. We use a fork of pi-gen to create OpenPlotter images. Use the *openplotter* branch of our repository to create your own OpenPlotter flavor.
+You can also install OpenPlotter in any desktop or laptop computer running your favourite Debian derivative distribution. Hovewer, if your computer is not a Raspberry Pi, you will not be able to install some OpenPlotter apps:
 
-You need good knowledge of Linux to create your own OpenPlotter distributions. Follow instructions in `README file <https://github.com/openplotter/pi-gen/blob/openplotter/README.md>`_.
+:Common: Settings - Docs - Signal K installer - OpenCPN installer - AvNav installer - Xygrib - Serial - CAN - Network - Notifications - Dashboards - IoT - MAIANA AIS Transponder - OpenMarine Box - SDR VHF
+:Only Raspberry: I2C - Pypilot - Moitessier HAT - GPIO
+
+You just need basic knowledge of Linux to install OpenPlotter for desktop and laptop. Download this *OpenPlotter Settings* package: |Latest version of 'openplotter-settings' @ Cloudsmith| and follow the :ref:`Desktop and laptop<getting_started_installing_desktop>` chapter to install OpenPlotter from scratch.
+
+.. |Latest version of 'openplotter-settings' @ Cloudsmith| image:: https://api-prd.cloudsmith.io/v1/badges/version/openplotter/openplotter/deb/openplotter-settings/latest/a=all;d=debian%252Fbullseye;t=binary/?render=true&show_latest=true
+   :target: https://cloudsmith.io/~openplotter/repos/openplotter/packages/detail/deb/openplotter-settings/latest/a=all;d=debian%252Fbullseye;t=binary/
+
+
+OpenPlotter Expert
+******************
+
+Pi-gen is the tool used to create the official *Raspberry Pi OS* images. We use a fork of pi-gen to create OpenPlotter images. Use the *openplotter* branch of our repository to create your own OpenPlotter flavor. You need good knowledge of Linux to create your own OpenPlotter distributions. Follow instructions in `README file <https://github.com/openplotter/pi-gen/blob/openplotter/README.md>`_.
