@@ -16,7 +16,7 @@ Our OpenPlotter editions are based on Raspberry Pi OS. You do not need any prior
 
 .. important::
 
-	Currently, all OpenPlotter editions are 32-bit because Raspberry OS 64-bit is still in beta. 64-bit does not offer any significant speed advantage in most typical use cases, but if you still prefer to run a 64-bit system, you should use `Ubuntu Desktop for Raspberry Pi <https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#1-overview>`_ and install OpenPlotter for :ref:`desktop and laptop<downloading_desktop>`.
+	Currently, all OpenPlotter editions are 32-bit because Raspberry OS 64-bit is still in beta. 64-bit does not offer any significant speed advantage in most typical use cases but if you still prefer to run a 64-bit system, you should use `Ubuntu Desktop for Raspberry Pi <https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#1-overview>`_ and install OpenPlotter for :ref:`desktop and laptop<downloading_desktop>` but it is also beta. We can not invest the few resources we have trying to make OpenPlotter compatible with beta versions, only stable and LTS versions.
 
 OpenPlotter Starting
 ====================
@@ -108,7 +108,7 @@ You can also install OpenPlotter in any desktop or laptop computer running your 
 :Common: Settings - Docs - Signal K installer - OpenCPN installer - AvNav installer - Xygrib - Serial - CAN - Network - Notifications - Dashboards - IoT - MAIANA AIS Transponder - OpenMarine Box - SDR VHF
 :Only Raspberry: I2C - Pypilot - Moitessier HAT - GPIO
 
-You just need basic knowledge of Linux to install OpenPlotter for desktop and laptop. Download this *OpenPlotter Settings* package: |Latest version of 'openplotter-settings' @ Cloudsmith| and follow the :ref:`Desktop and laptop<getting_started_installing_desktop>` chapter to install OpenPlotter from scratch.
+OpenPlotter for desktop and laptop is tested in Ubuntu 20.04 LTS. You just need basic knowledge of Linux to install OpenPlotter for desktop and laptop. Download this *OpenPlotter Settings* package: |Latest version of 'openplotter-settings' @ Cloudsmith| and follow the :ref:`Desktop and laptop<getting_started_installing_desktop>` chapter to install OpenPlotter from scratch.
 
 .. |Latest version of 'openplotter-settings' @ Cloudsmith| image:: https://api-prd.cloudsmith.io/v1/badges/version/openplotter/openplotter/deb/openplotter-settings/latest/a=all;d=debian%252Fbullseye;t=binary/?render=true&show_latest=true
    :target: https://cloudsmith.io/~openplotter/repos/openplotter/packages/detail/deb/openplotter-settings/latest/a=all;d=debian%252Fbullseye;t=binary/

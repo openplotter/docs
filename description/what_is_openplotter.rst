@@ -3,6 +3,32 @@ What is OpenPlotter?
 
 There are people who buy boats but there are also people who build them, why not build your own electronics too? OpenPlotter is a combination of software and hardware to be used as navigational aid on small and medium boats. It is also a complete on-board home automation system. It is open-source, low-cost, low-consumption and it works on ARM computers like the Raspberry Pi or any computer running a Linux Debian derivative. Its design is modular, so you just have to implement what your boat needs. Do it yourself.
 
+Releases
+********
+
+**OpenPlotter 3** (latest)
+
+:Code Name: `STOPmaremortum <https://stopmaremortum.org>`_
+:Docs: https://openplotter.readthedocs.io/en/3.x.x/
+
+**OpenPlotter 2**
+
+:Code Name: `OpenArms <https://www.openarms.es/en>`_
+:Docs: https://openplotter.readthedocs.io/en/2.x.x/
+
+
+
+Licenses
+********
+
+The code of all OpenPlotter apps is licensed under the `GNU General Public License v3.0 <https://www.gnu.org/licenses/gpl-3.0.en.html>`_ 
+
+
+Content of OpenPlotter documentation is licensed under a `Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`_ 
+
+Icons used in OpenPlotter apps and documentation are from `flaticon.com <https://www.flaticon.com/>`_ 
+
+
 About us
 ********
 

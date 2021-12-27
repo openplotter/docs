@@ -85,7 +85,7 @@ First of all you have to install some dependencies. Open a terminal and type:
 	sudo apt update
 	sudo apt install python3-wxgtk4.0 python3-ujson python3-pyudev vlc
 
-Now you have to install the *OpenPlotter Settings* app from the .deb file you will found at :ref:`Desktop and laptop<downloading_desktop>` in *Downloading* chapter
+Now you have to install the *OpenPlotter Settings* app from the .deb file you will found in :ref:`Desktop and laptop<downloading_desktop>` section in *Downloading* chapter
 
 After downloading the .deb file, you can install it by double click or typing this in a terminal replacing *x.x.x-stable* by your version:
 
