@@ -23,7 +23,7 @@ OpenPlotter Starting
 
 All required apps to fulfill most OpenPlotter marine features.
 
-:Download: :download:`OpenPlotter Starting <https://cloud.openmarine.net/s/sL9doDML7P4CQDo>`
+:Download: :download:`OpenPlotter Starting <https://cloud.openmarine.net/s/mxrBi5K7zRj2gDq>`
 :Image name: OpenPlotter Starting
 :Hostname: openplotter
 :User: pi
@@ -43,7 +43,7 @@ OpenPlotter Headless
 
 Same as *OpenPlotter Starting* but ready to be used remotely without monitor.
 
-:Download: :download:`OpenPlotter Headless <https://cloud.openmarine.net/s/Yapesa2XPJptgaz>`
+:Download: :download:`OpenPlotter Headless <https://cloud.openmarine.net/s/dynLaCPMfoo6PT9>`
 :Image name: OpenPlotter Headless
 :Hostname: openplotter
 :User: pi
@@ -63,7 +63,7 @@ OpenPlotter Moitessier HAT
 
 Same as *OpenPlotter Starting* plus required apps configured to use the Moitessier HAT out of the box.
 
-:Download: :download:`OpenPlotter Moitessier HAT <https://cloud.openmarine.net/s/mgakCZ5BSJYsysa>`
+:Download: :download:`OpenPlotter Moitessier HAT <https://cloud.openmarine.net/s/mdYgFxQ6Yqqp6rP>`
 :Image name: OpenPlotter Moitessier HAT
 :Hostname: openplotter
 :User: pi

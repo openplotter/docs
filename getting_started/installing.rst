@@ -52,7 +52,7 @@ These are the access data to connect remotely to OpenPlotter when you use this h
 +--------------------+-------------------------------------+
 
 .. danger::
-	You must change the default access point password using the *OpenPlotter Network* app. Otherwise, anyone will be able to access your system easily.
+	You MUST change the default access point password using the *OpenPlotter Network* app. Otherwise, anyone will be able to access your system easily.
 
 .. note::
 	Using **OpenPlotter À la Carte** edition you will be able to configure all these parameters and more by filling in a form before downloading your custom OpenPlotter.

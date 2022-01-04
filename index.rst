@@ -32,7 +32,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Signal K Installer - 3.x.x-beta
+   :caption: Signal K Installer - 3.1.2-beta
    :name: sec-signalk
 
    signalk/signalk_app

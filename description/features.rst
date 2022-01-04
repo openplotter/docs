@@ -1,7 +1,7 @@
 Features
 ########
 
-:Chart Plotter: Chart a course and track your position using `OpenCPN <https://opencpn.org>`_, a concise and robust chart plotter navigation software designed to be used at the helm station of your boat while underway. You can also run `AvNav <https://www.wellenvogel.net/software/avnav/docs/beschreibung.html?lang=en>`_ as server to have a chart plotter in any device connected to it using a web browser.
+:Chart Plotter: Chart a course and track your position using `OpenCPN <https://opencpn.org>`_, a concise and robust chart plotter navigation software designed to be used at the helm station of your boat while underway. You can also run `AvNav <https://www.wellenvogel.net/software/avnav/docs/beschreibung.html?lang=en>`_ as server to have a chart plotter in any device remotely connected to it using a web browser.
 
 :Weather: Download and display GRIB files using `XyGrib <https://opengribs.org/en/>`_.
 
