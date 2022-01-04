@@ -10,6 +10,8 @@ The main difference between MAIANA and all commercial AIS devices is that it is 
 
 	On the `official page <https://github.com/peterantypas/maiana>`_ you will find the full specification and a better choice for US/Canada users.
 
+	Download the `official assembly manuals <https://github.com/peterantypas/maiana/tree/master/latest/Manuals>`_.
+
 **Disclaimer**
 
 MAIANA™ devices are distributed for research and development purposes only. MAIANA™ devices are not finished products, they need to be assembled by end users to function and some skill and experience is required.

@@ -59,7 +59,6 @@ Welcome to OpenPlotter's documentation!
    :name: sec-maiana
 
    maiana/maiana_app
-   maiana/assembling
    maiana/connecting
    maiana/configuring
 
