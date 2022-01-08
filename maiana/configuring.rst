@@ -1,5 +1,5 @@
-Configuring
-###########
+Configuring OpenPlotter
+#######################
 
 Under construction
 
