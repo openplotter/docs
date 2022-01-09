@@ -28,9 +28,9 @@ To complete the installation you will need:
 - A pair of strong scissors for cutting (thick) heat shrink tubing.
 - A heat gun for the heat shrink tubing. You will need this both on your workbench for the initial assembly, as well as on your boat for the final installation. Alternatives: `How to Use Heat Shrink Tubing Without a Hot Air Gun <https://clevercreations.org/heat-shrink-tubing-without-heat-gun/>`_.
 - 1” OD steel railing or a similar diameter fiberglass mast on your boat. This is the preferred way to mount the unit. You may, of course, use your own mechanism, but then you are responsible for sealing the (bottom) cable end from moisture.
-- A Cat5 cable for connecting the main unit to the breakout board in the cabin. Pick one with appropriate length and flexibility to suit your installation. The exact configuration of the cable (568A or 568B) is not important.
+- A Cat5 cable for connecting the main unit to the breakout board/adapter in the cabin. Pick one with appropriate length and flexibility to suit your installation. The exact configuration of the cable (568A or 568B) is not important.
 - Some kind of instant glue to secure the end cap of the antenna tube.
-- If you are using the included UART/USB adapter you will need a soldering iron for the RJ45 connector and “breakaway” pin headers. All other optional adapters are mounted and soldered.
+- If you are using the included breakout board you will need a soldering iron for the RJ45 connector and “breakaway” pin headers. All other optional adapters are mounted and soldered.
 
 .. note::
 
