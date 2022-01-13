@@ -1,3 +1,9 @@
+openplotter-doc (2.2.0-dev) bionic; urgency=medium
+
+  * Add dAISy HAT and MAIANA AIS transponder
+
+ -- Sailoog <info@sailoog.com>  Thu, 13 Jan 2022 20:08:02 +0100
+
 openplotter-doc (2.1.0-dev) bionic; urgency=medium
 
   * Multiple changes
