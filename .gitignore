@@ -2,6 +2,7 @@
 /_build/doctrees/
 *.deb
 *.changes
+*.buildinfo
 *.dsc
 *.tar.gz
 *.ppa.upload
