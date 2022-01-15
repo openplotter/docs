@@ -15,11 +15,7 @@ The main difference between MAIANA and all commercial AIS devices is that it is 
 
 **Disclaimer**
 
-MAIANA™ devices are distributed for research and development purposes only. MAIANA™ devices are not finished products, they need to be assembled by end users to function and some skill and experience is required.
-
-MAIANA™ devices are delivered with the ability to transmit disabled and have not been tested for compliance with regulations governing transmission of radio signals. You are responsible for using your MAIANA™ device legally. Enable transmission only if you have permission to develop and test radio systems in your country, are transmitting in a controlled environment, or are in international waters.
-
-We do not recommend to rely solely on MAIANA™ devices for navigation and collision avoidance.
+MAIANA™ devices are not finished products, they need to be assembled by end users to function. MAIANA™ devices are distributed for research and development purposes. MAIANA™ devices are delivered with the ability to transmit disabled by default and have not been tested for compliance with regulations governing transmission of radio signals. End users are legally responsible for using the MAIANA™ device for transmission. We do not recommend to rely solely on MAIANA™ devices for navigation and collision avoidance.
 
 **Assembly**
 
