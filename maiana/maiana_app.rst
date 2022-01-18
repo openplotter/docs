@@ -19,7 +19,19 @@ MAIANA™ devices are not finished products, they need to be assembled by end us
 
 **Assembly**
 
-To complete the installation you will need:
+.. image:: img/items.png
+
+#. The vinyl end cap for the antenna tube.
+#. 48” of ⅜” 2:1 heat shrink tube, folded.
+#. The antenna tube (two telescopic sections).
+#. 6” of ¾” 4:1 heat shrink tube, black (enough for 2 builds).
+#. 12” of 1.5” wide heat shrink tubing, black (enough for 2 builds).
+#. The main case (high-UV resistance PVC).
+#. The antenna core (coiled and stripped coax with SMA male on one end).
+#. The main PCBA (in ESD envelope).
+#. The unsoldered breakout board (in ESD envelope).
+
+Easy assembly. To complete the installation you will need:
 
 - A pair of strong scissors for cutting (thick) heat shrink tubing.
 - A heat gun for the heat shrink tubing. You will need this both on your workbench for the initial assembly, as well as on your boat for the final installation. Alternatives: `How to Use Heat Shrink Tubing Without a Hot Air Gun <https://clevercreations.org/heat-shrink-tubing-without-heat-gun/>`_. Beware of anything that projects a flame, as it can easily melt the PVC enclosure!
