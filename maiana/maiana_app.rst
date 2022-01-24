@@ -31,6 +31,8 @@ MAIANA™ devices are not finished products, they need to be assembled by end us
 #. The main PCBA (in ESD envelope).
 #. The unsoldered breakout board (in ESD envelope).
 
+.. image:: img/assembly.png
+
 Easy assembly. To complete the installation you will need:
 
 - A pair of strong scissors for cutting (thick) heat shrink tubing.

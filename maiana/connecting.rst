@@ -1,7 +1,17 @@
 Connecting the base kit
 #######################
 
-After the MAIANA base kit assembly process, you need to connect it to your boat via the Cat5 ethernet cable to power it, get AIS/GNSS data and configure the device. You have 4 options:
+ .. image:: img/fullsystem.png
+
+#. MAIANA base kit.
+#. Cat5 cable (ethernet cable with RJ45 connectors). Not included with the MAIANA base kit.
+#. Breakout board. Included with the MAIANA base kit.
+#. USB + UART adapter. Not included with the MAIANA base kit.
+#. USB + RS422 Adapter. Not included with the MAIANA base kit.
+#. USB + CAN Adapter. Not included with the MAIANA base kit.
+
+After the MAIANA base kit assembly process, you need to connect it to your boat via the Cat5 ethernet cable to power it, to get AIS/GNSS data and to configure the device. You have 4 options: the Breakout board or the USB+UART, USB+RS422 and USB+CAN adapters.
+
 
 Breakout board
 **************
