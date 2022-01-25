@@ -32,8 +32,8 @@ NMEA 0183 communication protocol was designed to run over the RS-422 serial inte
 
 RS-422 converters in boats are typically used to get or send data to your instruments. You can find USB converters or some Raspberry Pi HAts to connect to the GPIO header.
 
-:Wiring: :ref:`Connecting a USB-RS422 converter - Wiring<wiringRS422USB>`.
-:Configuring: :ref:`Connecting a USB-RS422 converter - Input data<configuringRS422USB>`.
+:Wiring:
+:Configuring:
 
 CAN Bus converters
 ==================

@@ -24,7 +24,7 @@ Licenses
 The code of all OpenPlotter apps is licensed under the `GNU General Public License v3.0 <https://www.gnu.org/licenses/gpl-3.0.en.html>`_ 
 
 
-Content of OpenPlotter documentation is licensed under a `Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`_ 
+This documentation is licensed under a `Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`_ 
 
 Icons used in OpenPlotter apps and documentation are from `flaticon.com <https://www.flaticon.com/>`_ 
 
@@ -36,6 +36,6 @@ You will see everywhere the nickname *Sailoog*. That is me, a guy from Barcelona
 
 My motivations are scientific and political, but OpenPlotter is free and that means that your motivations to use or collaborate with this project can be whatever you want, even the opposite of mine. OpenPlotter is not my main activity, I currently work as employee at `o-charts <https://o-charts.org>`_ that is part of the `OpenCPN <https://opencpn.org>`_ development team.
 
-You will also see that I always use the plural when I speak of OpenPlotter. Although it seems that I am always that boring guy behind everything, many people collaborate on this project that always needs more hands and brains. I cannot mention all the people who have gone through this project because there are many and I would forget many of them, but I would like to make a special mention of `e-sailing <https://github.com/e-sailing>`_ who contributed a lot of code.
+You will also see that I always use the plural when I speak about OpenPlotter. Although it seems that I am always that boring guy behind everything, many people collaborate on this project that always needs more hands and brains. I cannot mention all the people who have gone through this project because I would forget many of them, but I would like to make a special mention of `e-sailing <https://github.com/e-sailing>`_ who contributed a lot of code.
 
 OpenPlotter is made up of various pieces of great open source software developed by great teams like OpenCPN, `Signal K <https://signalk.org>`_, `Pypilot <https://pypilot.org/>`_ ... We just sew it up with a bit of Python to turn it into a time saving tool for advanced users and a perfect introduction for novice Linux users. Enjoy it!

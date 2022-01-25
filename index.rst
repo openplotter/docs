@@ -43,33 +43,3 @@ Welcome to OpenPlotter's documentation!
    :name: sec-opencpn
 
    opencpn/opencpn_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: AvNav Installer - 3.x.x-beta
-   :name: sec-avnav
-
-   avnav/avnav_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Serial - 3.x.x-beta
-   :name: sec-serial
-
-   serial/serial_app
-   serial/connecting
-   serial/examples
-
-.. toctree::
-   :maxdepth: 1
-   :caption: CAN - 3.x.x-beta
-   :name: sec-can
-
-   can/can_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Network - 3.x.x-beta
-   :name: sec-network
-
-   network/network_app
