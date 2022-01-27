@@ -1,3 +1,5 @@
+.. _howdoesItwork:
+
 How does it work?
 #################
 

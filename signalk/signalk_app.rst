@@ -22,7 +22,7 @@
 |OPsignalkReinstall| Reinstall Signal K
 ***************************************
 
-After installing this *OpenPlotter Signal K Installer* app, the Signal K server should be also installed and you do not have to do anything else to start using it. We add this option in case you need to reinstall the server from scratch if it ever becomes unstable. 
+After installing *OpenPlotter Signal K Installer* app, the Signal K server should be also installed and you do not have to do anything else to start using it. We add this option in case you need to reinstall the server from scratch if it ever becomes unstable. 
 
 .. caution::
 	Reinstalling the signal K server will remove the current plugins, login credentials and settings.
@@ -45,7 +45,7 @@ Or this one from a browser running on any computer connected to the same network
 
 	http://openplotter.local:3000
 
-Using port 80, the URLs would be:
+If you set the port 80 instead the default port 3000, the URLs would be:
 
 .. parsed-literal::
 
@@ -59,30 +59,25 @@ Click |OPsignalkVessel| ``Vessel Data`` to set some important data of your boat 
 Logging in
 ##########
 
+When you first enter the Signal K web administration panel, it will ask you for a name and password to create an administrator account:
+
 .. image:: img/signalk2.png
+
+Once you do that you will be offered the login page:
 
 .. image:: img/signalk3.png
 
-**Signal K Security**
-
-When you enter the Signal K admin ui, it will ask you for a name and a password to create an administrator account.
-Once you do that you will be offered the login page.
-
-The last menu item in the ui is security. You can add/delete users and change passwords ...
-
-**If you have lost the password**
-
-You can reset Signal K security by:
-
-1) Open a terminal
-2) Delete the existing file: /home/pi/.signalk/defaults.json
-3) Run the setup sudo signalk-server-setup. Accept the update option rather than configuring from scratch. Select no for port 80 and SSL
-4) Navigate to the login page with a browser. Note that the option is now not to login but instead to create an administrator account. Once you do that you will be offered the login page.
+The last menu item in the Signal K administrator is *Security*. You can add/delete users and change passwords there.
 
 More info
 #########
 
-how does it work
-SK manuals
+To know how data is managed in OpenPlotter you should read the chapter :ref:`How does it work?<howdoesItwork>` in the *Description* section.
 
-plugins
+On the `official Signal K <https://signalk.org/>`_ site you will find a lot of valuable information.
+
+On the Signal K server `github page <https://github.com/SignalK/signalk-server/wiki>`_ you will also find some interesting information.
+
+There are more than `150 plugins <https://www.npmjs.com/search?q=signalk-node-server-plugin>`_ and more than `40 apps <https://www.npmjs.com/search?q=signalk-webapp>`_ to extend the Signal K server features. Go to :menuselection:`Appstore --> Available` to install them:
+
+.. image:: img/plugins.png
