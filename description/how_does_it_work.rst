@@ -45,7 +45,7 @@ You can manage the Signal K server through a web application at:
 NMEA 0183
 *********
 
-You can get NMEA 0183 data from USB, GPIO, TCP and UDP connections. The Signal K server will automatically convert the data to Signal K format and store it. NMEA 0183 data will also be forwarded to:
+You can get NMEA 0183 data from USB, GPIO, TCP and UDP connections. The Signal K server will automatically convert the data to Signal K format and store it. NMEA 0183 data will also optionally be forwarded to:
 
 .. parsed-literal::
 	tcp://openplotter.local:10110
@@ -54,6 +54,9 @@ You can get NMEA 0183 data from USB, GPIO, TCP and UDP connections. The Signal K
 	If the same application gets NMEA 0183 data over the TCP port 10110 and also from any of the Signal K data outputs (HTTP, TCP, or WS) at the same time, it will probably get the same duplicate data in different formats.
 
 If you have data in Signal K format that has not been converted from NMEA 0183, you can convert it to NMEA 0183 and send it through the TCP port 10110 using the **signalk-to-nmea0183** plugin.
+
+.. note::
+	To better understand the management of NMEA 0183 data in the Signal K server, please refer to the chapter :ref:`NMEA 0183 multiplexing<multiplexing>`.
 
 NMEA 2000
 *********

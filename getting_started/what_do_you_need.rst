@@ -23,26 +23,29 @@ Extra hardware
 
 **Under construction...**
 
-RS-422 converters
+USB GPS receiver
+================
+
+.. image:: img/gps-usb.png
+
+This is the cheapest way to get position, speed and course data. Most devices on the market will work in OpenPlotter without the need for drivers.
+
+:Example: :ref:`Connecting a USB GPS receiver<connectingGPS>` 
+
+RS422 converters
 =================
 
 .. image:: img/rs422.jpg
 
-NMEA 0183 communication protocol was designed to run over the RS-422 serial interface, which can support a single talker and up to 10 listeners and data rates as high as 10 mbit/sec. 
+NMEA 0183 communication protocol was designed to run over the RS422 serial interface, which can support a single talker and up to 10 listeners and data rates as high as 10 mbit/sec. RS422 converters in boats are typically used to get or send data to your instruments. You can find USB converters or some Raspberry Pi HATs to connect to the GPIO header.
 
-RS-422 converters in boats are typically used to get or send data to your instruments. You can find USB converters or some Raspberry Pi HAts to connect to the GPIO header.
+:Example: :ref:`Connecting a USB RS422 converter<connectingRS422>` 
 
-:Wiring:
-:Configuring:
+AIS receivers/transponders
+==========================
 
-CAN Bus converters
-==================
+.. image:: img/maiana-ais-base-kit.png
 
-.. image:: img/canable.png
+You can connect the AIS receiver/transponder you already have on the boat or you can choose from many open source solutions. Some of them are really cheap. You can find USB, RS422 and NMEA 2000 devices or some Raspberry Pi HATs to connect to the GPIO header.
 
-NMEA 2000, abbreviated to NMEA2k or N2K, is compatible with the Controller Area Network ("CAN Bus") used on road vehicles and fuel engines. Communication runs at 250 kilobits-per-second and allows any sensor to talk to any display unit or other device compatible with NMEA 2000 protocols.
-
-You can find USB converters or some Raspberry Pi HAts to connect to the GPIO header.
-
-:Wiring: 
-:Configuring: 
+:Example: :ref:`Connecting the dAISy HAT<dAISy>` 

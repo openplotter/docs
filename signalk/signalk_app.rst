@@ -57,7 +57,7 @@ You can change the port or enable SSL at any time without losing your current se
 Click |OPsignalkVessel| ``Vessel Data`` to set some important data of your boat like name, MMSI, call sign, draft ... You need to login to access this section of the web administration panel.
 
 Logging in
-##########
+**********
 
 When you first enter the Signal K web administration panel, it will ask you for a name and password to create an administrator account:
 
@@ -70,7 +70,7 @@ Once you do that you will be offered the login page:
 The last menu item in the Signal K administrator is *Security*. You can add/delete users and change passwords there.
 
 More info
-#########
+*********
 
 To know how data is managed in OpenPlotter you should read the chapter :ref:`How does it work?<howdoesItwork>` in the *Description* section.
 

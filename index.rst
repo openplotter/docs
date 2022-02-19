@@ -36,6 +36,7 @@ Welcome to OpenPlotter's documentation!
    :name: sec-signalk
 
    signalk/signalk_app
+   signalk/multiplexing
    
 .. toctree::
    :maxdepth: 1
@@ -43,3 +44,14 @@ Welcome to OpenPlotter's documentation!
    :name: sec-opencpn
 
    opencpn/opencpn_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Serial - 3.0.3-beta
+   :name: sec-serial
+
+   serial/serial_app
+   serial/connectingGPS
+   serial/connectingRS422
+   serial/connectingCAN
+   serial/connectingdAISy

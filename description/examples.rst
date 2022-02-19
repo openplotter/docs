@@ -21,16 +21,6 @@ Yacht server on board
 
 :More info: https://sites.google.com/site/olewsaa/yacht-server/server-on-board
 
-
-Bareboat Necessities
-********************
-
-.. image:: img/bareboat.png
-
-:Description: DYI project of building a marine computer, a boat LTE/WiFi gateway, and a cockpit chartplotter display from easily obtainable and affordable components...
-
-:More info: https://bareboat-necessities.github.io/
-
 UK OpenPlotter Build
 ********************
 

@@ -12,11 +12,11 @@ Raspberry Pi images
 
 This is the easiest and fastest way to get started with OpenPlotter. We publish different editions according to the most demanded uses that contain all the required apps installed and preconfigured. We try to provide solutions for everyone from beginners to experts. We even have a fully customizable option that will save you a lot of time. Just plug and sail!
 
-Our OpenPlotter editions are based on Raspberry Pi OS. You do not need any prior knowledge of Linux to install and use them. Follow the :ref:`Installing<getting_started_installing>` chapter to learn how to install them.
+Our OpenPlotter editions are based on Raspberry Pi OS. You do not need any prior knowledge of Linux to install and use them. Follow the :ref:`Installing<getting_started_installing>` chapter to learn how.
 
 .. important::
 
-	Currently, all OpenPlotter editions are 32-bit because Raspberry OS 64-bit is still in beta. 64-bit does not offer any significant speed advantage in most typical use cases but if you still prefer to run a 64-bit system, you should use `Ubuntu Desktop for Raspberry Pi <https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#1-overview>`_ and install OpenPlotter for :ref:`desktop and laptop<downloading_desktop>` but it is also beta. We can not invest the few resources we have trying to make OpenPlotter compatible with beta versions, only stable and LTS versions.
+	With OpenPlotter 3 you can now choose between 32bit or 64bit.
 
 OpenPlotter Starting
 ====================
