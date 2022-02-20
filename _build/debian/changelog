@@ -1,3 +1,9 @@
+openplotter-doc (2.2.1-dev) bionic; urgency=medium
+
+  * Fix error in RS422 chapter serial section
+
+ -- Sailoog <info@sailoog.com>  Thu, 20 Feb 2022 20:08:02 +0100
+
 openplotter-doc (2.2.0-dev) bionic; urgency=medium
 
   * Add dAISy HAT and MAIANA AIS transponder
