@@ -67,25 +67,17 @@ Now you have to create a connection in Signal K server to get data from OpenCPN.
 
 .. image:: img/serial_rs4229.png
 
-Set ``Input Type``: NMEA 0183, ``ID``: opencpnOUT, ``NMEA 0183 Source``: UDP, ``Port``: 10119 (or whatever you have set in OpenCPN), ``Sentence Event``: autopilot, ``Ignored Sentences``: RMB,APB and Click ``Apply``:
+Set ``Input Type``: NMEA 0183, ``ID``: opencpnOUT, ``NMEA 0183 Source``: UDP, ``Port``: 10119 (or whatever you have set in OpenCPN), ``Sentence Event``: autopilot and Click ``Apply``:
 
 .. image:: img/serial_rs42210.png
-.. image:: img/serial_rs42211.png
-
-.. warning::
-	Ignoring sentences RMB and APB is important to avoid data loops in your system.
 
 Finally, you have to edit your device connection to specify what data should be sent to your boat via the USB-RS422 converter. Go to :menuselection:`Server --> Connections` and click on your device connection, in this case ``rs422``:
 
 .. image:: img/serial_rs42212.png
 
-Set ``Output Events``: autopilot, ``Ignored Sentences``: RMB,APB and Click ``Apply``:
+Set ``Output Events``: autopilot and Click ``Apply``:
 
 .. image:: img/serial_rs42213.png
-.. image:: img/serial_rs42214.png
-
-.. warning::
-	Ignoring sentences RMB and APB is important to avoid data loops in your system.
 
 ``Restart`` Signal K server and you are done:
 
