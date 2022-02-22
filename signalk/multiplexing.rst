@@ -7,11 +7,13 @@ NMEA 0183 multiplexing
 
 The Signal K server is a powerful NMEA 0183 multiplexer. It can merge all the NMEA 0183 devices on your boat into a single channel, add new data to this channel, redistribute data between devices, filter out unwanted data and even correct malformed data. As always, powerful tools can be a bit difficult to understand at first but here we will try to make it easier.
 
-Using the Signal K server administrator you can set connections to get NMEA 0183 data through *Serial*, *TCP Client*, *TCP Server* and *UDP*. There is another option called *GPSD* that works as a TCP client and that you will only use when you want to use that tool to control your GPS/AIS receiver. To add NMEA 0183 connections go to :menuselection:`Server --> Data Connections`, click ``Add``, select *NMEA 0183* in ``Data Type`` and choose an option in ``NMEA 0183 source``:
+Using the Signal K server administrator you can set connections to get NMEA 0183 data through *Serial*, *TCP Client*, *TCP Server on port 10110* and *UDP*. There is another option called *GPSD* that works as a TCP client and that you will only use when you want to use that tool to control your GPS/AIS receiver. To add NMEA 0183 connections go to :menuselection:`Server --> Data Connections`, click ``Add``, select *NMEA 0183* in ``Data Type`` and choose an option in ``NMEA 0183 source``:
 
 .. image:: img/NMEA0183mux3.png
 
-By default, the Signal K server always creates a **TCP server on port 10110** that cannot be disabled. **This TCP server will be the default output of all multiplexed input data**. If you create a new data connection by selecting *TCP Server* in the ``NMEA 0183 source``, what you are actually doing is also enabling data input to this TCP server on port 10110. You can also |OPsignalkFiltre| filter unwanted NMEA 0183 sentences in each input by entering them in the field ``Ignored Sentences``:
+By default, the Signal K server always creates a TCP server on port 10110. **This TCP server on port 10110 will be the default output of all multiplexed input data**. If you create a new data connection by selecting *TCP Server on port 10110* in the ``NMEA 0183 source`` field, what you are actually doing is also enabling data input to this TCP server on port 10110. 
+
+You can also |OPsignalkFiltre| filter unwanted NMEA 0183 sentences in each input by entering them in the field ``Ignored Sentences``:
 
 .. image:: img/NMEA0183mux0.png
 
@@ -27,7 +29,7 @@ This plugin automatically adds the **nmea0183out** event to the converted data a
 
 We have seen how the server uses some predefined system events to collect or discriminate NMEA 0183 data from several sources and send them merged by a single output. We will see now how using custom events we can create more than one output or share data between connections.
 
-When creating NMEA 0183 connections, you will see an option called ``Input Event``. That means you can configure an additional event to tag the input data in addition to the default *nmea0183* event.
+When creating NMEA 0183 connections, you will see an option called ``Input Event``. That means you can configure an extra event to tag the input data in addition to the default *nmea0183* event.
 
 When creating *Serial* or *TCP Client* connections, you will see an additional option called ``Output Events``. That means that all data tagged with those events will be sent out the output of that device or network connection. 
 
