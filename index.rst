@@ -47,7 +47,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Serial - 3.0.3-beta
+   :caption: Serial - 3.0.4-beta
    :name: sec-serial
 
    serial/serial_app
@@ -55,3 +55,13 @@ Welcome to OpenPlotter's documentation!
    serial/connectingRS422
    serial/connectingCAN
    serial/connectingdAISy
+
+.. toctree::
+   :maxdepth: 1
+   :caption: CAN Bus - 3.1.0-beta
+   :name: sec-can
+
+   can/can_app
+   can/slcand
+   can/mcp2515
+   can/output

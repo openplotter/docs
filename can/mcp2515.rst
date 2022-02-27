@@ -1,0 +1,40 @@
+.. |OP2515chip| image:: img/chip.png
+.. |OPcancheck| image:: img/check.png
+.. |OPcanSK| image:: img/sk.png
+
+Input data by MCP2515
+#####################
+
+There are some HATs for Raspberry Pi available with the MCP2515 chip on board that you can easily configure in OpenPlotter. After mountig the HAT click on |OP2515chip| ``Add MCP2515 device`` in |OP2515chip| ``MCP2515`` tab:
+
+.. image:: img/canMCP1.png
+
+.. image:: img/canMCP2.png
+
+:Interface: Select *SPI0 CE0* if your HAT connects to GPIO 8 (pin 24) and select *SPI0 CE1* if your HAT connects to GPIO 7 (pin 26).
+:Oscillator: The oscillator can be found by looking at the crystal chip on the HAT as per the pic below.
+:Interrupt: Select the GPIO your HAT connects for interruption. See the documentation for your device.
+
+.. image:: img/can4.png
+
+After entering the required data the system needs to reboot to apply the changes:
+
+.. image:: img/canMCP3.png
+
+After boot you should receive data on your device. Select the item from the list and click |OPcancheck| ``Check device traffic`` to confirm data entry:
+
+.. image:: img/canMCP4.png
+.. image:: img/canSlcand4.png
+
+Now we need to get this data to the Signal K server. Select the item from the list and click |OPcanSK| ``Add Connection``. The Signal K server will restart and you are done:
+
+.. image:: img/canMCP5.png
+.. image:: img/canMCP6.png
+
+Go to the Signal K server administrator to confirm that the connection has been made:
+
+.. image:: img/canMCP7.png
+
+Check OpenCPN to make sure there is a connection to the Signal K server and you are getting data from your NMEA 2000 network:
+
+.. image:: ../img/opencpnConnection.png
