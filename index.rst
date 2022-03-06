@@ -65,3 +65,10 @@ Welcome to OpenPlotter's documentation!
    can/slcand
    can/mcp2515
    can/output
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Network - 3.0.1-beta
+   :name: sec-network
+
+   network/network_app
