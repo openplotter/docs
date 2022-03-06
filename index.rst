@@ -47,6 +47,13 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
+   :caption: AvNav Installer - 3.0.3-beta
+   :name: sec-avnav
+
+   avnav/avnav_app
+
+.. toctree::
+   :maxdepth: 1
    :caption: Serial - 3.0.4-beta
    :name: sec-serial
 
