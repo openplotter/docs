@@ -133,7 +133,7 @@ You will receive your MAIANA base kit with the latest stable firmware installed.
 
 .. image:: img/maiana30.png
 
-If a new version of the firmware is released by MAIANA developers, download the bin file and click ``Update firmware``. Select the file, click ``Open`` and finally ``Yes``:
+If a new version of the firmware is released by MAIANA developers, `download the bin file <https://github.com/peterantypas/maiana/tree/master/latest/Firmware/Transponder/Binaries>`_ and click ``Update firmware``. Select the file, click ``Open`` and finally ``Yes``:
 
 .. image:: img/maiana31.png
 .. image:: img/maiana32.png
