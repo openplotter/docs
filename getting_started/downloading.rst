@@ -3,6 +3,9 @@
 Downloading
 ###########
 
+.. important::
+    The latest models of Raspberry 4 with the latest firmware will not boot with these OpenPlotter 2 images of the **Basic** method. If this is your case, you have to use the **Advanced** method until we finish OpenPlotter 3.
+
 +--------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Level        | Platform                           | Download                                                                                            |
 +==============+====================================+=====================================================================================================+
@@ -56,6 +59,11 @@ You do not need previous knowledge of Linux to install and use these OpenPlotter
 
 Advanced
 ********
+
+.. important::
+    OpenPlotter 2 only works in Debian 10 buster 32-bit. You need to download and install Raspberry Pi OS (Legacy) from the offcial site: https://www.raspberrypi.com/software/operating-systems
+
+    We are already working on OpenPlotter 3 for Debian 11 bullseye 32-bit and 64-bit, but it is still in beta and not recommended for production. Go here to test and help with development: https://forum.openmarine.net/showthread.php?tid=3878
 
 You can install OpenPlotter from scratch in any computer running your favourite Debian derivative distribution, and of course in *Raspberry PI OS*. Hovewer, if your distribution is not *Raspberry PI OS* and your computer is not a Raspberry Pi, you will not be able to install some apps. 
 
