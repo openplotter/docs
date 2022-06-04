@@ -1,6 +1,39 @@
 .. _settings:
 
 .. |opsettings| image:: img/openplotter-settings.png
+.. |appssources| image:: img/sources.png
+.. |appcandidates| image:: img/update.png
+.. |mout| image:: img/output.png
+.. |mhelp| image:: ../img/help.png
+.. |mautostart| image:: img/autostart.png
+.. |mcheck| image:: img/check.png
+.. |GSrescue| image:: img/rescue.png
+.. |opapps| image:: img/openplotter-24.png
+.. |gsettings| image:: img/debian.png
+.. |rsettings| image:: img/rpi.png
+.. |slog| image:: img/log.png
+.. |apprefresh| image:: img/refresh.png
+.. |appinstall| image:: img/install.png
+.. |appuninstall| image:: img/uninstall.png
+.. |appopen| image:: img/open.png
+.. |appchanges| image:: img/changelog.png
+.. |GStranslate| image:: img/crowdin.png
+.. |GSresize| image:: img/resize.png
+.. |GSdelay| image:: img/delay.png
+.. |GSplay| image:: img/play.png
+.. |GSfile| image:: img/file.png
+.. |GStime| image:: img/time.png
+.. |GSkeyboard| image:: img/keyboard.png
+.. |RSscreensaver| image:: img/screen.png
+.. |RSgpio| image:: img/chip.png
+.. |RSshutdown| image:: img/shutdown.png
+.. |RSpoweroff| image:: img/poweroff.png
+.. |RSapply| image:: img/apply.png
+.. |SLbug| image:: img/bug.png
+.. |SLall| image:: img/logsee.png
+.. |SLcat| image:: img/logcategory.png
+.. |SLsearch| image:: img/logsearch.png
+.. |SLdelete| image:: img/logremove.png
 
 |opsettings| OpenPlotter Settings
 #################################
@@ -16,17 +49,9 @@ This is the main OpenPlotter app. You need it to install the rest of the apps. I
 
 .. image:: img/settings1.png
 
-.. |appssources| image:: img/sources.png
-.. |appcandidates| image:: img/update.png
-.. |mout| image:: img/output.png
-
 To install the sources, click |appssources| ``Add sources`` and then click |appcandidates| ``Get Candidates``. You will see the result of each process in the |mout| output tab. After adding the sources you are ready to install the rest of the apps:
 
 .. image:: img/settings2.png
-
-.. |mhelp| image:: ../img/help.png
-.. |mautostart| image:: img/autostart.png
-.. |mcheck| image:: img/check.png
 
 |mhelp| Help
 ************
@@ -45,10 +70,7 @@ By clicking this button, you can run the self-diagnosis at any time. Each OpenPl
 
 .. image:: img/settings4.png
 
-.. |opapps| image:: img/openplotter-24.png
-.. |gsettings| image:: img/debian.png
-.. |rsettings| image:: img/rpi.png
-.. |slog| image:: img/log.png
+This process runs automatically at startup and is also the time when some important internal OpenPlotter processes are started. OpenPlotter is highly configurable and some parameters can produce unexpected effects such as data loops, unstable or even unusable systems. By clicking |GSrescue| ``Rescue`` you can prevent these processes from starting in order to modify the settings and recover the system. 
 
 |opapps| OpenPlotter Apps
 #########################
@@ -60,13 +82,6 @@ OpenPlotter apps versions consist of 3 digits separated by periods (a.b.c), a co
 :c: This value will change when minor updates like fixed bugs or translations have been added.
 :codeName: Name to identify the OpenPlotter version (a).
 :state: **Alpha**: new features need to be added; **Beta**: all features have been added, but need to be tested; **Stable**: all functions should work properly.
-
-
-.. |apprefresh| image:: img/refresh.png
-.. |appinstall| image:: img/install.png
-.. |appuninstall| image:: img/uninstall.png
-.. |appopen| image:: img/open.png
-.. |appchanges| image:: img/changelog.png
 
 |appssources| Add sources
 *************************
@@ -116,17 +131,10 @@ If you have trouble locating and opening the OpenPlotter apps installed on your 
 
 Select any app and click this button to see all changes across versions.
 
-
 |gsettings| General Settings
 ############################
 
 .. image:: img/settings3.png
-
-.. |GStranslate| image:: img/crowdin.png
-.. |GSresize| image:: img/resize.png
-.. |GSdelay| image:: img/delay.png
-.. |GSplay| image:: img/play.png
-.. |GSfile| image:: img/file.png
 
 |GStranslate| Language
 **********************
@@ -137,6 +145,26 @@ You can select any of the available languages and all OpenPlotter apps will be t
 *******************
 
 If you enable this option, all OpenPlotter applications will be maximized the next time you open them.
+
+|GSrescue| Rescue
+*****************
+
+Here you can enable/disable the *Rescue* mode to help recover unstable systems due to some misconfigurations. For example if you set an action to reboot the system using the *OpenPlotter Notifications* app in response to some value of Signal K, it can cause a reboot loop. Using the *Rescue* mode disables all actions temporarily and you will be able to remove that killer setting.
+
+|GStime| NTP server
+*******************
+
+Usually OpenPlotter will not have an internet connection while sailing and cannot set the system time automatically. To solve this, the Signal K server collects the time of the GNSS signal and sets the system time. Enabling the NTP server allows other devices connected to the same network as OpenPlotter to update their system time as well. You need to configure the NTP client of your device to connect to the OpenPlotter NTP server.
+
+|GSkeyboard| Virtual keyboard
+******************************
+
+OpenPlotter includes a virtual keyboard for touch systems or systems that do not have a physical keyboard. You can customize your virtual keyboard by creating a layout that suits your requirements and your language.
+
+.. image:: img/virtualKeyboard.png
+
+.. note::
+	Visit this `link <https://forum.openmarine.net/showthread.php?tid=4070>`_. to know how to create and share a keyboard layout.
 
 |GSdelay| Delay
 ***************
@@ -153,14 +181,6 @@ You can play a sound to notify you when the OpenPlotter startup process is compl
 
 .. image:: img/settings9.png
 
-.. |RSscreensaver| image:: img/screen.png
-.. |RSgpio| image:: img/chip.png
-
-|RSscreensaver| Screensaver
-***************************
-
-The screensaver is enabled by default in Raspberry OS and this is quite annoying and even dangerous when you are sailing. It is not easy to disable this screensaver and it is not well documented, but using this button you will do it with one click.
-
 |RSgpio| GPIO Map
 *****************
 
@@ -168,19 +188,22 @@ Some apps will report which GPIO they are using and you can check it here. Check
 
 .. image:: img/settings10.png
 
+|RSshutdown| Shutdown
+*********************
+
+You can use any GPIO on the Raspberry to set a shutdown botton. Click |RSgpio| ``GPIO`` to choose a GPIO, usually GPIO 21 at pin 40. Select a GPIO ``Transition`` to trigger the shutdown, *high->low* or *low->high*. Select an internal pull resistor, *pull-up* and *pull-down*, or *off* if you use an external pull resistor. Click |RSapply| ``Apply`` to save settings and changes will be applied after the next reboot.
+
+|RSpoweroff| Power off
+**********************
+
+You can use any GPIO on the Raspberry to notify an external circuit that it can safely cut power. Click |RSgpio| ``GPIO`` to choose a GPIO, usually GPIO 26 at pin 37. Select a GPIO ``Transition`` to trigger the power off, *high->low* or *low->high*. Click |RSapply| ``Apply`` to save settings and changes will be applied after the next reboot.
+
 |slog| System log
 #################
 
 .. image:: img/settings11.png
 
 Here are some tools for debugging and troubleshooting your system. When an application malfunctions, it can generate excess messages and eventually create huge log files that consume all free storage space. By setting a maximum log file size, you can detect and resolve potential problems.
-
-
-.. |SLbug| image:: img/bug.png
-.. |SLall| image:: img/logsee.png
-.. |SLcat| image:: img/logcategory.png
-.. |SLsearch| image:: img/logsearch.png
-.. |SLdelete| image:: img/logremove.png
 
 |SLbug| Debugging
 *****************

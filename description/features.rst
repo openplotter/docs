@@ -17,5 +17,8 @@ Features
 
 :Headless: You can connect OpenPlotter to any HDMI monitor and/or access to OpenPlotter desktop from the cockpit through your mobile devices.
 
-**Under construction...**
+:Dashboards: Customize your instrument panels to visualize data or create charts to see its evolution.
 
+:Hardware:	Dedicated hardware specially designed for OpenPlotter.
+
+**Under construction...**

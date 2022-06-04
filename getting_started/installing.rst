@@ -26,7 +26,9 @@ You only need a micro SD card (minimum 8GB, recommended 16GB) and a computer wit
 
 - Remove the SD card from the reader, insert it into the Raspberry Pi and you are done.
 
-After the first boot you can customize and localize your system changing some important settings like password or system language. You can also change these settings later in :menuselection:`Main --> Preferences --> Raspberry Pi configuration`.
+Unless you are using the **OpenPlotter À la Carte** edition, after the first boot you should customize and localize your system changing some important settings like the password or the system language. You can do this in :menuselection:`Main --> Preferences --> Raspberry Pi configuration`.
+
+.. image:: img/configuration.png
 
 .. danger::
 	You MUST change the default password for the user *pi*. Otherwise, anyone will be able to access your system easily.
@@ -83,7 +85,7 @@ First of all you have to install some dependencies. Open a terminal and type:
 .. parsed-literal::
 
 	sudo apt update
-	sudo apt install python3-wxgtk4.0 python3-ujson python3-pyudev vlc
+	sudo apt install python3-wxgtk4.0 python3-ujson python3-pyudev vlc ntp matchbox-keyboard
 
 Now you have to install the *OpenPlotter Settings* app from the .deb file you will found in :ref:`Desktop and laptop<downloading_desktop>` section in *Downloading* chapter
 

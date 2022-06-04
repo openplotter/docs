@@ -36,7 +36,7 @@ All required apps to fulfill most OpenPlotter marine features.
 :Wifi AP: SSID: none, Password: none, IP: none
 :SSH: Disabled
 :Remote desktop: Disabled
-:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - AvNav installer - Xygrib - Serial - CAN - Network - Notifications - Dashboards 
+:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - Xygrib - Dashboards - Serial - CAN - Network
 
 OpenPlotter Headless
 ====================
@@ -56,7 +56,7 @@ Same as *OpenPlotter Starting* but ready to be used remotely without monitor.
 :Wifi AP: SSID: openplotter, Password: 12345678, IP: 10.10.10.1
 :SSH: Enabled
 :Remote desktop: Enabled
-:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - AvNav installer - Xygrib - Serial - CAN - Network - Notifications - Dashboards 
+:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - Xygrib - Dashboards - Serial - CAN - Network
 
 OpenPlotter Moitessier HAT
 ==========================
@@ -76,12 +76,12 @@ Same as *OpenPlotter Starting* plus required apps configured to use the Moitessi
 :Wifi AP: SSID: none, Password: none, IP: none
 :SSH: Disabled
 :Remote desktop: Disabled
-:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - AvNav installer - Xygrib - Serial - CAN - Network - Notifications - Dashboards - Moitessier HAT - I2C - Pypilot
+:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - Xygrib - Dashboards - Serial - CAN - Network - Moitessier HAT - I2C - Pypilot
 
 OpenPlotter À la Carte
 ======================
 
-Fill in a form with all the available customization options and in a few hours you will receive an image built by a robot from scratch and to your liking that will save you a lot of time. Another advantage over the other editions is that all packages that make up the OS, including Openplotter apps, will be updated to the latest versions.
+Fill in a form with all the available customization options and in a few minutes you will receive an image built by a robot from scratch and to your liking that will save you a lot of time. Another advantage over the other editions is that all packages that make up the OS, including Openplotter apps, will be updated to the latest versions.
 
 :Download: Under construction
 :Image name: Customizable
@@ -105,10 +105,10 @@ Desktop and laptop
 
 You can also install OpenPlotter in any desktop or laptop computer running your favourite Debian derivative distribution. Hovewer, if your computer is not a Raspberry Pi, you will not be able to install some OpenPlotter apps:
 
-:Common: Settings - Docs - Signal K installer - OpenCPN installer - AvNav installer - Xygrib - Serial - CAN - Network - Notifications - Dashboards - IoT - MAIANA AIS Transponder - OpenMarine Box - SDR VHF
-:Only Raspberry: I2C - Pypilot - Moitessier HAT - GPIO
+:Common: Settings - Docs - Signal K installer - OpenCPN installer - AvNav installer - Xygrib - Serial - CAN - Notifications - Dashboards - IoT - MAIANA AIS Transponder - OpenMarine Box - SDR VHF
+:Only Raspberry: Network - I2C - Pypilot - GPIO - Moitessier HAT - MacArthur HAT
 
-OpenPlotter for desktop and laptop is tested in Ubuntu 20.04 LTS. You just need basic knowledge of Linux to install OpenPlotter for desktop and laptop. Download this *OpenPlotter Settings* package: |Latest version of 'openplotter-settings' @ Cloudsmith| and follow the :ref:`Desktop and laptop<getting_started_installing_desktop>` chapter to install OpenPlotter from scratch.
+OpenPlotter for desktop and laptop is tested in Ubuntu 22.04 LTS. You just need basic knowledge of Linux to install OpenPlotter for desktop and laptop. Download this *OpenPlotter Settings* package: |Latest version of 'openplotter-settings' @ Cloudsmith| and follow the :ref:`Desktop and laptop<getting_started_installing_desktop>` chapter to install OpenPlotter from scratch.
 
 .. |Latest version of 'openplotter-settings' @ Cloudsmith| image:: https://api-prd.cloudsmith.io/v1/badges/version/openplotter/openplotter/deb/openplotter-settings/latest/a=all;d=debian%252Fbullseye;t=binary/?render=true&show_latest=true
    :target: https://cloudsmith.io/~openplotter/repos/openplotter/packages/detail/deb/openplotter-settings/latest/a=all;d=debian%252Fbullseye;t=binary/
@@ -117,4 +117,4 @@ OpenPlotter for desktop and laptop is tested in Ubuntu 20.04 LTS. You just need 
 OpenPlotter Expert
 ******************
 
-Pi-gen is the tool used to create the official *Raspberry Pi OS* images. We use a fork of pi-gen to create OpenPlotter images. Use the *openplotter* branch of our repository to create your own OpenPlotter flavor. You need good knowledge of Linux to create your own OpenPlotter distributions. Follow instructions in `README file <https://github.com/openplotter/pi-gen/blob/openplotter/README.md>`_.
+Pi-gen is the tool used to create the official *Raspberry Pi OS* images. We use a fork of pi-gen to create OpenPlotter images. Use the *openplotter32* and *openplotter64* branchs of our repository to create your own OpenPlotter flavor. You need good knowledge of Linux to create your own OpenPlotter distributions. Follow instructions in `README file <https://github.com/openplotter/pi-gen/>`_.

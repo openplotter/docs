@@ -7,7 +7,7 @@ How does it work?
 
 The center of OpenPlotter is the **Signal K Server**. All the data collected by the boat's sensors in any of the supported formats are converted to Signal K format and stored. Once the server has the data in Signal K format, these can be sent by different ways to any program that supports this open source universal data exchange format or they can be converted again to any of the supported formats.
 
-.. important::
+.. note::
 	The main function of the different apps that make up OpenPlotter is to facilitate the connection of the sensors with the Signal K server and in some cases to directly generate data in Signal K format from the raw sensor data. There is also another group of apps dedicated to processing and displaying the data from the Signal K server. You will learn how to use these apps in successive chapters.
 
 Depending on the initial format of the data, it can follow different routes or be available in different ways:

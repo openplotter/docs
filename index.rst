@@ -25,7 +25,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Settings - 3.1.0-beta
+   :caption: Settings - 3.4.1-beta
    :name: sec-settings
 
    settings/settings_app
@@ -47,10 +47,10 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: AvNav Installer - 3.0.3-beta
-   :name: sec-avnav
+   :caption: Dashboards - 3.0.6-beta
+   :name: sec-dashboards
 
-   avnav/avnav_app
+   dashboards/dashboards_app
 
 .. toctree::
    :maxdepth: 1
@@ -79,3 +79,25 @@ Welcome to OpenPlotter's documentation!
    :name: sec-network
 
    network/network_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: AvNav Installer - 3.0.3-beta
+   :name: sec-avnav
+
+   avnav/avnav_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Notifications - 3.0.5-beta
+   :name: sec-notifications
+
+   notifications/notifications_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: MAIANA AIS transponder - 3.1.3-beta
+   :name: sec-maiana
+
+   maiana/maiana_app
+   
