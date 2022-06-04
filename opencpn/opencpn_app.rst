@@ -31,12 +31,16 @@ OpenCPN can be installed on multiple Debian derivatives (Raspberry OS, Ubuntu, M
 |OPopencpnCheck| Check Versions
 *******************************
 
+When you open the app, all buttons are disabled. You have to check the current versions present in all installed sources. This could take even a minute the first time:
+
 .. image:: img/opencpn1.png
+
+A list with the different versions from all the sources will be displayed so that you can choose the right one. The buttons on the |OPopencpnPlugins| ``Install`` tab will now be enabled.
 
 .. image:: img/opencpn2.png
 
-Which version to choose?
-************************
+Which source to choose?
+***********************
 
 As a general rule, you should choose Debian/Ubuntu PPA, but if the plugin you need is not available for your system or if it is not the latest version of OpenCPN, choose the Flatpak installation. Both *Debian/Ubuntu PPA* and *Flatpak* installations can coexists without problem:
 
@@ -45,33 +49,35 @@ As a general rule, you should choose Debian/Ubuntu PPA, but if the plugin you ne
 |OPopencpnPPA| Debian/Ubuntu PPA
 ================================
 
+This option contains two sources that are compatible with each other, the official Debian repository and a special Ubuntu repository. If you choose this option the highest version will be installed but rarely the Debian version will be higher than Ubuntu. The Ubuntu repository version can be installed on any Debian system without problem.
+
 .. image:: img/opencpn3.png
 
 |OPopencpnFlatpak| Flatpak
 ==========================
 
+This option runs OpenCPN in a kind of container independent of the host system. For this reason the time and size of the download will be larger. This option is perfect if your system is not LTS (Long Term Support) or at that moment the plugin you need does not exist in the Debian/Ubuntu PPA version. At the time of writing this manual, there are some known issues with headless environments that could prevent OpenCPN Flatpak from running.
+
 .. image:: img/opencpn4.png
 
-|OPopencpnPlugins| Installing plugins
-=====================================
+OpenCPN Installer actions
+*************************
 
-|OPopencpnUpdate| Update
-************************
+Once OpenCPN is installed, there are a few actions you can take in this app. 
 
-|OPopencpnUninstall| Uninstall
-******************************
+- You can |OPopencpnUninstall| ``Uninstall`` OpenCPN at any time.
 
-|OPopencpnAutostart| Autostart
-******************************
+- If there is an |OPopencpnUpdate| ``Update``, this button will be enabled.
 
-|OPopencpnFullscreen| Full Screen
-*********************************
+- By checking |OPopencpnAutostart| ``Autostart``, OpenCPN will run automatically at startup and by checking |OPopencpnFullscreen| ``Full Screen``, it will use the entire screen.
 
-|OPopencpnOpen| Open
-********************
+- By clicking |OPopencpnOpen| ``Open``, OpenCPN will run.
+
 
 |OPopencpnSK| Signal K connection
 #################################
+
+To receive data from all your devices and sensors on OpenCPN, the recommended way is to create all connections on the Signa K server and then create a single connection to the server on OpenCPN using these settings:
 
 :Type: Network
 

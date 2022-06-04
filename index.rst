@@ -32,7 +32,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Signal K Installer - 3.1.2-beta
+   :caption: Signal K Installer - 3.1.9-beta
    :name: sec-signalk
 
    signalk/signalk_app
@@ -40,7 +40,7 @@ Welcome to OpenPlotter's documentation!
    
 .. toctree::
    :maxdepth: 1
-   :caption: OpenCPN Installer - 3.1.0-beta
+   :caption: OpenCPN Installer - 3.1.13-beta
    :name: sec-opencpn
 
    opencpn/opencpn_app
