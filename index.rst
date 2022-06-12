@@ -51,6 +51,8 @@ Welcome to OpenPlotter's documentation!
    :name: sec-dashboards
 
    dashboards/dashboards_app
+   dashboards/grafana
+   dashboards/influxdb
 
 .. toctree::
    :maxdepth: 1
