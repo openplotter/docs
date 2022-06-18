@@ -1,3 +1,9 @@
+openplotter-doc (3.5.0-beta) bullseye; urgency=medium
+
+  * Add Settings stable
+
+ -- Sailoog <info@sailoog.com>  Sat, 18 Jun 2022 21:07:05 +0200
+
 openplotter-doc (3.4.0-alpha) bullseye; urgency=medium
 
   * Alpha v3

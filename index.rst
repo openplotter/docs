@@ -25,7 +25,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Settings - 3.4.1-beta
+   :caption: Settings - 3.4.4-stable
    :name: sec-settings
 
    settings/settings_app
