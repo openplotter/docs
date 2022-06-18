@@ -1,6 +1,6 @@
 .. |OPopencpn| image:: img/openplotter-opencpn-installer.png
 .. |OPopencpnCheck| image:: img/check.png
-.. |OPopencpnPPA| image:: img/launchpad.png
+.. |OPopencpnBack| image:: img/debian.png
 .. |OPopencpnFlatpak| image:: img/flatpak.png
 .. |OPopencpnUpdate| image:: img/caution.png
 .. |OPopencpnUninstall| image:: img/uninstall.png
@@ -26,7 +26,7 @@
 
 |mhelp| ``Help`` opens an offline copy of this documentation in a browser and |mSettings| ``Settings`` opens the main app *OpenPlotter Settings*.
 
-OpenCPN can be installed on multiple Debian derivatives (Raspberry OS, Ubuntu, Mint...) and these OS can be installed on multiple 32-bit and 64-bit architectures (i386, armhf, arm64, amd64...). Using different sources, you will be able to install OpenCPN for any combination of OS and architecture, but plugins may not be available for a given combination. For this reason, we have added all the available sources to install OpenCPN to this *OpenPlotter OpenCPN Installer* app so you can choose the one that best suits your combination of OS and architecture.
+OpenCPN can be installed on multiple Debian derivatives (Raspberry OS, Ubuntu, Mint...) and these OS can be installed on multiple architectures (i386, armhf, arm64, amd64...). We have added all the ways to install OpenCPN to this *OpenPlotter OpenCPN Installer* app so you can choose the one that best suits your system.
 
 |OPopencpnCheck| Check Versions
 *******************************
@@ -37,28 +37,26 @@ When you open the app, all buttons are disabled. You have to check the current v
 
 A list with the different versions from all the sources will be displayed so that you can choose the right one. The buttons on the |OPopencpnPlugins| ``Install`` tab will now be enabled.
 
-.. image:: img/opencpn2.png
-
 Which source to choose?
 ***********************
 
-As a general rule, you should choose Debian/Ubuntu PPA, but if the plugin you need is not available for your system or if it is not the latest version of OpenCPN, choose the Flatpak installation. Both *Debian/Ubuntu PPA* and *Flatpak* installations can coexists without problem:
+As a general rule, you should choose *Debian/Ubuntu Backports*, but if the plugin you need is not available for your system or if you are running a non-LTS system, choose the Flatpak installation. Both *Debian/Ubuntu Backports* and *Flatpak* installations can coexists without problem:
+
+.. image:: img/opencpn4.png
+
+.. image:: img/opencpn2.png
 
 .. image:: img/opencpn5.png
 
-|OPopencpnPPA| Debian/Ubuntu PPA
-================================
+|OPopencpnBack| Debian/Ubuntu Backports
+=======================================
 
-This option contains two sources that are compatible with each other, the official Debian repository and a special Ubuntu repository. If you choose this option the highest version will be installed but rarely the Debian version will be higher than Ubuntu. The Ubuntu repository version can be installed on any Debian system without problem.
-
-.. image:: img/opencpn3.png
+This option contains two sources that are compatible with each other, the official Debian/Ubuntu Stable repository and the official Debian/Ubuntu Backports repository. If you choose this option the Debian/Ubuntu Backports version will be installed because the Debian/Ubuntu Stable version will rarely be higher.
 
 |OPopencpnFlatpak| Flatpak
 ==========================
 
-This option runs OpenCPN in a kind of container independent of the host system. For this reason the time and size of the download will be larger. This option is perfect if your system is not LTS (Long Term Support) or at that moment the plugin you need does not exist in the Debian/Ubuntu PPA version. At the time of writing this manual, there are some known issues with headless environments that could prevent OpenCPN Flatpak from running.
-
-.. image:: img/opencpn4.png
+This option runs OpenCPN in a kind of container independent of the host system. For this reason the time and size of the download will be larger. This option is perfect if your system is non-LTS (Long Term Support) or at that moment the plugin you need does not exist in the Debian/Ubuntu Backports version. At the time of writing this manual, there are some known issues with headless environments that could prevent OpenCPN Flatpak from running.
 
 OpenCPN Installer actions
 *************************

@@ -40,7 +40,7 @@ Welcome to OpenPlotter's documentation!
    
 .. toctree::
    :maxdepth: 1
-   :caption: OpenCPN Installer - 3.1.13-beta
+   :caption: OpenCPN Installer - 3.2.0-beta
    :name: sec-opencpn
 
    opencpn/opencpn_app
