@@ -32,7 +32,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Signal K Installer - 3.1.9-beta
+   :caption: Signal K Installer - 3.1.10-stable
    :name: sec-signalk
 
    signalk/signalk_app
@@ -40,14 +40,14 @@ Welcome to OpenPlotter's documentation!
    
 .. toctree::
    :maxdepth: 1
-   :caption: OpenCPN Installer - 3.2.0-beta
+   :caption: OpenCPN Installer - 3.2.1-stable
    :name: sec-opencpn
 
    opencpn/opencpn_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: Dashboards - 3.0.6-beta
+   :caption: Dashboards - 3.0.8-stable
    :name: sec-dashboards
 
    dashboards/dashboards_app
@@ -56,7 +56,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Serial - 3.0.4-beta
+   :caption: Serial - 3.1.3-stable
    :name: sec-serial
 
    serial/serial_app
@@ -67,7 +67,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: CAN Bus - 3.1.0-beta
+   :caption: CAN Bus - 3.2.5-stable
    :name: sec-can
 
    can/can_app

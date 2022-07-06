@@ -1,11 +1,13 @@
+.. _gpioCAN:
+
 .. |OP2515chip| image:: img/chip.png
 .. |OPcancheck| image:: img/check.png
 .. |OPcanSK| image:: img/sk.png
 
-Input data by MCP2515
-#####################
+Input data by MCP2515/MCP251xfd
+###############################
 
-There are some HATs for Raspberry Pi available with the MCP2515 chip on board that you can easily configure in OpenPlotter. After mountig the HAT click on |OP2515chip| ``Add MCP2515 device`` in |OP2515chip| ``MCP2515`` tab:
+There are some HATs for Raspberry Pi available with the MCP2515 chip (and its successor MCP251xfd) on board that you can easily configure in OpenPlotter. After mountig the HAT click on |OP2515chip| ``Add MCP2515 device`` in |OP2515chip| ``MCP2515`` tab:
 
 .. image:: img/canMCP1.png
 

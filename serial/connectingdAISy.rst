@@ -31,7 +31,7 @@ Connecting the dAISy HAT
 
 **Configuration**
 
-Mount the dAISy HAT in your Raspberry Pi and enable the serial port in the GPIO header of the Raspberry Pi by clicking the |OPserialUart| ``UART`` icon:
+Mount the dAISy HAT in your Raspberry Pi and enable a serial port in the GPIO header of the Raspberry Pi by clicking the |OPserialUart| ``UART0`` icon:
 
 .. image:: img/daisyHat2.png
 

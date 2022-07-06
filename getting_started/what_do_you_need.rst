@@ -41,6 +41,15 @@ NMEA 0183 communication protocol was designed to run over the RS422 serial inter
 
 :Example: :ref:`Connecting a USB RS422 converter<connectingRS422>` 
 
+CAN converters
+==============
+
+NMEA 2000 communication protocol was designed to run over a Controller Area Network (CAN bus). This is a robust vehicle bus standard designed to allow microcontrollers and devices to communicate with each other's applications without a host computer. You can find USB converters or some Raspberry Pi HATs or modules to connect to the GPIO header.
+
+:Example: :ref:`Connecting a USB CAN converter<serialCAN>`
+
+:Example: :ref:`Connecting a GPIO CAN converter<gpioCAN>`
+
 AIS receivers/transponders
 ==========================
 
@@ -49,3 +58,5 @@ AIS receivers/transponders
 You can connect the AIS receiver/transponder you already have on the boat or you can choose from many open source solutions. Some of them are really cheap. You can find USB, RS422 and NMEA 2000 devices or some Raspberry Pi HATs to connect to the GPIO header.
 
 :Example: :ref:`Connecting the dAISy HAT<dAISy>` 
+
+:Example: :ref:`MAIANA AIS transponder<maiana>` 

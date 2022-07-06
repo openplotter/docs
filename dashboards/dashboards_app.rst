@@ -28,7 +28,7 @@
 
 Select any app from the list and click |DBinstall| ``Install`` or |DBuninstall| ``Uninstall``. Click |DBrefresh| ``Refresh`` after any of these actions to refresh the list.
 
-Most of these dashboards are plugins of Signal K server, but some of them are standalone third-party applications like Grafana or InfluxDB. Once these applications are installed you can |DBstart| ``Start``, |DBstop| ``Stop``, |DBrestart| ``Restart`` and start them at startup checking ``Autostart`` in the |DBprocess| Processes tab:
+Most of these dashboards are plugins of the Signal K server, but some of them are standalone third-party applications like Grafana or InfluxDB. Once these applications are installed you can |DBstart| ``Start``, |DBstop| ``Stop``, |DBrestart| ``Restart`` and start them at startup checking ``Autostart`` in the |DBprocess| Processes tab:
 
 .. image:: img/dashboards1.png
 

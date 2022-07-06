@@ -45,6 +45,27 @@ Using the |OPserialConnections| ``Connections`` tab you can easily configure som
 
 In the rest of this section, you will learn how to define and connect different devices using examples.
 
-In Raspberry Pi 3 and 4 the Bluetooth interface and the UART interface share GPIO pins (GPIO14 for TXD0 and GPIO15 for RXD0). Bluetooth is enabled and UART is dissabled by default. If you want to connect a serial device to UART you need to disable Bluetooth and enable UART. Press |OPserialUart| ``UART`` and after reboot, UART interface will be enabled, Bluetooth will be disabled and you will see a new ``ttyAMA0`` device:
+UART
+====
+
+On Raspberry Pi you can also connect serial devices to the GPIOs. On Raspberry Pi model 3 only UART0 is available, but on Raspberry Pi model 4 you have 4 additional UART interfaces.
+
++-----------+---------+---------+--------------+
+| Interface | RX GPIO | TX GPIO | Model        |
++===========+=========+=========+==============+
+| UART0     | 15      | 14      | RPI 3, RPI 4 |
++-----------+---------+---------+--------------+
+| UART2     | 1       | 0       | RPI 4        |
++-----------+---------+---------+--------------+
+| UART3     | 5       | 4       | RPI 4        |
++-----------+---------+---------+--------------+
+| UART4     | 9       | 8       | RPI 4        |
++-----------+---------+---------+--------------+
+| UART5     | 13      | 12      | RPI 4        |
++-----------+---------+---------+--------------+
+
+In Raspberry Pi 3 and 4 the Bluetooth interface and the UART0 interface share GPIO (GPIO14 for TX and GPIO15 for RX). Bluetooth is enabled and UART0 is dissabled by default. If you enable UART0, Bluetooth will be disabled. 
+
+To enable any UART interface, press |OPserialUart| ``UART0``, ``UART2``, ``UART3``, ``UART4`` or ``UART5`` and after reboot, you will see a new ``ttyAMA...`` device:
 
 .. image:: img/serial2.png

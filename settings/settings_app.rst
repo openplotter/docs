@@ -61,7 +61,10 @@ This button will be disabled until you install the *Documentation* app. After in
 |mautostart| Autostart
 **********************
 
-This button should always be checked. Allows self-diagnosis at startup of all OpenPlotter apps and some important settings. It will also trigger some programs and tools configured to run at startup.
+.. important::
+	This button should always be checked.
+
+Allows self-diagnosis at startup of all OpenPlotter apps and some important settings. It will also trigger some programs and tools configured to run at startup.
 
 |mcheck| Check System
 *********************
@@ -70,7 +73,7 @@ By clicking this button, you can run the self-diagnosis at any time. Each OpenPl
 
 .. image:: img/settings4.png
 
-This process runs automatically at startup and is also the time when some important internal OpenPlotter processes are started. OpenPlotter is highly configurable and some parameters can produce unexpected effects such as data loops, unstable or even unusable systems. By clicking |GSrescue| ``Rescue`` you can prevent these processes from starting in order to modify the settings and recover the system. 
+This process runs automatically at startup and it is also the time when some important internal OpenPlotter processes are started. OpenPlotter is highly configurable and some parameters can produce unexpected effects such as data loops, unstable or even unusable systems. By clicking |GSrescue| ``Rescue`` you can prevent these processes from starting in order to modify the settings and recover the system. 
 
 |opapps| OpenPlotter Apps
 #########################
@@ -91,7 +94,7 @@ The sources of the OpenPlotter apps repositories should be added once at the beg
 |appcandidates| Get Candidates
 ******************************
 
-Occasionally, you should check if there are new versions of OpenPlotter apps in the remote repositories to enjoy new features and correct errors. If there is a new version of an app installed, it will be shown in green:
+Occasionally, you should check if there are new versions of OpenPlotter apps in the remote repositories to enjoy new features and correct errors. If there is a new version of an installed app, it will be shown in green:
 
 .. image:: img/settings5.png
 

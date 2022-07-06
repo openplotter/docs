@@ -19,6 +19,8 @@ Features
 
 :Dashboards: Customize your instrument panels to visualize data or create charts to see its evolution.
 
-:Hardware:	Dedicated hardware specially designed for OpenPlotter.
+:Notifications:	Set thresholds for any parameter to trigger visual and sound notifications or trigger multiple custom actions.
+
+:AIS: Build open source AIS receivers/transmitters.
 
 **Under construction...**

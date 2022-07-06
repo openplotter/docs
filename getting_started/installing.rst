@@ -33,6 +33,9 @@ Unless you are using the **OpenPlotter À la Carte** edition, after the first bo
 .. danger::
 	You MUST change the default password for the user *pi*. Otherwise, anyone will be able to access your system easily.
 
+Headless
+========
+
 If you are using the **OpenPlotter Headless** edition, you should see the SSID of the access point after a few seconds of inserting the SD into the Raspberry and turning it on.
 
 These are the access data to connect remotely to OpenPlotter when you use this headless edition:

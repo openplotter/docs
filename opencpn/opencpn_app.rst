@@ -31,7 +31,7 @@ OpenCPN can be installed on multiple Debian derivatives (Raspberry OS, Ubuntu, M
 |OPopencpnCheck| Check Versions
 *******************************
 
-When you open the app, all buttons are disabled. You have to check the current versions present in all installed sources. This could take even a minute the first time:
+When you open the app, all buttons are disabled. You have to check the current versions present in all the installed sources. This could take even a minute the first time:
 
 .. image:: img/opencpn1.png
 

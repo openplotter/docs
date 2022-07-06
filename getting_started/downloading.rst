@@ -58,25 +58,26 @@ Same as *OpenPlotter Starting* but ready to be used remotely without monitor.
 :Remote desktop: Enabled
 :Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - Xygrib - Dashboards - Serial - CAN - Network
 
-OpenPlotter Moitessier HAT
-==========================
+..
+	OpenPlotter Moitessier HAT
+	==========================
 
-Same as *OpenPlotter Starting* plus required apps configured to use the Moitessier HAT out of the box.
+	Same as *OpenPlotter Starting* plus required apps configured to use the Moitessier HAT out of the box.
 
-:Download: :download:`OpenPlotter Moitessier HAT <https://cloud.openmarine.net/s/mdYgFxQ6Yqqp6rP>`
-:Image name: OpenPlotter Moitessier HAT
-:Hostname: openplotter
-:User: pi
-:Password: raspberry
-:Language: en_GB.UTF-8
-:Keymap: gb
-:Layout: English (UK)
-:TimeZone: Europe/London
-:Wifi client: SSID: none, Password: none, Country: none
-:Wifi AP: SSID: none, Password: none, IP: none
-:SSH: Disabled
-:Remote desktop: Disabled
-:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - Xygrib - Dashboards - Serial - CAN - Network - Moitessier HAT - I2C - Pypilot
+	:Download: :download:`OpenPlotter Moitessier HAT <https://cloud.openmarine.net/s/mdYgFxQ6Yqqp6rP>`
+	:Image name: OpenPlotter Moitessier HAT
+	:Hostname: openplotter
+	:User: pi
+	:Password: raspberry
+	:Language: en_GB.UTF-8
+	:Keymap: gb
+	:Layout: English (UK)
+	:TimeZone: Europe/London
+	:Wifi client: SSID: none, Password: none, Country: none
+	:Wifi AP: SSID: none, Password: none, IP: none
+	:SSH: Disabled
+	:Remote desktop: Disabled
+	:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - Xygrib - Dashboards - Serial - CAN - Network - Moitessier HAT - I2C - Pypilot
 
 OpenPlotter À la Carte
 ======================
