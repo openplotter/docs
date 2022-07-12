@@ -77,10 +77,11 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Network - 3.0.1-beta
+   :caption: Network - 3.1.7-stable
    :name: sec-network
 
    network/network_app
+   network/modes
 
 .. toctree::
    :maxdepth: 1

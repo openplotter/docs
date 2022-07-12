@@ -2,8 +2,10 @@
 .. |mSettings| image:: ../img/settings.png
 .. |OPnet| image:: img/openplotter-network.png
 .. |OPnetAdd| image:: img/ports.png
+.. |OPnetCheck| image:: img/check.png
 .. |OPnetEdit| image:: img/edit.png
 .. |OPnetSave| image:: img/ok.png
+.. |OPnetWifi| image:: img/wifi.png
 
 |OPnet| Network
 ###############
@@ -25,69 +27,19 @@ The purpose of this app is to provide useful information about your network and 
 
 .. image:: img/network10.png
 
-Next we will explain the different operating modes of the AP.
+|OPnetCheck| ``Check Network`` is another useful tool to know the status of your network at any time:
 
-Station (on board)
-##################
+.. image:: img/network10bis.png
 
-.. image:: img/network-rpi3-sta.gif
+Security
+********
 
-If you do not want to set up an access point and just want to connect your system to an external access point as a station using your built-in WiFi (on board), you will use the tool provided by your system to make the connection as usual and will set *AP* to *none*:
+If you are connected to the marina's public WiFi and that access point is not properly configured or secured, any device connected to the same access point will access your system's open resources like the Signal K server, some data streams, dashboards, etc. 
 
-.. image:: img/network1.png
+To avoid this, check ``activate wlan security (nft filter)``, click |OPnetEdit| ``Edit`` and finally |OPnetSave| ``Save``. After reboot, any device trying to connect to your system will be blocked:
 
-AP (on board)
-#############
+.. image:: img/networkSec1.png
 
-.. image:: img/network-rpi3-ap.gif
+If you trust your marina's public WiFi or you are also connected to a local network using a second WiFi device, such as a USB dongle, you can grant access to your system only to devices connected to that trusted access point. Go to the |OPnetWifi| ``Wlan Client`` tab and add the trusted access point to the *Private Network* by clicking ``+``:
 
-Instead of connecting to an external access point, you can use the built-in WiFi (on board) to create your own access point and connect any onboard device such as tablets, smartphones, laptops...
-
-Select *on board* in ``AP`` field. By default the AP works at 2.4 GHz but if the built-in WiFi device and the external devices can work at 5 GHz you can check the ``5 GHz`` field. On your router at home, you can communicate on the same subnet with your Ethernet-connected devices and your WiFi-connected devices. If you want OpenPlotter to treat the AP and Ethernet port this way, check ``Add Ethernet port to AP``:
-
-.. image:: img/network2.png
-
-Noww you are ready to configure some settings of your AP, click |OPnetEdit| ``edit`` to enable the next window. You are not connected to internet, so select *none* in ``sharing Internet device`` field. You have to give to your AP a ``SSID`` (a name). This name will be listed when your external devices search for a WiFi AP. Give your wlan a secure ``Password``. You can choose a channel you like. Not all selectable channels will work depending on the country setup of your system. If you are having network problems, you can sometimes solve them by changing the channel to a less crowded one. Click |OPnetSave| ``Save`` when done and OpenPlotter will reboot to apply the changes:
-
-.. image:: img/network3.png
-
-After reboot, you will see the SSID listed as an available AP by searching from your onboard WiFi devices, confirm you can connect them to your new AP. The built-in WiFi is now busy working as an AP, so it will not be able to connect to the marina AP as you can see in the image below:
-
-.. image:: img/network4.png
-
-AP + Station (on board)
-#######################
-
-**Under construction...**
-
-.. image:: img/network-rpi3-apandsta.gif
-
-.. image:: img/network5.png
-
-.. image:: img/network6.png
-
-
-AP + Station (on board + usb)
-#############################
-
-**Under construction...**
-
-.. image:: img/network-rpi3-ap+sta.gif
-
-.. image:: img/network7.png
-
-.. image:: img/network8.png
-
-.. image:: img/network9.png
-
-.. image:: img/network11.png
-
-
-AP + station (on board + tethering)
-###################################
-
-**Under construction...**
-
-.. image:: img/network-rpi3-ap+tethering.gif
-
-.. image:: img/network8.png
+.. image:: img/networkSec2.png
