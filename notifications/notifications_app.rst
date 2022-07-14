@@ -1,4 +1,4 @@
 Notifications
 #############
 
-**Coming soon**
+**This app is already stable, docs are coming soon**

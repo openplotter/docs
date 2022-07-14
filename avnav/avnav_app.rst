@@ -24,16 +24,16 @@
 |mhelp| ``Help`` opens an offline copy of this documentation in a browser and |mSettings| ``Settings`` opens the main app *OpenPlotter Settings*.
 
 
-This app installs AvNav, a web chart plotter, on OpenPlotter based systems. It also offers some additional settings, so no changes in the ~/avnav/data/avnav_server.xml file are needed:
+This app installs the web chart plotter AvNav. Enable/Disable the AvNav server at startup checking ``Autostart``.
+You can also |OPavnavStop| ``Stop``, |OPavnavStart| ``Start`` and |OPavnavRestart| ``Restart`` the AvNav server at any time.
 
-- Enable/Disable ``Autostart`` of the AvNav server.
-- |OPavnavStop| ``Stop``, |OPavnavStart| ``Start`` and |OPavnavRestart| ``Restart`` the AvNav server.
-- Change ports in |OPavnavSettings| ``Settings`` to avoid conflicts with other apps.
-- Open the browser running |OPavnavRun| a single instance or split the window to run |OPavnavRun2| 2 instances of AvNav.
+Open an instance of AvNav in your local browser by clicking |OPavnavRun| ``Avnav`` or click |OPavnavRun2| ``Avnav split`` to run two instances in the same window.
 
-By default, AvNav listens on port 8080. It is the same as opening the Signal K administration UI in the browser, the only difference is that Signal K listens on port 3000 instead of 8080.
+You can also run AvNav from any device connected to the same network as OpenPlotter using this address: *http://openplotter.local:8080*
+
+By default, AvNav listens on port 8080, but you can change these ports in the |OPavnavSettings| ``Settings`` tab to avoid conflicts with other programs:
+
+.. image:: img/avnav1.png
 
 .. note::
 	Read `here <http://wellenvogel.de/software/avnav/docs/beschreibung.html?lang=en>`_  the full documentation.
-
- 
