@@ -85,22 +85,23 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: AvNav Installer - 3.0.3-beta
+   :caption: AvNav Installer - 3.0.6-beta
    :name: sec-avnav
 
    avnav/avnav_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: Notifications - 3.0.5-beta
+   :caption: Notifications - 3.0.6-stable
    :name: sec-notifications
 
    notifications/notifications_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: MAIANA AIS transponder - 3.1.3-beta
+   :caption: MAIANA AIS transponder - 3.1.4-stable
    :name: sec-maiana
 
    maiana/maiana_app
-   
+   maiana/connecting
+   maiana/configuring      

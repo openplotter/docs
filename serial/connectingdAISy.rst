@@ -57,4 +57,4 @@ You are done, the Signal K server and any program connected to it, such as OpenC
 
 .. image:: ../img/opencpnConnection.png
 
-.. image:: img/opencpnAIS.jpg
+.. image:: ../img/opencpnAIS.jpg
