@@ -1,4 +1,0 @@
-.. _pypilot:
-
-Pypilot
-#######

@@ -1,57 +1,39 @@
-AvNav Installer
-###############
+.. |mhelp| image:: ../img/help.png
+.. |mSettings| image:: ../img/settings.png
+.. |OPavnav| image:: img/sailboat48rinstall.png
+.. |OPavnavStop| image:: img/stop.png
+.. |OPavnavStart| image:: img/start.png
+.. |OPavnavRestart| image:: img/restart.png
+.. |OPavnavSettings| image:: img/settings2.png
+.. |OPavnavRun| image:: img/sailboat24r.png
+.. |OPavnavRun2| image:: img/sailboat24rs.png
 
-.. image:: img/navpage.png
+|OPavnav| AvNav Installer
+#########################
 
-.. image:: img/dashboard-1.png
+
+.. note::
+	To run this app type this in a terminal:
+
+	.. parsed-literal::
+
+		openplotter-avnav
+
+.. image:: img/avnav0.png
+
+|mhelp| ``Help`` opens an offline copy of this documentation in a browser and |mSettings| ``Settings`` opens the main app *OpenPlotter Settings*.
 
 
-AvNav Features
-**************
+This app installs the web chart plotter AvNav. Enable/Disable the AvNav server at startup checking ``Autostart``.
+You can also |OPavnavStop| ``Stop``, |OPavnavStart| ``Start`` and |OPavnavRestart| ``Restart`` the AvNav server at any time.
 
-* client server based navigation solution
-* server runs on OpenPlotter, client can be any browser
-* optimized for touch devices
-* integration with SignalK and stand alone
-* raster charts and vector charts from `o-charts <https://o-charts.org/>`_
-* AIS display and CPA computation
-* creating, editing, using, importing and exporting of routes
-* simple waypoint routing 
-* chart overlays (multiple chart layers, gpx, kml, geojson...)
-* MOB alarms
-* anchor watch and alarm
-* chart display with configurable info displays
-* multiple configurable dashboard pages
-* night mode
-* multiple displays all being synced
-* plugins (history, mapproxy, update,...)
-* can be adapted/customized with css, java script and python
+Open an instance of AvNav in your local browser by clicking |OPavnavRun| ``Avnav`` or click |OPavnavRun2| ``Avnav split`` to run two instances in the same window.
 
-For further details refer to the `documentation <https://www.wellenvogel.net/software/avnav/docs/beschreibung.html?lang=en>`_
-or have a look at some `videos <https://www.youtube.com/playlist?list=PLxNyj_GYzonmrSgnqtHogY7XK-TANk6q3>`_.
+You can also run AvNav from any device connected to the same network as OpenPlotter using this address: *http://openplotter.local:8080*
 
-Installer
-*********
+By default, AvNav listens on port 8080, but you can change these ports in the |OPavnavSettings| ``Settings`` tab to avoid conflicts with other programs:
 
-.. image:: img/installer1.png
+.. image:: img/avnav1.png
 
-* will download and install the AvNav software and the necessary plugins
-* shows the status of the server part and allows to start and stop it
-* allows for some basic port settings (others directly within the AvNav app itself)
-* set up connectivity between SignalK and AvNav
-* NMEA traffic is configured to run from SignalK to AvNav
-
-Processes and Ports
-____________________
-
-AvNav has a main process ("avnav") that handles all the NMEA data and server functions.
-It has one port for the web access (default: 8080).
-To handle o-charts there is an additional process (controlled and started by avnav)
-that has an own port for the access to those charts (default 8082).
-To run updates from the AvNav web app there is an additionaly avnavupdater 
-process that is running independently from avnav and again has an own port for the web access
-(default: 8085).
-You can modify the ports at the settings tab if they interfere with others
-applications you have installed. OpenPlotter will check this and warn you accordingly.
-aha
-
+.. note::
+	Read `here <http://wellenvogel.de/software/avnav/docs/beschreibung.html?lang=en>`_  the full documentation.

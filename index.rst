@@ -10,9 +10,8 @@ Welcome to OpenPlotter's documentation!
 
    description/what_is_openplotter
    description/features
-   description/examples
-   description/what_do_you_need
    description/how_does_it_work
+   description/examples
    description/how_to_collaborate
 
 .. toctree::
@@ -20,148 +19,89 @@ Welcome to OpenPlotter's documentation!
    :caption: Getting started
    :name: sec-getting_started
 
+   getting_started/what_do_you_need
    getting_started/downloading
    getting_started/installing
-   getting_started/updating
-   getting_started/backup
 
 .. toctree::
    :maxdepth: 1
-   :caption: Settings - 2.2.3
+   :caption: Settings - 3.4.4-stable
    :name: sec-settings
 
    settings/settings_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: OpenCPN Installer - 2.1.0
+   :caption: Signal K Installer - 3.1.10-stable
+   :name: sec-signalk
+
+   signalk/signalk_app
+   signalk/multiplexing
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: OpenCPN Installer - 3.2.1-stable
    :name: sec-opencpn
 
    opencpn/opencpn_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: AvNav Installer - 2.1.3
+   :caption: Dashboards - 3.0.8-stable
+   :name: sec-dashboards
+
+   dashboards/dashboards_app
+   dashboards/grafana
+   dashboards/influxdb
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Serial - 3.1.3-stable
+   :name: sec-serial
+
+   serial/serial_app
+   serial/connectingGPS
+   serial/connectingRS422
+   serial/connectingCAN
+   serial/connectingdAISy
+
+.. toctree::
+   :maxdepth: 1
+   :caption: CAN Bus - 3.2.5-stable
+   :name: sec-can
+
+   can/can_app
+   can/slcand
+   can/mcp2515
+   can/output
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Network - 3.1.7-stable
+   :name: sec-network
+
+   network/network_app
+   network/modes
+
+.. toctree::
+   :maxdepth: 1
+   :caption: AvNav Installer - 3.0.6-beta
    :name: sec-avnav
 
    avnav/avnav_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: Signal K Installer - 2.1.0
-   :name: sec-signalk
+   :caption: Notifications - 3.0.6-stable
+   :name: sec-notifications
 
-   signalk/signalk_app
+   notifications/notifications_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: MAIANA AIS Transponder - 2.1.1
+   :caption: MAIANA AIS transponder - 3.1.4-stable
    :name: sec-maiana
 
    maiana/maiana_app
    maiana/connecting
-   maiana/configuring
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Dashboards - 2.1.0
-   :name: sec-dashboards
-
-   dashboards/dashboards_app
-   dashboards/instrumentpanel
-   dashboards/kip
-   dashboards/nodered_dashboard
-   dashboards/influxdb1
-   dashboards/grafana
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Network - 2.1.1
-   :name: sec-network
-
-   network/network_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Serial - 2.2.1
-   :name: sec-serial
-
-   serial/serial_app
-   serial/connecting
-   serial/examples
-
-.. toctree::
-   :maxdepth: 1
-   :caption: CAN - 2.1.0
-   :name: sec-can
-
-   can/can_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: GPIO - 2.3.2
-   :name: sec-gpio
-
-   gpio/gpio_app
-   gpio/digital
-   gpio/pulses
-   gpio/1w
-   gpio/seatalk1
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Pypilot - 2.0.8
-   :name: sec-pypilot
-
-   pypilot/pypilot_app
-   pypilot/calibration
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Moitessier HAT - 2.2.0
-   :name: sec-moitessier
-
-   moitessier/moitessier_app
-   moitessier/antennas
-   moitessier/configuration
-   moitessier/leds
-
-.. toctree::
-   :maxdepth: 1
-   :caption: I2C - 2.1.0
-   :name: sec-i2c
-
-   i2c/i2c_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: signal K Filter - 2.0.1
-   :name: sec-skfilter
-
-   skfilter/SKfilter_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Kplex - 2.0.0
-   :name: sec-kplex
-
-   kplex/kplex_app
-
-.. toctree::
-   :maxdepth: 1
-   :caption: SDR VHF - 2.1.1
-   :name: sec-sdr-vhf
-
-   sdr-vhf/sdr-vhf_app
-   sdr-vhf/ais
-   sdr-vhf/adsb
-   sdr-vhf/gqrx
-   sdr-vhf/dab
-   sdr-vhf/dvbt
-
-.. toctree::
-   :maxdepth: 1
-   :caption: External Apps
-   :name: sec-external
-
-   external/myapp_app
+   maiana/configuring      

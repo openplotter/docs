@@ -1,14 +1,20 @@
-openplotter-doc (2.2.1-dev) bionic; urgency=medium
+openplotter-doc (3.6.0-stable) bullseye; urgency=medium
 
-  * Fix error in RS422 chapter serial section
+  * Stable v3
 
- -- Sailoog <info@sailoog.com>  Thu, 20 Feb 2022 20:08:02 +0100
+ -- Sailoog <info@sailoog.com>  Thu, 14 Jul 2022 20:38:13 +0200
 
-openplotter-doc (2.2.0-dev) bionic; urgency=medium
+openplotter-doc (3.5.0-beta) bullseye; urgency=medium
 
-  * Add dAISy HAT and MAIANA AIS transponder
+  * Beta v3
 
- -- Sailoog <info@sailoog.com>  Thu, 13 Jan 2022 20:08:02 +0100
+ -- Sailoog <info@sailoog.com>  Sat, 18 Jun 2022 21:07:05 +0200
+
+openplotter-doc (3.4.0-alpha) bullseye; urgency=medium
+
+  * Alpha v3
+
+ -- Sailoog <info@sailoog.com>  Sat, 18 Dec 2021 14:50:25 +0100
 
 openplotter-doc (2.1.0-dev) bionic; urgency=medium
 

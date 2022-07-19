@@ -1,3 +1,5 @@
+.. _maiana:
+
 MAIANA AIS Transponder
 ######################
 

@@ -1,71 +1,39 @@
-.. _can:
+.. |mhelp| image:: ../img/help.png
+.. |mSettings| image:: ../img/settings.png
+.. |OPcan| image:: img/openplotter-can.png
+.. |OPcanOP24| image:: img/openplotter-24.png
 
-CAN Bus
-########
+|OPcan| CAN Bus
+###############
 
-Go into settings (--> openplotter -->) and ensure that the CAN Bus App is installed and the latest
+.. note::
+	To run this app type this in a terminal:
 
-.. image:: img/can1.png
+	.. parsed-literal::
 
-CAN_USB
-*******
+		openplotter-can
 
-To be added
+.. image:: img/can0.png
 
-Slcand
+|mhelp| ``Help`` opens an offline copy of this documentation in a browser and |mSettings| ``Settings`` opens the main app *OpenPlotter Settings*.
+
+To configure a NMEA 2000 converter that can connect via USB such as the *Actisense NGT-1* or the *OpenMarine CAN-USB Stick* (discontinued), see the chapter :ref:`Connecting a USB CAN converter data<serialCAN>`.
+
+If you want to configure a USB converter type ``slcand`` or based on the ``MCP2515`` chip, continue reading this section.
+
+Wiring
 ******
 
-To be added
-
-MCP2515
-*******
-
-There are some boards available with the MCP2515 chip on board that can be added into openplotter below is a list of the ones that work:
-
-	• Waveshare RS485 CAN HAT - https://www.amazon.com/gp/product/B07VMB1ZKH
-
-Physical install
-****************
-
-Shutdown the Pi and install the Can Board (if it is a CAN Hat).
-Connect the Seatalk NG Can H and Can L or the NMEA2000 (N2K) Can H and Can L to the H and L
+It does not matter what type of converter you have, USB or a Raspberry HAT, all of them should have a L connector and a H connector. In most cases you simply have to connect the CAN_L cable of your NMEA 2000 CAN-BUS to the L connector of your converter and the CAN_H cable of your NMEA 2000 CAN-BUS to the H connector of your converter:
 
 .. image:: img/can2.png
 
 .. note::
-	The Seatalk NG bus needs to be powered - this would normally already be so if you have other devices on the bus but some Multi-function Displays need the bus powering, as well as the device - the power does not connect to the HAT in any way.
+	Some converters may also need to connect GND, see the documentation for your device.
 
-.. note::
-	Make sure the CAN network is appropriately terminated.  CAN network termination is required to reduce reflection and consists of 60 Ohm resistors at the end points of the CAN networks - some devices have these built in and the Raymarine network has these already  if you are just plugging in to an existing network
+.. caution::
+	Do not connect the 12v power cable in any way.
 
-Reboot the Pi and open the CAN Bus app.  In the app go to the MCP2515 tab and press the 'Add MCP2515 device' button. 
+At each end of the *Trunk Line* a *Termination Resistor* must be installed. Each termination resistor is 120 Ohms and is connected in parallel across the data pair of wires. This provides a total of 60 Ohms resitance across the network and is essential to data integrity. Most converters incorporate a 120 Ohms resistor to be optionally connected in case your NMEA 2000 CAN-BUS does not have a terminator. See the documentation for your device.
 
-.. image:: img/can3.png
-
-Pick the correct interface, Oscillator and select the correct GPIO pin. 
-
-On the Waveshare RS485 CAN HAT, this would be SPIO CEO for the interface, the oscillator can be found by looking at the crystal chip on the HAT as per the pic below.  The Interrupt GPIO is GPIO 25, pin 22
-
-.. image:: img/can4.png
-
-Once accepted the CAN bus app should like the pic below
-
-.. image:: img/can5.png
-
-At this point the device is set up but not connected to Signal K.  By selecting the device and then pressing the 'Check device traffic' button, you will see a terminal and the data running through the device.
-
-Connect to Signal K
-********************
-
-To connect to Signal K, Select the device and press the 'Add Connection' button.  You will see Signal K restart and the connection ID will be added
-
-.. image:: img/can6.png
-
-If you go into SignalK and there is data on the bus you will see it in the signalK Data Browser.  See an example below
-
-.. image:: img/can7.png
-
-Signal K Output
-***************
-
-We need to select which data is sent out by SignalK on the CAN bus.  This data will be sent out to the MFD and other devices on the CAN bus.  Press the 'SK --> NMEA 2000' button and select the items you want to send out.  Press submit and make sure the 'SignalK to NMEA 2000' plugin is enabled.
+.. image:: img/can1.png

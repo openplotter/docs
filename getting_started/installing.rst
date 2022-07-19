@@ -3,36 +3,38 @@
 Installing
 ##########
 
-.. important::
-    The latest models of Raspberry 4 with the latest firmware will not boot with these OpenPlotter 2 images of the **Basic** method. If this is your case, you have to use the **Advanced** method until we finish OpenPlotter 3.
+Raspberry Pi images
+*******************
 
-Basic
-*****
+You only need a micro SD card (minimum 8GB, recommended 16GB) and a computer with an SD card reader.
 
-This is the easier and most common way to have OpenPlotter working on a Raspberry Pi in few minutes. You only need a micro SD card (minimum 8GB, recommended 16GB) and a computer with an SD card reader.
+- Download your preferred OpenPlotter edition from the :ref:`Raspberry Pi images<downloading>` section in *Downloading* chapter.
 
-- Download and unzip your preferred OpenPlotter edition from the **Basic** section in :ref:`downloading<downloading>` chapter.
+- Download and install the :download:`Raspberry Pi Imager <https://www.raspberrypi.org/software/>` program for your OS. 
 
-- Download and install :download:`Raspberry Pi Imager <https://www.raspberrypi.org/software/>`. 
-
-- Put the SD card you will use with your Raspberry Pi into the reader and run *Raspberry Pi Imager*.
+- Put the SD card you will use with your Raspberry Pi into the SD card reader and run *Raspberry Pi Imager*.
 
 - Click on ``CHOOSE OS`` and then on ``Use custom``:
 
 .. image:: img/imager.png
 
-- Select the .img file of your preferred OpenPlotter edition.
+- Select the file of your OpenPlotter edition (you do not need to unzip it).
 
-- Click on ``CHOOSE SD CARD`` and select your SD card.
+- Click on ``CHOOSE STORAGE`` and select your SD card.
 
 - Click on ``WRITE`` and take a coffe.
 
-- Remove the SD card from the reader, insert it into the raspberry and you are done.
+- Remove the SD card from the reader, insert it into the Raspberry Pi and you are done.
 
-After the first boot you can customize and localize your system changing some important settings like password or system language. You can also change these settings later in :menuselection:`Main --> Preferences --> Raspberry Pi configuration`.
+Unless you are using the **OpenPlotter À la Carte** edition, after the first boot you should customize and localize your system changing some important settings like the password or the system language. You can do this in :menuselection:`Main --> Preferences --> Raspberry Pi configuration`.
+
+.. image:: img/configuration.png
 
 .. danger::
-	You MUST change the default password for the user *pi*. Otherwise, any user will be able to access your system easily.
+	You MUST change the default password for the user *pi*. Otherwise, anyone will be able to access your system easily.
+
+Headless
+========
 
 If you are using the **OpenPlotter Headless** edition, you should see the SSID of the access point after a few seconds of inserting the SD into the Raspberry and turning it on.
 
@@ -55,32 +57,54 @@ These are the access data to connect remotely to OpenPlotter when you use this h
 +--------------------+-------------------------------------+
 
 .. danger::
-	You must change the default access point password in ``OpenPlotter Network`` app. Otherwise, any user will be able to access your system easily.
+	You MUST change the default access point password using the *OpenPlotter Network* app. Otherwise, anyone will be able to access your system easily.
 
-Advanced
-********
+.. note::
+	Using **OpenPlotter À la Carte** edition you will be able to configure all these parameters and more by filling in a form before downloading your custom OpenPlotter.
+
+.. _backups:
+
+Backups
+=======
+
+Once you are satisfied with your final setup, it is highly recommended to make a backup to replace the SD card in case it gets damaged. This is especially recommended if we have installed a paid nautical chart because if we have to reinstall the system, we will surely lose the license.
+
+Raspberry Pi OS incorporates an excellent application to make a backup of the entire SD card called *SD Card copier* that you can find in :menuselection:`Main --> Accessories`
+
+.. image:: img/sdCardCopier.png
+
+You will need to connect an external USB card reader with a new SD card the same size or larger than the internal one. In *Copy From Device* field you should select the internal card (something like */dev/mmcblk0*) and in *Copy To Device* field you should select the external card. The name of the external reader may vary, connect and disconnect the external reader several times to be sure which name appears and disappears.
 
 .. important::
-	OpenPlotter 2 only works in Debian 10 buster 32-bit. You need to download and install Raspberry Pi OS (Legacy) from the offcial site: https://www.raspberrypi.com/software/operating-systems
+	DO NOT check the option *New Partition UUIDs*. Some programs require the original and the copy to be exactly the same in order to function properly.
 
-	We are already working on OpenPlotter 3 for Debian 11 bullseye 32-bit and 64-bit, but it is still in beta and not recommended for production. Go here to test and help with development: https://forum.openmarine.net/showthread.php?tid=3878
+.. _getting_started_installing_desktop:
 
-To Install OpenPlotter on any computer running a Linux Debian derivative system (*Raspberry PI OS*, *Ubuntu*, *Linux Mint*...) you have to install the dependencies.
+Desktop and laptop
+******************
 
-Open a terminal and type:
+First of all you have to install some dependencies. Open a terminal and type:
 
 .. parsed-literal::
 
 	sudo apt update
-	sudo apt install python3-wxgtk4.0 python3-ujson python3-pyudev whois vlc
+	sudo apt install python3-wxgtk4.0 python3-ujson python3-pyudev vlc ntp matchbox-keyboard
 
-Now you have to install the main app ``openplotter-setting`` from the .deb file you can download from the *Advanced* section in :ref:`downloading<downloading>` chapter.
+Now you have to install the *OpenPlotter Settings* app from the .deb file you will found in :ref:`Desktop and laptop<downloading_desktop>` section in *Downloading* chapter
 
-After downloading the .deb file, you can install it by double click or typing this in a terminal:
+After downloading the .deb file, you can install it by double click or typing this in a terminal replacing *x.x.x-stable* by your version:
 
 .. parsed-literal::
 
 	sudo dpkg -i openplotter-settings_x.x.x-stable.deb
+
+And that's all. Open *OpenPlotter Settings* app typing this in a terminal:
+
+.. parsed-literal::
+
+	openplotter-settings
+
+You have to install the rest of OpenPlotter apps from this app. Read the :ref:`Settings<settings>` chapter to learn how.
 
 Every time OpenPlotter needs to perform an action that requires administrator permission, it will ask for the password. To avoid having to continuously enter your administrator password you can add your user to the *sudoers* list. Do this only if you know what you are doing:
 
@@ -88,7 +112,7 @@ Every time OpenPlotter needs to perform an action that requires administrator pe
 
 	sudo visudo
 
-Add this line to the end of the document and save:
+Add this line to the end of the document replacing *myuser* by your user name and save:
 
 .. parsed-literal::
 
