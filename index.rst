@@ -104,4 +104,11 @@ Welcome to OpenPlotter's documentation!
 
    maiana/maiana_app
    maiana/connecting
-   maiana/configuring      
+   maiana/configuring
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Pypilot- 3.1.0-beta
+   :name: sec-pypilot
+
+   pypilot/pypilot_app
