@@ -56,7 +56,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Serial - 3.1.3-stable
+   :caption: Serial - 3.2.0-stable
    :name: sec-serial
 
    serial/serial_app
@@ -104,4 +104,11 @@ Welcome to OpenPlotter's documentation!
 
    maiana/maiana_app
    maiana/connecting
-   maiana/configuring      
+   maiana/configuring
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Pypilot- 3.1.0-beta
+   :name: sec-pypilot
+
+   pypilot/pypilot_app

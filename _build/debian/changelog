@@ -1,3 +1,10 @@
+openplotter-doc (3.7.0-stable) bullseye; urgency=medium
+
+  * Update Serial
+  * Add Pypilot
+
+ -- Sailoog <info@sailoog.com>  Sat, 10 Sep 2022 14:51:10 +0200
+
 openplotter-doc (3.6.0-stable) bullseye; urgency=medium
 
   * Stable v3
