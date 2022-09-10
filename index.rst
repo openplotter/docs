@@ -56,7 +56,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Serial - 3.1.3-stable
+   :caption: Serial - 3.2.0-stable
    :name: sec-serial
 
    serial/serial_app

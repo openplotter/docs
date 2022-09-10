@@ -2,6 +2,7 @@
 
 .. |OPserialSK| image:: img/sk.png
 .. |OPserialGpsd| image:: img/gpsd.png
+.. |OPserialPypilot| image:: img/pypilot.png
 .. |OPserialApply| image:: img/apply.png
 .. |OPserialRefresh| image:: img/refresh.png
 .. |OPserialConnections| image:: img/connections.png
@@ -46,3 +47,7 @@ And check OpenCPN to make sure there is a connection to the Signal K server:
 
 .. note::
 	Select |OPserialGpsd| ``Add to GPSD`` only if you want GPSD to manage your GPS/AIS device. All GPSD and Signal K settings will be created automatically.
+
+.. note::
+	Select |OPserialPypilot| ``Add to Pypilot`` only if you are using a pypilot controller. Pypilot will send data to the Signal K server automatically.
+	
