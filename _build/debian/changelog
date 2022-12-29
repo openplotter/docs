@@ -1,3 +1,10 @@
+openplotter-doc (3.8.0-stable) bullseye; urgency=medium
+
+  * Add Moitessier hacked
+  * Update index
+
+ -- Sailoog <info@sailoog.com>  Thu, 29 Dec 2022 14:18:26 +0100
+
 openplotter-doc (3.7.0-stable) bullseye; urgency=medium
 
   * Update Serial
