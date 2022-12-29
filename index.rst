@@ -89,6 +89,7 @@ Welcome to OpenPlotter's documentation!
    :name: sec-pypilot
 
    pypilot/pypilot_app
+   pypilot/calibration
 
 .. toctree::
    :maxdepth: 1
@@ -140,10 +141,6 @@ Welcome to OpenPlotter's documentation!
    :name: sec-sdr-vhf
 
    sdr-vhf/sdr-vhf_app
-   sdr-vhf/ais
-   sdr-vhf/gqrx
-   sdr-vhf/dab
-   sdr-vhf/dvbt
 
 .. toctree::
    :maxdepth: 1
@@ -154,7 +151,8 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Moitessier HAT
+   :caption: Moitessier HAT (Hacked)
    :name: sec-moitessier
 
    moitessier/moitessier_app
+   moitessier/configuration
