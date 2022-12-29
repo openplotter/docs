@@ -1,5 +1,4 @@
-
-Pypilot
+SDR VHF
 #######
 
 **Coming soon**

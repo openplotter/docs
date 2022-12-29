@@ -19,8 +19,14 @@ Features
 
 :Dashboards: Customize your instrument panels to visualize data or create charts to see its evolution.
 
-:Notifications:	Set thresholds for any parameter to trigger visual and sound notifications or trigger multiple custom actions.
-
 :AIS: Build open source AIS receivers/transmitters.
 
-**Under construction...**
+:Compass: Get magnetic heading, heel and trim using cheap Inertial Measurement Units (IMU).
+
+:Autopilot: Full `pypilot <https://pypilot.org/>`_ integration.
+
+:Sensors: Easily connect all kinds of sensors (temperature, pressure, humidity, voltage, current, luminance, tank level, RPM, doors...)
+
+:Notifications:	Set thresholds for any parameter to trigger visual and sound notifications or trigger multiple custom actions.
+
+:IoT: Monitor what happens on your boat when you are not there or activate devices remotely.

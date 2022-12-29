@@ -25,14 +25,14 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Settings - 3.4.4-stable
+   :caption: Settings - 3.4.7-stable
    :name: sec-settings
 
    settings/settings_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: Signal K Installer - 3.1.10-stable
+   :caption: Signal K Installer - 3.1.16-stable
    :name: sec-signalk
 
    signalk/signalk_app
@@ -40,7 +40,7 @@ Welcome to OpenPlotter's documentation!
    
 .. toctree::
    :maxdepth: 1
-   :caption: OpenCPN Installer - 3.2.1-stable
+   :caption: OpenCPN Installer - 3.2.6-stable
    :name: sec-opencpn
 
    opencpn/opencpn_app
@@ -85,17 +85,32 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: AvNav Installer - 3.0.6-beta
-   :name: sec-avnav
+   :caption: Pypilot- 3.2.8-stable
+   :name: sec-pypilot
 
-   avnav/avnav_app
+   pypilot/pypilot_app
+   pypilot/calibration
 
 .. toctree::
    :maxdepth: 1
-   :caption: Notifications - 3.0.6-stable
-   :name: sec-notifications
+   :caption: I2C - 3.3.7-stable
+   :name: sec-i2c
 
-   notifications/notifications_app
+   i2c/i2c_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: GPIO - 3.x.x-alpha
+   :name: sec-gpio
+
+   gpio/gpio_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: IoT - 3.x.x-alpha
+   :name: sec-iot
+
+   iot/iot_app
 
 .. toctree::
    :maxdepth: 1
@@ -108,7 +123,36 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Pypilot- 3.1.0-beta
-   :name: sec-pypilot
+   :caption: Notifications - 3.0.6-stable
+   :name: sec-notifications
 
-   pypilot/pypilot_app
+   notifications/notifications_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: AvNav Installer - 3.0.6-beta
+   :name: sec-avnav
+
+   avnav/avnav_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: SDR VHF - 3.0.9-stable
+   :name: sec-sdr-vhf
+
+   sdr-vhf/sdr-vhf_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: MacArthur HAT
+   :name: sec-macarthur
+
+   macarthur/macarthur_app
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Moitessier HAT (Hacked)
+   :name: sec-moitessier
+
+   moitessier/moitessier_app
+   moitessier/configuration
