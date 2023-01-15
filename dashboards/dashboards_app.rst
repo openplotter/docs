@@ -28,7 +28,7 @@
 
 Select any app from the list and click |DBinstall| ``Install`` or |DBuninstall| ``Uninstall``. Click |DBrefresh| ``Refresh`` after any of these actions to refresh the list.
 
-Most of these dashboards are plugins of the Signal K server, but some of them are standalone third-party applications like Grafana or InfluxDB. Once these applications are installed you can |DBstart| ``Start``, |DBstop| ``Stop``, |DBrestart| ``Restart`` and start them at startup checking ``Autostart`` in the |DBprocess| Processes tab:
+Most of these dashboards are Signal K server plugins, but some are standalone third-party applications such as Grafana or InfluxDB. Once these applications are installed you can |DBstart| ``Start``, |DBstop| ``Stop``, |DBrestart| ``Restart`` and configure automatic startup by toggling ``Autostart`` in the |DBprocess| Processes tab:
 
 .. image:: img/dashboards1.png
 
@@ -38,11 +38,11 @@ Instrument Panel
 
 .. image:: img/instrumentpanel.png
 
-This is the dashboard built into the Signal K server. It is highly configurable and you can even embed some panels from other apps like Grafana.
+This is the dashboard built into the Signal K server. It is highly configurable and you can even embed panels from other applications like Grafana.
 
 You can access this dashboard by selecting *Instrument Panel* in the list and clicking |DBshow| ``Open`` or by typing this adddress in your local browser: *http://localhost:3000/@signalk/instrumentpanel/*. You can also connect to this page from any device connected to the same network as OpenPlotter using the address *http://openplotter.local:3000/@signalk/instrumentpanel/*.
 
-By clicking on the |DBhelp| help icon you will access a complete manual.
+Click on the |DBhelp| help icon to access full documtnation.
 
 SailGauge
 #########
@@ -62,7 +62,7 @@ Using this wonderful Signal K plugin you will be able to easily build sexy dashb
 
 You can access this dashboard by selecting *Kip* in the list and clicking |DBshow| ``Open`` or by typing this adddress in your local browser: *http://localhost:3000/@mxtommy/kip/*. You can also connect to this page from any device connected to the same network as OpenPlotter using the address *http://openplotter.local:3000/@mxtommy/kip/*.
 
-Go to the plugin homepage for the list of features and some tips: https://github.com/mxtommy/Kip
+Go to the plugin homepage for the list of features and tips: https://github.com/mxtommy/Kip
 
 
 Node-Red Dashboard
@@ -70,11 +70,11 @@ Node-Red Dashboard
 
 .. image:: img/nodered_dashboard.png
 
-`Node-RED <https://nodered.org/>`_ is a programming tool that provides a browser-based editor and it allows you to program visually without using a single line of code.
+`Node-RED <https://nodered.org/>`_ is a tool that uses a browser-based visual editor to program the connections between hardware devices, and APIs such as Signal K. It allows you to gather, adjust, enhance and deliver the data without needing to understand complex programming languages such as C or Python.
 
-In OpenPlotter, Node-RED comes embedded into the Signal K server as a plugin and contains some specific nodes to manage Signal K data. Go to the plugin homepage to see the list of nodes and some examples: https://github.com/SignalK/node-red-embedded
+In OpenPlotter, Node-RED is embedded in the Signal K server as a plugin, and contains some specific nodes to manage Signal K data. Go to the plugin homepage to see the list of nodes and some examples: https://github.com/SignalK/node-red-embedded
 
-It also includes the node-red-dashboard plugin that adds more nodes for creating buttons, graphs, gauges, sliders...
+The installation also includes the node-red-dashboard plugin that adds more nodes for creating buttons, graphs, gauges, sliders, and so on.
 
 You can build Node-RED dashboards by selecting *Node-Red Dashboard* in the list and clicking |DBedit| ``Edit`` or by typing this adddress in your local browser: *http://localhost:3000/plugins/signalk-node-red/redAdmin/*. You can also connect to this page from any device connected to the same network as OpenPlotter using the address *http://openplotter.local:3000/plugins/signalk-node-red/redAdmin/*.
 

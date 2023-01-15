@@ -11,7 +11,7 @@ Grafana is one of the most powerful platforms to manage and visualize data. Afte
 
 The browser will open and show us the page *http://localhost:3001*. You can also connect to this page from any device connected to the same network as OpenPlotter using the address *http://openplotter.local:3001*.
 
-Use *admin* for both *username* and *Password*. On the next page we will be asked to change and verify a new password.
+The initial username and password are both set to *admin*. On the next page we will be asked to change and verify a new password.
 
 .. image:: img/grafana0b.png
 
@@ -27,10 +27,10 @@ Go to :menuselection:`Create --> Dashboard` and click ``Add a new panel``. In th
 
 .. image:: img/grafana2.png
 
-Finally go to ``Transform`` tab and add the ``Filter data by values`` transformation using the settings of the image below:
+Finally go to ``Transform`` tab and add the ``Filter data by values`` transformation using the settings shown in the image below:
 
 .. image:: img/grafana3.png
 
-Signal K uses the Kelvin unit for temperature, so if we want to convert the data to Celsius, we can add another trasformation ``Add field from calculation`` using the settings in the image above.
+Signal K uses the Kelvin unit for temperature, so if we want to convert the data to Celsius, we can add another transformation ``Add field from calculation`` using the settings in the image above.
 
 Once you are happy with your panel click ``Save`` and continue building your perfect dashboard by adding more panels.
