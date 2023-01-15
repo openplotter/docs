@@ -24,14 +24,14 @@
 |mhelp| ``Help`` opens an offline copy of this documentation in a browser and |mSettings| ``Settings`` opens the main app *OpenPlotter Settings*.
 
 
-This app installs the web chart plotter AvNav. Enable/Disable the AvNav server at startup checking ``Autostart``.
+This app installs the web chart plotter AvNav. Enable/Disable the AvNav server at startup by toggling ``Autostart``.
 You can also |OPavnavStop| ``Stop``, |OPavnavStart| ``Start`` and |OPavnavRestart| ``Restart`` the AvNav server at any time.
 
 Open an instance of AvNav in your local browser by clicking |OPavnavRun| ``Avnav`` or click |OPavnavRun2| ``Avnav split`` to run two instances in the same window.
 
 You can also run AvNav from any device connected to the same network as OpenPlotter using this address: *http://openplotter.local:8080*
 
-By default, AvNav listens on port 8080, but you can change these ports in the |OPavnavSettings| ``Settings`` tab to avoid conflicts with other programs:
+By default, AvNav listens on port 8080, but you can change this, and related ports in the |OPavnavSettings| ``Settings`` tab if the default ports conflict with other programs:
 
 .. image:: img/avnav1.png
 
