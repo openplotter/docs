@@ -23,7 +23,7 @@ After entering the required data the system needs to reboot to apply the changes
 
 .. image:: img/canMCP3.png
 
-After boot you should receive data on your device. Select the item from the list and click |OPcancheck| ``Check device traffic`` to confirm data entry:
+After a rebboot you should receive data on your device. Select the item from the list and click |OPcancheck| ``Check device traffic`` to confirm data entry:
 
 .. image:: img/canMCP4.png
 .. image:: img/canSlcand4.png
@@ -33,7 +33,7 @@ Now we need to get this data to the Signal K server. Select the item from the li
 .. image:: img/canMCP5.png
 .. image:: img/canMCP6.png
 
-Go to the Signal K server administrator to confirm that the connection has been made:
+Go to the Signal K server administration interface using your web browser, to confirm that the connection has been made:
 
 .. image:: img/canMCP7.png
 
