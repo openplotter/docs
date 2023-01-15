@@ -8,9 +8,9 @@ InfluxDB OSS 2.x
 .. image:: img/influxdb1.png
 
 .. note::
-	InfluxDB OSS 2.x is only available for 64 bits systems.
+	InfluxDB OSS 2.x is only available for 64 bit systems.
 
-InfluxDB is a powerful time series database system so we will use it to store data and see its evolution over time. After installation, select *InfluxDB OSS 2.x* in the dashboard list and click |DBshow| ``Open``:
+InfluxDB is a powerful time series database system that can be used to store data and track its' evolution over time. After installation, select *InfluxDB OSS 2.x* in the dashboard list and click |DBshow| ``Open``:
 
 .. image:: img/influxdb20a.png
 
@@ -22,11 +22,11 @@ Fill in all the required fields using data that you can easily remember later. A
 
 On the next page there are several options to learn the basics of InfluxDB but you can ignore them because here we are going to guide you step by step to store and display data for the Signal K key *environment.outside.temperature*. Click ``Configure Later``.
 
-When working with data, it is important to control the size of your databases so you do not consume all of your valuable storage space. In InfluxDB this is done by configuring *data retention* on the buckets. The retention policy of the bucket we created during the initial setup is set to *Forever* by default, so we will create a new one. Go to :menuselection:`Data --> Buckets` and click ``Create Bucket``:
+The amount of space used by InfluxDB will depend significantly on the volume of data you wish to store, and the amount of data you wish to retain. It is important to control the size of your databases so you do not consume all of your valuable storage space. In InfluxDB this is done by configuring *data retention* on each bucket. The retention policy of the bucket we created during the initial setup is set to *Forever* by default, so we will create a new one. Go to :menuselection:`Data --> Buckets` and click ``Create Bucket``:
 
 .. image:: img/influxdb21.png
 
-We will call it *myBucket24h* to know exactly its retention policy and we will configure *Older Than 24 hours* in ``Delete Data``:
+We will call it *myBucket24h* to signify its retention policy, and we will configure *Older Than 24 hours* in ``Delete Data``:
 
 .. image:: img/influxdb22.png
 
@@ -42,7 +42,7 @@ After saving, open your new token and click ``Copy to Clipboard``:
 
 .. image:: img/influxdb26b.png
 
-The most complex part of using InfluxDB is sending data to databases using an external application called *Telegraf* but this time OpenPlotter will do the hard work for you. Go back to the *OpenPlotter Dashboards* app, select *InfluxDB OSS 2.x* and this time click |DBedit| ``Edit``:
+The most complex part of using InfluxDB is sending data to databases using an external application called *Telegraf* but the good news is that OpenPlotter will do the hard work for you. Go back to the *OpenPlotter Dashboards* app, select *InfluxDB OSS 2.x* and this time click |DBedit| ``Edit``:
 
 .. image:: img/influxdb25.png
 
@@ -84,7 +84,7 @@ By this one:
 
 		map(fn: (r) => ({ r with _value: 1.8*(r._value-273)+32 }))
 
-You shoul get this final script:
+Your final script will look like this:
 
 .. parsed-literal::
 
@@ -102,7 +102,7 @@ Finally click ``Customize`` to add some aesthetic settings like labels, ranges o
 
 .. image:: img/influxdb31.png
 
-Once you are happy with your cell click ``Save As`` and continue building your perfect dashboard by adding more cells.
+Once you are happy with your cell, click ``Save As`` and continue building your perfect dashboard by adding more cells.
 
 InfluxDB in Grafana
 ===================
@@ -113,7 +113,7 @@ You may prefer to use Grafana to unify all your panels or cells with real-time a
 
 .. image:: img/influxdb32.png
 
-Create a new panel, select *InfluxDB* in ``Data source`` and paste here the same Flux script you have generated using the *Query Builder* in InfluxDB web administrator:
+Create a new panel, select *InfluxDB* in ``Data source`` and paste here the same Flux script you have generated using the *Query Builder* in the InfluxDB web administrator:
 
 .. parsed-literal::
 
