@@ -29,4 +29,4 @@ Features
 
 :Notifications:	Set thresholds for any parameter to trigger visual and sound notifications or trigger multiple custom actions.
 
-:IoT: Monitor what happens on your boat when you are not there or activate devices remotely.
+:IoB: Internet of Boats. Monitor what happens on your boat when you are not there or activate devices remotely.
