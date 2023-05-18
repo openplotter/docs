@@ -88,7 +88,7 @@ First of all you have to install some dependencies. Open a terminal and type:
 .. parsed-literal::
 
 	sudo apt update
-	sudo apt install python3-wxgtk4.0 python3-ujson python3-pyudev vlc ntp matchbox-keyboard
+	sudo apt install python3-wxgtk4.0 python3-ujson python3-pyudev vlc matchbox-keyboard
 
 Now you have to install the *OpenPlotter Settings* app from the .deb file you will found in :ref:`Desktop and laptop<downloading_desktop>` section in *Downloading* chapter
 

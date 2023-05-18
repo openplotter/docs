@@ -6,7 +6,7 @@ There are people who buy boats but there are also people who build them, why not
 Releases
 ********
 
-**OpenPlotter 3** (latest)
+**OpenPlotter 3**
 
 :Code Name: `STOPmaremortum <https://stopmaremortum.org>`_
 :Docs: https://openplotter.readthedocs.io/en/3.x.x/

@@ -14,14 +14,58 @@ If you want to take full advantage of all the capabilities of OpenPlotter, your 
 
 Although a Raspberry Pi model 3 can run OpenPlotter, we only recommend the `Raspberry Pi model 4 <https://www.raspberrypi.com/products/raspberry-pi-4-model-b>`_ in any of its RAM configurations or a `Raspberry Pi 400 unit <https://www.raspberrypi.com/products/raspberry-pi-400-unit/>`_. Raspberry Pi Zero, 1 or 2 models are not suitable to run OpenPlotter.
 
-You will also need a keyboard, a mouse, a power supply, a microSD card and a HDMI monitor. Read this helpful guide for details on each item: https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up
+You will also need a keyboard, a mouse, a power supply, a microSD card and a monitor. Read this helpful guide for details on each item: https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up
 
 .. image:: img/pi-plug-in.gif
 
-Extra hardware
-**************
+Recommended hardware
+********************
 
-**Under construction...**
+This is the hardware that we have verified to work perfectly with OpenPlotter. We have been directly involved in the design or manufacture of some of these pieces of hardware.
+
+Monitors
+========
+
+OpenPlotter is designed to be used on monitors with a minimum resolution of 800x480 and 7” in size.
+
+Any HDMI-connected monitor that can handle this resolution, or any higher, will work just fine, but brightness on monitors that are connected via the DSI display port can also be controlled via software.
+
+If the monitor is touchscreen, we recommend the data input via I2C to simplify installations. We do not recommend touchscreens that require drivers.
+
+The monitor that meets all these qualities is the `official monitor for Raspberry Pi <https://www.raspberrypi.com/products/raspberry-pi-touch-display>`_ and its clones. We particularly recommend `this clone <https://www.waveshare.com/8inch-DSI-LCD.htm>`_. We have a special edition of OpenPlotter for these touchscreens. These monitors typically have a brightness of 250/300 cd/㎡ and that means they need to be installed indoors. For outdoor installations, you need a sun-readable monitor with at least 1000 cd/㎡ and waterproof.
+
+MacArthur HAT
+=============
+
+.. image:: https://raw.githubusercontent.com/OpenMarine/MacArthur-HAT/main/images/macarthur-diagram.png
+    :alt: MacArthur HAT features
+
+After a few years of developing software for OpenPlotter, we have identified exactly what we need in terms of hardware to achieve our goals and the result is the **MacArthur HAT** (Hardware Attached on Top), an add-on board for Raspberry Pi 4 running OpenPlotter v3. With this HAT we want to get the fully open-source boat to free ourselves from dependence on big companies and make our boats more respectful with the environment.
+
+Its main function is to be able to communicate with any old or new marine electronic device using the proprietary and closed protocols **Seatalk1**, **NMEA 0183** or **NMEA 2000** and the free and open protocol **Signal K**.
+
+:More info: :ref:`MacArthur HAT<macarthur>` 
+
+AIS receivers/transponders
+==========================
+
+.. image:: img/maiana-ais-base-kit.png
+
+You can connect the AIS receiver/transponder you already have on the boat or you can choose from some open source solutions. We recommend the **dAISy HAT** (receiver) and the **MAIANA AIS transponder** (receiver/transponder).
+
+:More info: :ref:`Connecting the dAISy HAT<dAISy>` 
+
+:More info: :ref:`MAIANA AIS transponder<maiana>` 
+
+Autopilot
+=========
+
+**Pypilot** is an open source autopilot for your boat and is fully integrated into OpenPlotter.
+
+:More info: :ref:`Pypilot<pypilot>` 
+
+Alternative hardware
+********************
 
 USB GPS receiver
 ================
@@ -49,14 +93,3 @@ NMEA 2000 communication protocol was designed to run over a Controller Area Netw
 :Example: :ref:`Connecting a USB CAN converter<serialCAN>`
 
 :Example: :ref:`Connecting a GPIO CAN converter<gpioCAN>`
-
-AIS receivers/transponders
-==========================
-
-.. image:: img/maiana-ais-base-kit.png
-
-You can connect the AIS receiver/transponder you already have on the boat or you can choose from many open source solutions. Some of them are really cheap. You can find USB, RS422 and NMEA 2000 devices or some Raspberry Pi HATs to connect to the GPIO header.
-
-:Example: :ref:`Connecting the dAISy HAT<dAISy>` 
-
-:Example: :ref:`MAIANA AIS transponder<maiana>` 

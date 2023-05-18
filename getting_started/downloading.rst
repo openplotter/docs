@@ -36,6 +36,8 @@ All required apps to fulfill most OpenPlotter marine features.
 :Wifi AP: SSID: none, Password: none, IP: none
 :SSH: Disabled
 :Remote desktop: Disabled
+:Touchscreen: Disabled
+:Backlight: Disabled
 :Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - Xygrib - Dashboards - Serial - CAN - Network
 
 OpenPlotter Headless
@@ -56,28 +58,31 @@ Same as *OpenPlotter Starting* but ready to be used remotely without monitor.
 :Wifi AP: SSID: openplotter, Password: 12345678, IP: 10.10.10.1
 :SSH: Enabled
 :Remote desktop: Enabled
+:Touchscreen: Disabled
+:Backlight: Disabled
 :Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - Xygrib - Dashboards - Serial - CAN - Network
 
-..
-	OpenPlotter Moitessier HAT
-	==========================
+OpenPlotter Touchscreen
+=======================
 
-	Same as *OpenPlotter Starting* plus required apps configured to use the Moitessier HAT out of the box.
+Same as *OpenPlotter Starting* but ready to be used on DSI touchscreens as the `official monitor for Raspberry Pi <https://www.raspberrypi.com/products/raspberry-pi-touch-display>`_ and `its clones <https://www.waveshare.com/8inch-DSI-LCD.htm>`_.
 
-	:Download: :download:`OpenPlotter Moitessier HAT <https://cloud.openmarine.net/s/mdYgFxQ6Yqqp6rP>`
-	:Image name: OpenPlotter Moitessier HAT
-	:Hostname: openplotter
-	:User: pi
-	:Password: raspberry
-	:Language: en_GB.UTF-8
-	:Keymap: gb
-	:Layout: English (UK)
-	:TimeZone: Europe/London
-	:Wifi client: SSID: none, Password: none, Country: none
-	:Wifi AP: SSID: none, Password: none, IP: none
-	:SSH: Disabled
-	:Remote desktop: Disabled
-	:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - Xygrib - Dashboards - Serial - CAN - Network - Moitessier HAT - I2C - Pypilot
+:Download: Coming soon!
+:Image name: OpenPlotter Touchscreen
+:Hostname: openplotter
+:User: pi
+:Password: raspberry
+:Language: en_GB.UTF-8
+:Keymap: gb
+:Layout: English (UK)
+:TimeZone: Europe/London
+:Wifi client: SSID: none, Password: none, Country: none
+:Wifi AP: SSID: none, Password: none, IP: none
+:SSH: Disabled
+:Remote desktop: Disabled
+:Touchscreen: Enabled
+:Backlight: Enabled
+:Installed apps: Settings - Docs - Signal K installer - OpenCPN installer - Xygrib - Dashboards - Serial - CAN - Network
 
 OpenPlotter À la Carte
 ======================
@@ -97,6 +102,8 @@ Fill in a form with all the available customization options and in a few minutes
 :Wifi AP: SSID: Customizable, Password: Customizable, IP: Customizable
 :SSH: Customizable
 :Remote desktop: Customizable
+:Touchscreen: Customizable
+:Backlight: Customizable
 :Installed apps: Customizable
 
 .. _downloading_desktop:
@@ -106,10 +113,10 @@ Desktop and laptop
 
 You can also install OpenPlotter in any desktop or laptop computer running your favourite Debian derivative distribution. Hovewer, if your computer is not a Raspberry Pi, you will not be able to install some OpenPlotter apps:
 
-:Common: Settings - Docs - Signal K installer - OpenCPN installer - AvNav installer - Xygrib - Serial - CAN - Notifications - Dashboards - IoT - MAIANA AIS Transponder - OpenMarine Box - SDR VHF
-:Only Raspberry: Network - I2C - Pypilot - GPIO - Moitessier HAT - MacArthur HAT
+:Common: Settings - Docs - Signal K installer - OpenCPN installer - AvNav installer - Xygrib - Serial - CAN - Notifications - Dashboards - IoB - MAIANA AIS Transponder - SDR VHF
+:Only Raspberry: Network - I2C - Pypilot - GPIO
 
-OpenPlotter for desktop and laptop is tested in Ubuntu 22.04 LTS. You just need basic knowledge of Linux to install OpenPlotter for desktop and laptop. Download this *OpenPlotter Settings* package: |Latest version of 'openplotter-settings' @ Cloudsmith| and follow the :ref:`Desktop and laptop<getting_started_installing_desktop>` chapter to install OpenPlotter from scratch.
+You just need basic knowledge of Linux to install OpenPlotter for desktop and laptop. Download this *OpenPlotter Settings* package: |Latest version of 'openplotter-settings' @ Cloudsmith| and follow the :ref:`Desktop and laptop<getting_started_installing_desktop>` chapter to install OpenPlotter from scratch.
 
 .. |Latest version of 'openplotter-settings' @ Cloudsmith| image:: https://api-prd.cloudsmith.io/v1/badges/version/openplotter/openplotter/deb/openplotter-settings/latest/a=all;d=debian%252Fbullseye;t=binary/?render=true&show_latest=true
    :target: https://cloudsmith.io/~openplotter/repos/openplotter/packages/detail/deb/openplotter-settings/latest/a=all;d=debian%252Fbullseye;t=binary/
