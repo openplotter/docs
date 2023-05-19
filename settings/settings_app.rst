@@ -22,18 +22,21 @@
 .. |GSdelay| image:: img/delay.png
 .. |GSplay| image:: img/play.png
 .. |GSfile| image:: img/file.png
-.. |GStime| image:: img/time.png
 .. |GSkeyboard| image:: img/keyboard.png
+.. |GStouch| image:: img/touchscreen.png
 .. |RSscreensaver| image:: img/screen.png
 .. |RSgpio| image:: img/chip.png
 .. |RSshutdown| image:: img/shutdown.png
 .. |RSpoweroff| image:: img/poweroff.png
 .. |RSapply| image:: img/apply.png
+.. |RSbrightness| image:: img/brightness.png
+.. |RSbrightnessInstall| image:: img/brightness-install.png
 .. |SLbug| image:: img/bug.png
 .. |SLall| image:: img/logsee.png
 .. |SLcat| image:: img/logcategory.png
 .. |SLsearch| image:: img/logsearch.png
 .. |SLdelete| image:: img/logremove.png
+.. |OPnotifications| image:: img/notifications.png
 
 |opsettings| OpenPlotter Settings
 #################################
@@ -144,6 +147,11 @@ Select any app and click this button to see all changes across versions.
 
 You can select any of the available languages and all OpenPlotter apps will be translated the next time you open them. You can help us with translations by clicking |GStranslate| ``Translate``.
 
+|GStouch| Touchscreen
+*********************
+
+After enabling this setting, most programs will display monster scrolls better for sailors' fingers and some programs like OpenCPN will be optimized for touchscreens.
+
 |GSresize| Maximize
 *******************
 
@@ -153,11 +161,6 @@ If you enable this option, all OpenPlotter applications will be maximized the ne
 *****************
 
 Here you can enable/disable the *Rescue* mode to help recover unstable systems due to some misconfigurations. For example if you set an action to reboot the system using the *OpenPlotter Notifications* app in response to some value of Signal K, it can cause a reboot loop. Using the *Rescue* mode disables all actions temporarily and you will be able to remove that killer setting.
-
-|GStime| NTP server
-*******************
-
-Usually OpenPlotter will not have an internet connection while sailing and cannot set the system time automatically. To solve this, the Signal K server collects the time of the GNSS signal and sets the system time. Enabling the NTP server allows other devices connected to the same network as OpenPlotter to update their system time as well. You need to configure the NTP client of your device to connect to the OpenPlotter NTP server.
 
 |GSkeyboard| Virtual keyboard
 ******************************
@@ -190,6 +193,22 @@ You can play a sound to notify you when the OpenPlotter startup process is compl
 Some apps will report which GPIO they are using and you can check it here. Checking a GPIO will return useful information about its usage.
 
 .. image:: img/settings10.png
+
+|RSbrightnessInstall| Install backlight
+***************************************
+
+Brightness on monitors that are connected via the DSI display port can be controlled by software. If you have a DSI touchscreens as the `official monitor for Raspberry Pi <https://www.raspberrypi.com/products/raspberry-pi-touch-display>`_ or any of `its clones <https://www.waveshare.com/8inch-DSI-LCD.htm>`_, you can install the necessary software to control brightness by clicking |RSbrightnessInstall| ``Install backlight`` button.
+
+|RSbrightness| Set backlight
+****************************
+
+After installing the required software, you will have access to a graphical interface to set the brightness using a slider.
+
+.. image:: img/setBacklight.png
+
+If you have the |OPnotifications| *OpenPlotter Notifications* app installed, you will see a new actions added to the list to automatically set the backlight value upon receiving a specific notification:
+
+.. image:: img/backlightAction.png
 
 |RSshutdown| Shutdown
 *********************
