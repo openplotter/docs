@@ -40,7 +40,10 @@ A list with the different versions from all the sources will be displayed so tha
 Which source to choose?
 ***********************
 
-As a general rule, you should choose *Debian/Ubuntu Backports*, but if the plugin you need is not available for your system or if you are running a non-LTS system, choose the Flatpak installation. Both *Debian/Ubuntu Backports* and *Flatpak* installations can coexists without problem:
+As a general rule, you should choose *Debian/Ubuntu Backports*, but if the plugin you need is not available for your system or if you are running a non-LTS system, choose the Flatpak installation. Both *Debian/Ubuntu Backports* and *Flatpak* installations can coexists without problem.
+
+.. important::
+	At the time of writing this manual, OpenCPN Flatpak is the best option for touchscreens. 
 
 .. image:: img/opencpn4.png
 
@@ -56,7 +59,10 @@ This option contains two sources that are compatible with each other, the offici
 |OPopencpnFlatpak| Flatpak
 ==========================
 
-This option runs OpenCPN in a kind of container independent of the host system. For this reason the time and size of the download will be larger. This option is perfect if your system is non-LTS (Long Term Support) or at that moment the plugin you need does not exist in the Debian/Ubuntu Backports version. At the time of writing this manual, there are some known issues with headless environments that could prevent OpenCPN Flatpak from running.
+This option runs OpenCPN in a kind of container independent of the host system. For this reason the time and size of the download will be larger. This option is perfect if your system is non-LTS (Long Term Support) or at that moment the plugin you need does not exist in the Debian/Ubuntu Backports version.
+
+.. important::
+	At the time of writing this manual, there are some known issues with headless environments that could prevent OpenCPN Flatpak from running. 
 
 OpenCPN Installer actions
 *************************
