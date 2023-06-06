@@ -25,7 +25,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Settings - 3.4.7-stable
+   :caption: Settings - 3.6.2-stable
    :name: sec-settings
 
    settings/settings_app
@@ -40,14 +40,14 @@ Welcome to OpenPlotter's documentation!
    
 .. toctree::
    :maxdepth: 1
-   :caption: OpenCPN Installer - 3.2.6-stable
+   :caption: OpenCPN Installer - 3.2.20-stable
    :name: sec-opencpn
 
    opencpn/opencpn_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: Dashboards - 3.0.8-stable
+   :caption: Dashboards - 3.0.12-stable
    :name: sec-dashboards
 
    dashboards/dashboards_app
@@ -67,7 +67,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: CAN Bus - 3.2.5-stable
+   :caption: CAN Bus - 3.2.21-stable
    :name: sec-can
 
    can/can_app
@@ -85,7 +85,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Pypilot- 3.2.8-stable
+   :caption: Pypilot- 3.2.12-stable
    :name: sec-pypilot
 
    pypilot/pypilot_app
@@ -93,28 +93,28 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: I2C - 3.3.7-stable
+   :caption: I2C - 3.3.12-stable
    :name: sec-i2c
 
    i2c/i2c_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: GPIO - 3.x.x-alpha
+   :caption: GPIO - 3.2.32-stable
    :name: sec-gpio
 
    gpio/gpio_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: IoT - 3.x.x-alpha
-   :name: sec-iot
+   :caption: IoB - 3.x.x-alpha
+   :name: sec-iob
 
-   iot/iot_app
+   iob/iob_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: MAIANA AIS transponder - 3.1.4-stable
+   :caption: MAIANA AIS transponder - 3.1.6-stable
    :name: sec-maiana
 
    maiana/maiana_app
@@ -123,14 +123,14 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Notifications - 3.0.6-stable
+   :caption: Notifications - 3.2.3-stable
    :name: sec-notifications
 
    notifications/notifications_app
 
 .. toctree::
    :maxdepth: 1
-   :caption: AvNav Installer - 3.0.6-beta
+   :caption: AvNav Installer - 3.0.7-stable
    :name: sec-avnav
 
    avnav/avnav_app
