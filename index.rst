@@ -141,6 +141,10 @@ Welcome to OpenPlotter's documentation!
    :name: sec-sdr-vhf
 
    sdr-vhf/sdr-vhf_app
+   sdr-vhf/ais
+   sdr-vhf/gqrx
+   sdr-vhf/dab
+   sdr-vhf/dvbt
 
 .. toctree::
    :maxdepth: 1
