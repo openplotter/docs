@@ -45,6 +45,8 @@ Using the |OPserialConnections| ``Connections`` tab you can easily configure som
 
 In the rest of this section, you will learn how to define and connect different devices using examples.
 
+.. _uart:
+
 UART
 ====
 

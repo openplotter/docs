@@ -56,7 +56,7 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Serial - 3.2.0-stable
+   :caption: Serial - 3.3.0-stable
    :name: sec-serial
 
    serial/serial_app
@@ -85,11 +85,14 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Pypilot- 3.2.12-stable
+   :caption: Pypilot- 3.2.13-stable
    :name: sec-pypilot
 
    pypilot/pypilot_app
+   pypilot/imu
+   pypilot/autopilot
    pypilot/calibration
+   pypilot/more
 
 .. toctree::
    :maxdepth: 1
