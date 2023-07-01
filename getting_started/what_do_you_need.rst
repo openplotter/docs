@@ -93,3 +93,19 @@ NMEA 2000 communication protocol was designed to run over a Controller Area Netw
 :Example: :ref:`Connecting a USB CAN converter<serialCAN>`
 
 :Example: :ref:`Connecting a GPIO CAN converter<gpioCAN>`
+
+IMU
+===
+
+.. image:: img/imu.png
+
+Adding an Inertial Measurement Unit (IMU) you can get heading, heel and trim data. OpenPlotter currently supports the following I2C-connected IMU models:
+
+- ICM-20948 (recommended)
+- MPU-9250
+- MPU-9255.
+
+
+:Example: :ref:`Configure an IMU with OpenPlotter Pypilot app<imu>`
+
+:Example: :ref:`Calibrating the compass<calibration>`
