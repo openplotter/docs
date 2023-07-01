@@ -67,7 +67,7 @@ OpenPlotter Touchscreen
 
 Same as *OpenPlotter Starting* but ready to be used on DSI touchscreens as the `official monitor for Raspberry Pi <https://www.raspberrypi.com/products/raspberry-pi-touch-display>`_ and `its clones <https://www.waveshare.com/8inch-DSI-LCD.htm>`_.
 
-:Download: Coming soon!
+:Download: :download:`OpenPlotter Touchscreen <https://cloud.openmarine.net/s/Xtd4cYkcixKxFLw>`
 :Image name: OpenPlotter Touchscreen
 :Hostname: openplotter
 :User: pi
