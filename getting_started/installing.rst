@@ -83,6 +83,9 @@ You will need to connect an external USB card reader with a new SD card the same
 Desktop and laptop
 ******************
 
+.. danger::
+	Each new version of OpenPlotter should only be installed on the indicated system. **OpenPlotter v3 will work only on Debian 11 Bullseye, Ubuntu 20.04 Focal, Ubuntu 22.04 Jammy or any of their derivatives**. If you try to force an installation of OpenPlotter v3 over OpenPlotter v2 (based on Debian 10 Buster), your system will become unstable.
+
 First of all you have to install some dependencies. Open a terminal and type:
 
 .. parsed-literal::
