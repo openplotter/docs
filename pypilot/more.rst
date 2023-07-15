@@ -4,7 +4,7 @@
 Update pypilot code
 ###################
 
-The |PYautopilot| *OpenPlotter Pypilot* app always installs the latest version of Pypilot but it may happen that the Pypilot code is updated later. To update the Pypilot code simply reinstall the |PYautopilot| *OpenPlotter Pypilot* app from the |mSettings| *OpenPlotter Settings* and the installer will perform all necessary tasks keeping the current settings.
+The |PYautopilot| *OpenPlotter Pypilot* app always installs the latest version of Pypilot but it may happen that the Pypilot code is updated later. To update the Pypilot code, just reinstall the |PYautopilot| *OpenPlotter Pypilot* app from the |mSettings| *OpenPlotter Settings* and the installer will perform all necessary tasks keeping the current settings.
 
 More Info
 #########
@@ -21,7 +21,7 @@ More Info
 :Support: https://forum.openmarine.net/forumdisplay.php?fid=17
 
 .. danger::
-	This workbook is perhaps the most comprehensive document on Pypilot, but beware! contains a lot of outdated information about OpenPlotter v2 and some instructions that are no longer needed in OpenPlotter v3 and could make your system unstable.
+	This workbook is perhaps the most comprehensive document on Pypilot, but beware! it contains a lot of outdated information about OpenPlotter v2 and some instructions that are no longer needed in OpenPlotter v3 and could make your system unstable.
 
 	:Workbook: https://github.com/pypilot/workbook/wiki
 
