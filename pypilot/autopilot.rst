@@ -15,9 +15,9 @@ Enable this mode in the |PYservice| *Services* tab **only** if you are using a P
 
 .. image:: img/pypilot5.png
 
-You also need one of the IMUs recommended in the previous chapter. Do not forget to :ref:`calibrate<calibration>`.
-
 The motor controller can be purchased from the official `Pypilot store <https://pypilot.org/opencart/>`_.
+
+You also need one of the IMUs recommended in the previous chapter. Do not forget to :ref:`calibrate<calibration>`.
 
 As a motor you can use the one from your old autopilot if it still works or an `industrial equivalent <https://pcnautic.nl/nl/autopilot/pcnautic-bare-tillerdrive-detail>`_ like these replacements for the `Raymarine Q047 <https://pcnautic.nl/nl/autopilot/raymarine-q047-replacement-detail>`_, the `EV-100/SPX-5 <https://pcnautic.nl/nl/autopilot/ev-100-spx-5-tiller-drive-replacement-set-detail>`_ or the `ST4000+ <https://pcnautic.nl/nl/autopilot/st4000-tiller-drive-replacement-set-detail>`_. But you can also use `other types of motors <https://pypilot.org/wiki/doku.php?id=rudder_drive_motor>`_ that are not normally used in marine environments.
 
@@ -103,22 +103,30 @@ Parameters
 
 These are some of the parameters that you will find in all control interfaces:
 
-:AP: 
+:AP: The AP button is the equivalent of the physical button panel known from boat autopilots. When AP is green, the autopilot is on and when the AP button is red, the autopilot is in standby mode.
 
-:Heading: [Heading - Command]
+:Heading: [Heading - Command] On all control interfaces you will see two numeric values from 0 to 360 expressed in degrees. One of them is the *current heading*, which can be calculated differently depending on the selected mode as we will see in the next point, and the other is the *command heading*, which is the desired heading. When *AP* is on and green, pypilot will steer until the *current heading* is similar to the *command heading*.
 
-:Mode: [Compass - GPS - Wind - True Wind]
+:<< < > >>: [-10 -1 1 10] When *AP* is in standby mode you will see four arrow buttons which can be used to align your actuator with your rudder so you can engage it and if you are lazy you can also steer the boat with them. When AP is enabled, these buttons will have numerical values -10, -1, 1 and 10 to add those amounts in degrees to the *command heading*.
 
-:<< < > >>: 
+:Mode: [Compass - GPS - Wind - True Wind] In *Compass* mode the *current heading* is based on magnetic north, in *GPS* mode the *current heading* is based on true north, in *Wind* mode the *current heading* is the direction the wind comes from relative to the bow and in *True Wind* mode the *current heading* is the direction the wind comes from relative to the true north. You will find a more detailed explanation in the `Pypilot functions <https://github.com/pypilot/workbook/wiki/Pypilot-functions#Standby-mode>`_ chapter of the workbook.
 
-:Tack: [starboard - board]
+:Tack: [starboard - board] Sailing with a limited crew sometimes requires a system to automate tacking. Clicking the *Tack* button initiates the maneuver to port or starboard using the predefined settings:
 
-:Gain: [P - I - D - DD - PR - FF]
+	- **ap.tack.angle**: In wind mode it is automatically determined from current course. Unit is degrees.
 
-:Rudder:
+	- **ap.tack.delay**: How many seconds to wait to tack after hitting tack button.
 
-:Settings:
+	- **ap.tack.rate**: How quickly to tack. Unit is degrees/sec.
 
-:Client:
+	- **ap.tack.threshold**: When to revert back to normal filter. Unit is percentage. Typically half the tack angle but adjusting this would be useful to prevent overshoot.
 
-:Scope: 
+:Gain: [P - I - D - DD - PR - FF] Gains of the steering mechanism determine reactiveness of the steering and suppression of overshoot. The values of these gains are different for each boat, so they need to be set properly. To get started retuning from scratch (or on a new boat) set all of the gains to zero, except the P and D gains. It is possible to have a fully usable (but less efficient) autopilot using only these two gains. You will find a more detailed explanation in the `official docs <https://pypilot.org/wiki/doku.php?id=tuning_gains>`_.
+
+:Calibration: The compass (IMU) must be :ref:`calibrated<calibration>`. If you have a rudder feedback sensor, with analog input to the motor controller, it must also be calibrated. The rudder range should first be set to the maximum angle the autopilot is allowed to move the rudder. The angle is needed to provide accurate rudder feedback measurements. For example the opencpn dashboard display. Next, manually turn the rudder for, centered, starboard range, port range and press the button each time. 
+
+:Settings: In addition to the tack settings there are many other parameters that can be modified. You can access these settings from the *Configuration* option of the control interfaces or from within the *Calibration* option. You will find a more detailed explanation in the `parameters <https://github.com/pypilot/workbook/wiki/parameters>`_ chapter of the workbook.
+
+:Client: In some control interfaces you will find a *Client* button to access a list of parameters with their current values to know what is happening in your system at any time. In this list you can also modify some values.
+
+:Scope: In some control interfaces you will also find a *Scope* button to access a graphical representation of all Pypilot parameters and their current values.
