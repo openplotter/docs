@@ -1,3 +1,17 @@
+openplotter-doc (3.9.0-stable) bullseye; urgency=medium
+
+  * Add MacArthur HAT
+  * Add backlight and touschscreen settings
+  * Update opencpn
+  * Update index
+  * Add SDR
+  * Add incompatibility with openplotter 2
+  * Add recommended IMUs
+  * Add Pypilot
+  * Add touchscreen edition
+
+ -- Sailoog <info@sailoog.com>  Sun, 16 Jul 2023 11:41:36 +0200
+
 openplotter-doc (3.8.0-stable) bullseye; urgency=medium
 
   * Add Moitessier hacked
