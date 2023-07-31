@@ -1,3 +1,9 @@
+openplotter-doc (3.9.1-stable) bullseye; urgency=medium
+
+  * Update OpenCPN chapter to add PPA source
+
+ -- Sailoog <info@sailoog.com>  Mon, 31 Jul 2023 12:04:49 +0200
+
 openplotter-doc (3.9.0-stable) bullseye; urgency=medium
 
   * Add MacArthur HAT
