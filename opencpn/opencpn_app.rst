@@ -35,34 +35,49 @@ When you open the app, all buttons are disabled. You have to check the current v
 
 .. image:: img/opencpn1.png
 
-A list with the different versions from all the sources will be displayed so that you can choose the right one. The buttons on the |OPopencpnPlugins| ``Install`` tab will now be enabled.
+A list will be displayed with the different versions of all the available sources and some recommendations:
+
+.. image:: img/opencpn1b.png
+
+You can install OpenCPN in two different ways, from the **Debian/Ubuntu** repositories or from **Flatpak**. You can use both ways and install two instances of OpenCPN that can be used simultaneously on the same machine without problems. 
+
+In Flatpak there is only one source and therefore only one version but in Debian/Ubuntu there are several sources and several versions available:
+
+- **Debian/Ubuntu**: This is the official Debian/Ubuntu repository. There is an OpenCPN package, but it will probably always be old.
+
+- **Ubuntu PPA**: This is an special repository to be added in Ubuntu but it will also work in Debian and Raspberry OS. Packages in this repository are always up to date and are fully compatible with packages in the official Debian/Ubuntu repositories above.
+
+- **Debian/Ubuntu Backports**: The official backports repositories are used to install packages that exist in higher versions of the system that have not yet been updated in the current system version.
 
 Which source to choose?
 ***********************
 
-As a general rule, you should choose *Debian/Ubuntu Backports*, but if the plugin you need is not available for your system or if you are running a non-LTS system, choose the Flatpak installation. Both *Debian/Ubuntu Backports* and *Flatpak* installations can coexists without problem.
-
-.. important::
-	At the time of writing this manual, OpenCPN Flatpak is the best option for touchscreens. 
+After checking versions the buttons on the |OPopencpnPlugins| ``Install`` tab will now be enabled:
 
 .. image:: img/opencpn4.png
 
-.. image:: img/opencpn2.png
+- |OPopencpnBack| **Debian/Ubuntu - Ubuntu PPA**: This option will install the highest version found in the official *Debian/Ubuntu* repository and the *Ubuntu PPA* repository.
 
-.. image:: img/opencpn5.png
+- |OPopencpnBack| **Debian/Ubuntu Backports**: This option will install the latest version in the official *Debian/Ubuntu Backports* repository.
 
-|OPopencpnBack| Debian/Ubuntu Backports
-=======================================
-
-This option contains two sources that are compatible with each other, the official Debian/Ubuntu Stable repository and the official Debian/Ubuntu Backports repository. If you choose this option the Debian/Ubuntu Backports version will be installed because the Debian/Ubuntu Stable version will rarely be higher.
-
-|OPopencpnFlatpak| Flatpak
-==========================
-
-This option runs OpenCPN in a kind of container independent of the host system. For this reason the time and size of the download will be larger. This option is perfect if your system is non-LTS (Long Term Support) or at that moment the plugin you need does not exist in the Debian/Ubuntu Backports version.
+- |OPopencpnFlatpak| **Flatpak**: This option will install the latest version in the *Flatpak* repository. This option runs OpenCPN in a kind of container independent of the host system and for this reason the time and size of the download will be larger. 
 
 .. important::
-	At the time of writing this manual, there are some known issues with headless environments that could prevent OpenCPN Flatpak from running. 
+	As a general rule, you should always choose the highest version, regardless of the source, unless you fall within one of the recommended uses or there is an OpenCPN plugin you need to use that is not included in any of the sources.
+
+.. note::
+	At the time of writing this manual, OpenCPN Flatpak is the best option for touch screens because it allows right-clicking and two-finger zooming. However OpenCPN Flatpak may not work well in headless environments.
+
+.. note::
+	The Debian/Ubuntu repositories only release OpenCPN packages for LTS (Long-Term Support) versions of your operating system. If you use a development version of Debian or Ubuntu you should use OpenCPN Flatpak.
+
+.. note::
+	Sometimes when we install a new version, some plugins may not be compatible and cause OpenCPN to crash or prevent it from opening. If this happens we can try to remove the old plugins by deleting the *~/.local/lib/opencpn* folder and reinstalling the plugins when OpenCPN opens normally again.
+
+
+If you install OpenCPN twice, from Debian/Ubuntu and Flatpak, the system will differentiate between them by adding the FP suffix to the version installed from Flatpak:
+
+.. image:: img/opencpn5.png
 
 OpenCPN Installer actions
 *************************
@@ -70,8 +85,6 @@ OpenCPN Installer actions
 Once OpenCPN is installed, there are a few actions you can take in this app. 
 
 - You can |OPopencpnUninstall| ``Uninstall`` OpenCPN at any time.
-
-- If there is an |OPopencpnUpdate| ``Update``, this button will be enabled.
 
 - By checking |OPopencpnAutostart| ``Autostart``, OpenCPN will run automatically at startup and by checking |OPopencpnFullscreen| ``Full Screen``, it will use the entire screen.
 
