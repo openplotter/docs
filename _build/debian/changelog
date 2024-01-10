@@ -1,3 +1,9 @@
+openplotter-doc (3.9.2-stable) bullseye; urgency=medium
+
+  * Remove  MacArthur HAT
+
+ -- Sailoog <info@sailoog.com>  Wed, 10 Jan 2024 20:26:36 +0100
+
 openplotter-doc (3.9.1-stable) bullseye; urgency=medium
 
   * Update OpenCPN chapter to add PPA source
