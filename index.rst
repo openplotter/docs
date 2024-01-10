@@ -151,13 +151,6 @@ Welcome to OpenPlotter's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: MacArthur HAT
-   :name: sec-macarthur
-
-   macarthur/macarthur_app
-
-.. toctree::
-   :maxdepth: 1
    :caption: Moitessier HAT (Hacked)
    :name: sec-moitessier
 
