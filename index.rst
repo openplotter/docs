@@ -40,7 +40,7 @@ Welcome to OpenPlotter's documentation!
    
 .. toctree::
    :maxdepth: 1
-   :caption: OpenCPN Installer - 3.2.20-stable
+   :caption: OpenCPN Installer - 3.3.0-stable
    :name: sec-opencpn
 
    opencpn/opencpn_app
@@ -148,13 +148,6 @@ Welcome to OpenPlotter's documentation!
    sdr-vhf/gqrx
    sdr-vhf/dab
    sdr-vhf/dvbt
-
-.. toctree::
-   :maxdepth: 1
-   :caption: MacArthur HAT
-   :name: sec-macarthur
-
-   macarthur/macarthur_app
 
 .. toctree::
    :maxdepth: 1

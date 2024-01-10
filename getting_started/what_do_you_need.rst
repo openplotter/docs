@@ -44,7 +44,7 @@ After a few years of developing software for OpenPlotter, we have identified exa
 
 Its main function is to be able to communicate with any old or new marine electronic device using the proprietary and closed protocols **Seatalk1**, **NMEA 0183** or **NMEA 2000** and the free and open protocol **Signal K**.
 
-:More info: :ref:`MacArthur HAT<macarthur>` 
+:More info: `MacArthur HAT <https://github.com/OpenMarine/MacArthur-HAT>`_
 
 AIS receivers/transponders
 ==========================
