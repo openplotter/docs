@@ -22,7 +22,7 @@ You only need a micro SD card (minimum 8GB, recommended 16GB) and a computer wit
 
 - Click on ``CHOOSE STORAGE`` and select your SD card.
 
-- Click on ``WRITE`` and take a coffe.
+- Click on ``WRITE`` and take a coffee.
 
 - Remove the SD card from the reader, insert it into the Raspberry Pi and you are done.
 
