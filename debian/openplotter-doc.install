@@ -1,0 +1,3 @@
+build/* usr/share/openplotter-doc/
+openplotter-doc.desktop usr/share/applications/
+openplotter.png usr/share/pixmaps/

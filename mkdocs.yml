@@ -1,0 +1,10 @@
+site_name: OpenPlotter v4.x.x Documentation
+use_directory_urls: false
+site_dir: build
+theme:
+  name: readthedocs
+markdown_extensions:
+  - attr_list
+  - admonition
+nav:
+  - Home: index.md
