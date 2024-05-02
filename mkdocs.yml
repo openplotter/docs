@@ -1,10 +1,18 @@
-site_name: OpenPlotter v4.x.x Documentation
+site_name: OpenPlotter 4.x.x
 use_directory_urls: false
 site_dir: build
+repo_url: https://github.com/openplotter/docs
+copyright: Created by Sailoog, 2024, Països Catalans. 
 theme:
   name: readthedocs
 markdown_extensions:
   - attr_list
   - admonition
+  - toc:
+      permalink: true
 nav:
-  - Home: index.md
+  - Welcome to OpenPlotter!: index.md
+  - Description:
+    - description/what_is_openplotter.md
+  - Getting started: 
+    - getting_started/what_do_you_need.md
