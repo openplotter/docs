@@ -1,0 +1,3 @@
+# OpenCPN Installer
+
+Coming soon.

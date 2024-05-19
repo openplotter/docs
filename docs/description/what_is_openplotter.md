@@ -26,9 +26,9 @@ Icons used in OpenPlotter apps and documentation are from [flaticon.com](https:/
 
 ## About us
 
-You will see everywhere the nickname Sailoog. That is me, a guy from Barcelona, Catalonia, who started OpenPlotter as an exercise to learn English and Python in 2014. After a few years, OpenPlotter has become a very popular project and has helped me make many friends and a few enemies, so as long as this is still this fun, this project will last a long time ;)
+You will see everywhere the nickname Sailoog. That is me, a guy from Barcelona, Catalonia, who started OpenPlotter as an exercise to learn Python in 2014. After a few years, OpenPlotter has become a very popular project and has helped me make many friends and a few enemies, so as long as this is still this fun, this project will last a long time ;)
 
-My motivations are scientific and political, but OpenPlotter is free and that means that your motivations to use or collaborate with this project can be whatever you want, even the opposite of mine. OpenPlotter is not my main activity, I currently work as employee at o-charts that is part of the OpenCPN development team.
+My motivations are scientific and political, but OpenPlotter is free and that means that your motivations to use or collaborate with this project can be whatever you want, even the opposite of mine. OpenPlotter is not my main activity.
 
 You will also see that I always use the plural when I speak about OpenPlotter. Although it seems that I am always that boring guy behind everything, many people collaborate on this project that always needs more hands and brains. I cannot mention all the people who have gone through this project because I would forget many of them, but I would like to make a special mention of e-sailing who contributed a lot of code.
 

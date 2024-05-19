@@ -14,5 +14,47 @@ nav:
   - Welcome to OpenPlotter!: index.md
   - Description:
     - description/what_is_openplotter.md
+    - description/features.md
+    - description/how_does_it_work.md
+    - description/how_to_collaborate.md
   - Getting started: 
     - getting_started/what_do_you_need.md
+    - getting_started/downloading.md
+    - getting_started/installing.md
+    - getting_started/first_steps.md
+  - Network:
+    - network/network_app.md
+  - Settings:
+    - settings/settings_app.md
+  - Signal K Installer:
+    - signalk/signalk_app.md
+    - signalk/multiplexing.md
+  - OpenCPN Installer:
+    - opencpn/opencpn_app.md
+  - Serial:
+    - serial/serial_app.md
+    - serial/connectingdAISy.md
+  - CAN Bus:
+    - can/can_app.md
+  - Dashboards:
+    - dashboards/dashboards_app.md
+  - Notifications:
+    - notifications/notifications_app.md
+  - IoB:
+    - iob/iob_app.md   
+  - Pypilot: 
+    - pypilot/pypilot_app.md
+    - pypilot/imu.md
+    - pypilot/calibration.md
+  - I2C:
+    - i2c/i2c_app.md
+  - GPIO:
+    - gpio/gpio_app.md   
+  - Maiana AIS Transponder: 
+    - maiana/maiana_app.md
+  - AvNav Installer:
+    - avnav/avnav_app.md
+  - SDR VHF:
+    - sdr-vhf/sdr-vhf_app.md
+  - Moitessier HAT (Hacked):
+    - moitessier/moitessier_app.md
