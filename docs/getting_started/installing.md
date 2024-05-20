@@ -76,7 +76,7 @@ The easiest way to install OpenPlotter on an SSD is to first boot the Raspberry 
 
 - When the writing is finished and you are told you can do it, remove the microSD card from the Raspberry Pi and reboot.
 
-- OpenPlotter will start from the SSD and that is it. Keep the microSD card in a safe place because it can be used to reinstall OpenPlotter or to boot the system if OpenPlotter becomes unstable.
+- OpenPlotter will start from the SSD and that is it. Keep the microSD card in a safe place because it can be used to reinstall OpenPlotter or to boot the system if OpenPlotter becomes unstable. See [Rescue](first_steps.md#rescue) section.
 
 
 ## Desktop and laptop

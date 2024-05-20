@@ -26,6 +26,9 @@ nav:
     - network/network_app.md
   - Settings:
     - settings/settings_app.md
+    - settings/apps.md
+    - settings/general.md
+    - settings/raspberry.md
   - Signal K Installer:
     - signalk/signalk_app.md
     - signalk/multiplexing.md

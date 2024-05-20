@@ -1,4 +1,4 @@
-# Network
+# Network 
 
 We have kept this chapter for historical reasons. The *OpenPlotter Network* application present in earlier versions of OpenPlotter has been removed since *Raspberry Pi OS* added the *Network Manager* program and now almost all *OpenPlotter Network* functions can be done there. Some other functions have been moved to the *OpenPlotter Settings* app.
 

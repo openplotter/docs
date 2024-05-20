@@ -53,12 +53,26 @@ You will need to connect an external USB card reader with a new SD card the same
 !!! important
 	DO NOT check the option *New Partition UUIDs*. Some programs require the original and the copy to be exactly the same in order to function properly.
 
+## Rescue
+
+OpenPlotter is highly configurable and some parameters may produce unexpected effects such as data loops, unstable or even unusable systems. We have added a rescue mode so you can prevent core processes from starting to give you time to modify settings and recover your system.
+
+To enable the rescue mode you have to add this line to /boot/firmware/config.txt
+
+```console
+OPrescue=1
+```
+
+If your system becomes unusable because it will not boot or goes into a reboot loop, you can access that file by inserting the microSD card into your computer. If you are using OpenPlotter from an SSD, you must boot the system using the microSD card you used to install OpenPlotter on the SSD and once booted you will have access to the files on the SSD.
+
+To disable rescue mode, just delete that line.
+
 ## Using OpenPlotter
 
 OK now you are ready to start using OpenPlotter but you do not know where to start. Do not worry, this is normal because the customization options are endless and can be a little overwhelming at first, but you will see how everything is designed to always take you to the next step. When you do something wrong, the system will check itself at startup and inform you of what is wrong and the solution.
 
-Before starting, we recommend that you read at least the [Settings](../settings/settings_app.md) chapter so that you know which applications contain OpenPlotter and, above all, how to keep them up to date.
+Before starting, we recommend that you read at least the ![Settings](../settings/img/openplotter-settings.png) [Settings](../settings/settings_app.md) chapter so that you know which applications contain OpenPlotter and, above all, how to keep them up to date.
 
-Afterwards, the first logical step to start sailing will be to connect your boat's GPS. This can be done in many ways depending on your installation, but they are all explained in the [Serial](../serial/serial_app.md) chapter.
+Afterwards, the first logical step to start sailing will be to connect your boat's GPS. This can be done in many ways depending on your installation, but they are all explained in the ![Serial](../serial/img/openplotter-serial.png) [Serial](../serial/serial_app.md) chapter.
 
 If you get stuck at any step, do not hesitate to consult and ask in [the forum](https://forum.openmarine.net/) because other users have surely been there before.
