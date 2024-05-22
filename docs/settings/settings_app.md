@@ -1,6 +1,6 @@
 # Settings
 
-To run this app, click ![Settings](img/openplotter-settings.png) `Settings` in `Main -> OpenPlotter` or type this in a terminal:
+To run this app, click ![Settings](img/openplotter-settings.png) `Settings` under `Main -> OpenPlotter` or type this in a terminal:
 
 ```console
 openplotter-settings
