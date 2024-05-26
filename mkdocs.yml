@@ -34,6 +34,7 @@ nav:
     - signalk/multiplexing.md
   - OpenCPN Installer:
     - opencpn/opencpn_app.md
+    - opencpn/skconnection.md
   - Serial:
     - serial/serial_app.md
     - serial/connectingdAISy.md
