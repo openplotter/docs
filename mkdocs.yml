@@ -37,6 +37,8 @@ nav:
     - opencpn/skconnection.md
   - Serial:
     - serial/serial_app.md
+    - serial/connectingGPS.md
+    - serial/cconnectingRS422.md
     - serial/connectingdAISy.md
   - CAN Bus:
     - can/can_app.md
