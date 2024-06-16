@@ -62,6 +62,8 @@ nav:
     - gpio/gpio_app.md   
   - Maiana AIS Transponder: 
     - maiana/maiana_app.md
+    - maiana/connecting.md
+    - maiana/configuring.md
   - AvNav Installer:
     - avnav/avnav_app.md
   - SDR VHF:
