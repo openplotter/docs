@@ -5,7 +5,7 @@ Unless you are using the **OpenPlotter À la Carte** edition, after the first bo
 ![configuration](img/configuration.png)
 
 !!! danger
-	You MUST change the default password for the user ***pi***. Otherwise, anyone will be able to access your system easily.
+	The default password for default user ***pi*** is ***raspberry***. You MUST changue the password; otherwise, anyone can access your system easily.
 
 !!! important
 	All programs are pre-installed assuming the user is ***pi***, if you change this username OpenPlotter will not work correctly.
@@ -28,7 +28,7 @@ These are the access data to connect remotely to OpenPlotter when you use this h
 
 
 !!! danger
-	You MUST change the default password of the access point as shown in the following images. Otherwise, anyone will be able to access your system easily.
+	You MUST change the default password of the access point as shown in the following images. Otherwise, anyone can access your system easily.
 
 	![network](img/network.png)
 

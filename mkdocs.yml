@@ -39,9 +39,13 @@ nav:
     - serial/serial_app.md
     - serial/connectingGPS.md
     - serial/cconnectingRS422.md
+    - serial/connectingCAN.md
     - serial/connectingdAISy.md
   - CAN Bus:
     - can/can_app.md
+    - can/slcand.md
+    - can/mcp2515.md
+    - can/output.md
   - Dashboards:
     - dashboards/dashboards_app.md
   - Notifications:
