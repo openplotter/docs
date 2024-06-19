@@ -1,0 +1,122 @@
+openplotter-doc (4.1.0-stable) bookworm; urgency=medium
+
+  * stable
+
+ -- Sailoog <info@sailoog.com>  Sun, 16 Jun 2024 20:17:27 +0200
+
+openplotter-doc (4.0.1-beta) bookworm; urgency=medium
+
+  * beta
+
+ -- Sailoog <info@sailoog.com>  Wed, 01 May 2024 14:14:53 +0200
+
+openplotter-doc (3.9.2-stable) bullseye; urgency=medium
+
+  * Remove  MacArthur HAT
+
+ -- Sailoog <info@sailoog.com>  Wed, 10 Jan 2024 20:26:36 +0100
+
+openplotter-doc (3.9.1-stable) bullseye; urgency=medium
+
+  * Update OpenCPN chapter to add PPA source
+
+ -- Sailoog <info@sailoog.com>  Mon, 31 Jul 2023 12:04:49 +0200
+
+openplotter-doc (3.9.0-stable) bullseye; urgency=medium
+
+  * Add MacArthur HAT
+  * Add backlight and touschscreen settings
+  * Update opencpn
+  * Update index
+  * Add SDR
+  * Add incompatibility with openplotter 2
+  * Add recommended IMUs
+  * Add Pypilot
+  * Add touchscreen edition
+
+ -- Sailoog <info@sailoog.com>  Sun, 16 Jul 2023 11:41:36 +0200
+
+openplotter-doc (3.8.0-stable) bullseye; urgency=medium
+
+  * Add Moitessier hacked
+  * Update index
+
+ -- Sailoog <info@sailoog.com>  Thu, 29 Dec 2022 14:18:26 +0100
+
+openplotter-doc (3.7.0-stable) bullseye; urgency=medium
+
+  * Update Serial
+  * Add Pypilot
+
+ -- Sailoog <info@sailoog.com>  Sat, 10 Sep 2022 14:51:10 +0200
+
+openplotter-doc (3.6.0-stable) bullseye; urgency=medium
+
+  * Stable v3
+
+ -- Sailoog <info@sailoog.com>  Thu, 14 Jul 2022 20:38:13 +0200
+
+openplotter-doc (3.5.0-beta) bullseye; urgency=medium
+
+  * Beta v3
+
+ -- Sailoog <info@sailoog.com>  Sat, 18 Jun 2022 21:07:05 +0200
+
+openplotter-doc (3.4.0-alpha) bullseye; urgency=medium
+
+  * Alpha v3
+
+ -- Sailoog <info@sailoog.com>  Sat, 18 Dec 2021 14:50:25 +0100
+
+openplotter-doc (2.1.0-dev) bionic; urgency=medium
+
+  * Multiple changes
+
+ -- Sailoog <info@sailoog.com>  Sun, 23 May 2021 14:07:16 +0200
+
+openplotter-doc (2.0.11-dev) bionic; urgency=medium
+
+  * Update installation
+  * Update some screenshots in dashboards and updating
+
+ -- Sailoog <info@sailoog.com>  Thu, 10 Dec 2020 20:48:55 +0100
+
+openplotter-doc (2.0.10-dev) bionic; urgency=medium
+
+  * Serial chapter done
+
+ -- Sailoog <info@sailoog.com>  Fri, 02 Oct 2020 18:24:55 +0200
+
+openplotter-doc (2.0.9-dev) bionic; urgency=medium
+
+  * Add SDR VHF general contents and AIS settings
+
+ -- Sailoog <info@sailoog.com>  Tue, 22 Sep 2020 21:43:00 +0200
+
+openplotter-doc (2.0.8-dev) bionic; urgency=medium
+
+  * Update Moitessier HAT configuration
+  * Add SDR draft
+  * Add Signal K installer draft
+  * Add diagram to how does it work
+  * Update description
+
+ -- Sailoog <info@sailoog.com>  Sat, 08 Aug 2020 20:04:10 +0200
+
+openplotter-doc (2.0.7-dev) bionic; urgency=medium
+
+  * Multiple changes
+
+ -- Sailoog <info@sailoog.com>  Wed, 18 Mar 2020 11:03:50 +0100
+
+openplotter-doc (2.0.6-dev) bionic; urgency=medium
+
+  * Organize index
+
+ -- Sailoog <info@sailoog.com>  Sat, 29 Feb 2020 18:24:55 +0100
+
+openplotter-doc (2.0.5-dev) bionic; urgency=medium
+
+  * Initial release
+
+ -- Sailoog <info@sailoog.com>  Fri, 14 Feb 2020 18:12:05 +0100

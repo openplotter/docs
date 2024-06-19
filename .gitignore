@@ -1,12 +1,5 @@
-/_build/html/
-/_build/doctrees/
-*.deb
-*.changes
-*.buildinfo
-*.dsc
-*.tar.gz
-*.ppa.upload
-/_build/debian/*/
-/_build/debian/*debhelper*
-/_build/debian/files
-/_build/debian/*.substvars
+/build/
+/debian/*/
+/debian/*debhelper*
+/debian/files
+/debian/*.substvars
