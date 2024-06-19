@@ -10,15 +10,15 @@ There are people who buy boats but there are also people who build them, why not
 
 * **OpenPlotter 4**
 	* Code Name: [ShipToGaza](https://shiptogaza.se/)
-	* Docs: [https://openplotter.readthedocs.io/en/4.x.x](https://openplotter.readthedocs.io/en/4.x.x/)
+	* Docs: [https://openplotter.readthedocs.io/4.x.x](https://openplotter.readthedocs.io/4.x.x/)
 
 * **OpenPlotter 3**
 	* Code Name: [STOPmaremortum](https://stopmaremortum.org/)
-	* Docs: [https://openplotter.readthedocs.io/en/3.x.x](https://openplotter.readthedocs.io/en/3.x.x/)
+	* Docs: [https://openplotter.readthedocs.io/3.x.x](https://openplotter.readthedocs.io/3.x.x/)
 
 * **OpenPlotter 2**
 	* Code Name: [OpenArms](https://www.openarms.es/en)
-	* Docs: [https://openplotter.readthedocs.io/en/2.x.x](https://openplotter.readthedocs.io/en/2.x.x/)
+	* Docs: [https://openplotter.readthedocs.io/2.x.x](https://openplotter.readthedocs.io/2.x.x/)
 
 ## Licenses
 
