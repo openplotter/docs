@@ -89,7 +89,7 @@ First of all you have to install some dependencies. Open a terminal and type:
 
 ```console
 sudo apt update
-sudo apt install python3-wxgtk4.0 python3-ujson python3-pyudev vlc matchbox-keyboard wvkbd
+sudo apt install python3-wxgtk4.0 python3-ujson python3-pyudev vlc matchbox-keyboard
 ```
 
 Now you have to install the *OpenPlotter Settings* app from the .deb file you will found in [Desktop and laptop](downloading.md#desktop-and-laptop) section in *Downloading* chapter
@@ -97,7 +97,7 @@ Now you have to install the *OpenPlotter Settings* app from the .deb file you wi
 After downloading the .deb file, you can install it by double click or typing this in a terminal replacing *x.x.x-stable* by your version:
 
 ```console
-sudo dpkg -i openplotter-settings_x.x.x-stable.deb
+sudo dpkg -i openplotter-settings_x.x.x-stable_all.deb
 ```
 
 And that's all. Open *OpenPlotter Settings* app typing this in a terminal:
