@@ -5,7 +5,7 @@ Unless you are using the **OpenPlotter À la Carte** edition, after the first bo
 ![configuration](img/configuration.png)
 
 !!! danger
-	The default password for default user ***pi*** is ***raspberry***. You MUST changue the password; otherwise, anyone can access your system easily.
+	The default password for default user ***pi*** is ***raspberry***. You MUST change the password; otherwise, anyone can access your system easily.
 
 !!! important
 	All programs are pre-installed assuming the user is ***pi***, if you change this username OpenPlotter will not work correctly.
