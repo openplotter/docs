@@ -75,6 +75,6 @@ Adding an Inertial Measurement Unit (IMU) you can get heading, heel and trim dat
 - **MPU-9250**
 - **MPU-9255**
 <!-- -->
-- More info: [Configure an IMU with OpenPlotter Pypilot app](../pypilot/imu.md)
+- More info: [Configure an IMU](../pypilot/imu.md)
 
 - More info: [Calibrating the compass](../pypilot/calibration.md)

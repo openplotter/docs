@@ -50,12 +50,15 @@ nav:
     - dashboards/dashboards_app.md
   - Notifications:
     - notifications/notifications_app.md
+    - notifications/examples_actions.md
   - IoB:
     - iob/iob_app.md   
   - Pypilot: 
     - pypilot/pypilot_app.md
-    - pypilot/imu.md
+    - pypilot/wiring.md
     - pypilot/calibration.md
+    - pypilot/imu.md
+    - pypilot/autopilot.md
   - I2C:
     - i2c/i2c_app.md
   - GPIO:
