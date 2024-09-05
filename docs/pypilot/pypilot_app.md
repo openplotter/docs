@@ -54,7 +54,7 @@ The minimum elements in this case are a Raspberry Pi 4 or 5 and the ![](img/imu.
 - MPU-9250
 - MPU-9255.
 
-You can also use a [MacArthur HAT](https://macarthur-hat-documentation.readthedocs.io/en/latest/) to easily connect the IMU and receive ![](img/wind.png) wind and ![](img/gps.png) GPS data from your boat via its NMEA 0183 or 2000 connections (or even the old Seatalk1 format currently only available for Raspberry Pi 4).
+You can also use a [MacArthur HAT](https://macarthur-hat-documentation.readthedocs.io/en/latest/) to easily connect the IMU and receive ![](img/wind.png) wind and ![](img/gps.png) GPS data from your boat via its NMEA 0183, NMEA 2000 and Seatalk1 connections.
 
 You can control the autopilot using all the available software options and by connecting custom buttons via ![](img/gpio.png) GPIO to control the autopilot via hardware. These buttons are defined using the ![](img/op.png) *OpenPlotter Actions* explained later.
 
