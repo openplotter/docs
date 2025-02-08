@@ -63,7 +63,11 @@ nav:
   - I2C:
     - i2c/i2c_app.md
   - GPIO:
-    - gpio/gpio_app.md   
+    - gpio/gpio_app.md
+    - gpio/1w.md  
+    - gpio/digital.md  
+    - gpio/pulses.md 
+    - gpio/seatalk.md  
   - Maiana AIS Transponder: 
     - maiana/maiana_app.md
     - maiana/connecting.md
