@@ -1,3 +1,14 @@
+openplotter-doc (4.2.0-stable) bookworm; urgency=medium
+
+  * Fix errors
+  * Add Pypilot
+  * Add Seatalk1
+  * Add AI
+  * Add 1W
+  * Add IoB
+
+ -- Sailoog <info@sailoog.com> Wed, 19 Feb 2025 20:18:58 +0100
+
 openplotter-doc (4.1.0-stable) bookworm; urgency=medium
 
   * stable
