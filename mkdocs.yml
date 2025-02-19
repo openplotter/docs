@@ -53,7 +53,10 @@ nav:
     - notifications/notifications_app.md
     - notifications/examples_actions.md
   - IoB:
-    - iob/iob_app.md   
+    - iob/iob_app.md
+    - iob/mqtt.md  
+    - iob/telegram.md  
+    - iob/lorawan.md  
   - Pypilot: 
     - pypilot/pypilot_app.md
     - pypilot/wiring.md
